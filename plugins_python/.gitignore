@@ -1,0 +1,8 @@
+*.pyc
+*.idea*
+/sqlnet.log
+/.project
+/.pydevproject
+/.metadata
+/.settings
+/RemoteSystemsTempFiles
