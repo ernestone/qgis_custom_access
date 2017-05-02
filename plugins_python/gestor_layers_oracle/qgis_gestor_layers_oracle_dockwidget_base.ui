@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>232</width>
-    <height>141</height>
+    <width>230</width>
+    <height>211</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,12 @@
   <widget class="QWidget" name="dockWidgetContents">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QLabel" name="label">
+     <widget class="QPushButton" name="b_cargar_capes">
+      <property name="toolTip">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Carrega capes a partir de les taules GIS al repositori d'Oracle amb la configuració de visibilitat extreta d'Smallworld&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
       <property name="text">
-       <string>Replace this QLabel
-with the desired
-plugin content.</string>
+       <string>Carregar Capes GIS</string>
       </property>
      </widget>
     </item>

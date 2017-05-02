@@ -3,7 +3,7 @@
 set PATH_BASE=%PATH%
 
 rem APB_EAM se cambia llamada a o4w_env por apb_qgis_env
-set QGIS_PATH= C:\PROGRA~1\QGIS2~1.18
+set QGIS_PATH= C:\PROGRA~2\QGIS2~1.18
 
 call "%~dp0\apb_qgis_env.bat"
 
