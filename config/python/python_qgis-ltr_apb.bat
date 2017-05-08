@@ -1,11 +1,6 @@
 @echo off
 
-call "%~dp0\..\env\set_qgis_path.bat"
-
-call "%~dp0\..\env\apb_qgis_env.bat"
-
-SET QGISNAME=qgis-ltr
-call "%~dp0\..\qgis\set_vars_qgis.bat"
+call "%~dp0..\env\apb_qgis_env.bat" "" qgis-ltr
 
 pushd "%OSGEO4W_ROOT%"\bin
 

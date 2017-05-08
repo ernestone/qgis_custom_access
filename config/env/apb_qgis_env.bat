@@ -1,7 +1,14 @@
+rem =======================================================================
+rem APB_EAM - Se asigna el path donde se encuentra QGIS instalado
+rem =======================================================================
+call "%~dp0\set_qgis_path.bat" "%~1"
+
+rem ***********************************************************************
+
 rem APB_EAM Se guarda path previo de APB
 set APB_PATH=%PATH%
 
-call %QGIS_PATH%\bin\o4w_env.bat
+call "%QGIS_PATH%\bin\o4w_env.bat"
 
 REM APB_EAM - Se añade al final del PATH el path previo de la APB
 set PATH=%PATH%;%APB_PATH%
@@ -43,3 +50,11 @@ rem =======================================================================
 rem APB_EAM - Asigna modulos Python APB
 rem =======================================================================
 set PYTHONPATH=%PYTHONPATH%;\\APBPROGS\WINS\scripts\APB_python_modules\python27
+
+rem ***********************************************************************
+
+rem =======================================================================
+rem APB_EAM - Se asginan las variables de QGIS originales pasando el nombre 
+rem           de la app (qgis, qgis-ltr, qgis-dev)
+rem =======================================================================
+call "%~dp0\..\qgis\set_vars_qgis.bat" %~2
