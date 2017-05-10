@@ -1,3 +1,11 @@
+rem ***********************************************************************
+rem Batch file que tendría que llamarse con 3 argumentos:
+rem         1 - El path donde se encuentra la instalacion de QGIS
+rem         2 - El path donde se encuentran las librerias extra que se necesitan
+rem         3 - El nombre de la app QGIS que se abrirá (qgis, qgis-ltr o qgis-dev)
+rem ***********************************************************************
+
+
 rem =======================================================================
 rem APB_EAM - Se asigna el path donde se encuentra QGIS instalado
 rem =======================================================================
@@ -26,25 +34,12 @@ for %%i in ("%CD%..\..") do set SOURCE_APB=%%~fsi
 rem =======================================================================
 rem EAM - Asigna directorio donde se encuentran librerias extras necesarias
 rem =======================================================================
-call "%~dp0\set_extra_libs.bat"
-
-REM APB_EAM - Se añade al JRE (Java Runtime) de 64Bits
-set PATH=%QGIS_APB_EXTRA_LIBS%\jre1_8\bin;%PATH%
-
-REM APB_EAM - Se añade al PATH la carpeta de fuentes de QGIS donde hay DLLs necesarias
-set PATH=%QGIS_APB_EXTRA_LIBS%;%PATH%
-
-REM APB_EAM - Se recupera path de APB_PATH y añade path cliente Oracle
-set TNS_ADMIN=C:\ORACLE\product\11.2.0\client_1\network\admin
-set ORACLE_HOME=%QGIS_APB_EXTRA_LIBS%\instant_client_oracle
-set PATH=%ORACLE_HOME%\bin;%PATH%
-set LD_LIBRARY_PATH=%ORACLE_HOME%\sdk\lib
+call "%~dp0\set_extra_libs.bat" "%~2"
 
 rem =======================================================================
 rem APB_EAM - Asigna directorio donde el QGIS ira a buscar plugins
 rem =======================================================================
 set QGIS_PLUGINPATH=%SOURCE_APB%\plugins_python
-
 
 rem =======================================================================
 rem APB_EAM - Asigna modulos Python APB
@@ -57,4 +52,4 @@ rem =======================================================================
 rem APB_EAM - Se asginan las variables de QGIS originales pasando el nombre 
 rem           de la app (qgis, qgis-ltr, qgis-dev)
 rem =======================================================================
-call "%~dp0\..\qgis\set_vars_qgis.bat" %~2
+call "%~dp0\..\qgis\set_vars_qgis.bat" %~3
