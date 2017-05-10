@@ -26,7 +26,7 @@ for %%i in ("%CD%..\..") do set SOURCE_APB=%%~fsi
 rem =======================================================================
 rem EAM - Asigna directorio donde se encuentran librerias extras necesarias
 rem =======================================================================
-set QGIS_APB_EXTRA_LIBS=%SOURCE_APB%\extra_libs_apb
+call "%~dp0\set_extra_libs.bat"
 
 REM APB_EAM - Se añade al JRE (Java Runtime) de 64Bits
 set PATH=%QGIS_APB_EXTRA_LIBS%\jre1_8\bin;%PATH%

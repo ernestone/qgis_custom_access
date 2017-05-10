@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>230</width>
-    <height>211</height>
+    <width>330</width>
+    <height>239</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,7 +15,7 @@
   </property>
   <widget class="QWidget" name="dockWidgetContents">
    <layout class="QGridLayout" name="gridLayout">
-    <item row="0" column="0">
+    <item row="6" column="0">
      <widget class="QPushButton" name="b_cargar_capes">
       <property name="toolTip">
        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Carrega capes a partir de les taules GIS al repositori d'Oracle amb la configuració de visibilitat extreta d'Smallworld&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -25,9 +25,94 @@
       </property>
      </widget>
     </item>
+    <item row="0" column="0" rowspan="2">
+     <widget class="QGroupBox" name="group_entorn_bbdd">
+      <property name="title">
+       <string>Entorn BBDD Oracle</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QRadioButton" name="radio_entorn_Pre">
+         <property name="text">
+          <string>Pre-Producció</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radio_entorn_Prod">
+         <property name="text">
+          <string>Producció</string>
+         </property>
+         <attribute name="buttonGroup">
+          <string notr="true">buttonGroup</string>
+         </attribute>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="3" column="0" rowspan="2">
+     <widget class="QGroupBox" name="group_tipus_taules">
+      <property name="title">
+       <string>Tipus Taules GIS a carregar</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radio_vigents">
+         <property name="text">
+          <string>Taules Vigents</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radio_versions">
+         <property name="text">
+          <string>Taules Versionades</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QGroupBox" name="group_contextes">
+      <property name="title">
+       <string>Contextes de configuració</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QComboBox" name="combo_ctxt">
+         <property name="toolTip">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Escollir el contexte pel qual carregarà configuració de visibilitats i estils&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>PLAPORT CONSULTA</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
    </layout>
   </widget>
  </widget>
  <resources/>
  <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
 </ui>
