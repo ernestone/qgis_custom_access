@@ -1,6 +1,6 @@
 rem EAM - Asigna directorio donde se encuentran librerias extras necesarias
 
-set QGIS_APB_EXTRA_LIBS="%~1"
+set "QGIS_APB_EXTRA_LIBS=%~1"
 
 if "%QGIS_APB_EXTRA_LIBS%"=="" goto :exit
 
