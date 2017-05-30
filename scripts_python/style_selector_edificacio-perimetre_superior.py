@@ -1,0 +1,6 @@
+CASE 
+ WHEN  "US_EDIFICACIO" = 'Edifici oficial APB' THEN 'Edifici APB'
+ WHEN "US_EDIFICACIO" = 'Estacio Maritima' OR "US_EDIFICACIO" = 'Creu Roja' THEN "US_EDIFICACIO"
+ WHEN "TIPUS_EDIFICACIO" = 'Carpa' THEN  "TIPUS_EDIFICACIO"
+ ELSE 'Edificacio'
+ END

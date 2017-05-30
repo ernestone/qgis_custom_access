@@ -37,6 +37,7 @@ from collections import namedtuple, OrderedDict
 class gestor_layers_oracle:
     """QGIS Plugin Implementation."""
     nom_var_fecha_trabajo = "fecha_trabajo"
+    nom_plugin = u'Layers Oracle GIS'
 
     def __init__(self, iface):
         """Constructor.
@@ -68,7 +69,7 @@ class gestor_layers_oracle:
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr(u'&Layers Oracle GIS')
+        self.menu = self.tr(self.nom_plugin)
         # TODO: We are going to let the user set this up in a future iteration
         # self.toolbar = self.iface.addToolBar(u'gestor_layers_oracle')
         # self.toolbar.setObjectName(u'gestor_layers_oracle')
@@ -174,7 +175,7 @@ class gestor_layers_oracle:
         icon_path = ':/plugins/gestor_layers_oracle/icon.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'Layers Oracle GIS'),
+            text=self.tr(self.nom_plugin),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -204,11 +205,11 @@ class gestor_layers_oracle:
 
         for action in self.actions:
             self.iface.removePluginMenu(
-                self.tr(u'&Layers Oracle'),
+                self.tr(self.nom_plugin),
                 action)
-            self.iface.removeToolBarIcon(action)
+            #self.iface.removeToolBarIcon(action)
         # remove the toolbar
-        del self.toolbar
+        #del self.toolbar
 
     #--------------------------------------------------------------------------
 
@@ -384,7 +385,7 @@ class gestor_layers_oracle:
         if a_gis_layer.isValid():
             self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)
 
-            self.set_cache_layer_for(nom_tab_gis, nom_geom)
+            self.set_cache_layer_for(a_gis_layer, nom_tab_gis, nom_geom)
 
             return a_gis_layer
 
@@ -433,7 +434,7 @@ class gestor_layers_oracle:
             nom_tab_ext = config_layer.nom_taula_gis
 
         # Se añaden Alias de campos a partir de nombres externos guardados en BD ADM
-        nom_geom_ext = None
+        nom_geom_ext = config_layer.CAMP_GEOM
         for reg_camp in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo, sql_reg_camp, config_layer.SEQTAULA):
             if config_layer.SEQCAMP == reg_camp.SEQCAMP:
                 nom_geom_ext = reg_camp.NOM
@@ -451,22 +452,31 @@ class gestor_layers_oracle:
             if qf_idx >= 0:
                 self.set_label_layer(a_gis_layer, camp_label)
 
-        if not nom_geom_ext:
-            nom_geom_ext = config_layer.CAMP_GEOM
-
-        layer_vis = (config_layer.VISIBILITAT == 1)
-        if layer_vis:
-            a_gis_layer.setScaleBasedVisibility(True)
-            if config_layer.MAX_ESCALA < 40000:  # Para escalas maximas de 40000 se deja el defecto para que siempre se vean
-                a_gis_layer.setMaximumScale(config_layer.MAX_ESCALA)
-            a_gis_layer.setMinimumScale(config_layer.MIN_ESCALA)
-
-        a_gis_layer.setName(nom_tab_ext + " - " + nom_geom_ext)
+        nom_layer_ext = nom_tab_ext
+        if nom_geom_ext:
+            nom_layer_ext += (" - " + nom_geom_ext)
+        a_gis_layer.setName(nom_layer_ext)
 
         self.set_grup_layer(a_gis_layer, nom_tab_ext, config_layer.NOM_GRUP)
 
-        if not layer_vis:
-            self.legend_i.setLayerVisible(a_gis_layer, False)
+        self.set_visibility_layer(a_gis_layer, config_layer)
+
+    def set_visibility_layer(self, a_gis_layer, config_layer):
+        layer_vis = (config_layer.VISIBILITAT == 1)
+
+        max_esc = config_layer.MAX_ESCALA
+        min_esc = config_layer.MIN_ESCALA
+        if max_esc or min_esc:
+            a_gis_layer.setScaleBasedVisibility(True)
+
+            if max_esc and max_esc < 40000:  # Para escalas maximas de 40000 se deja el defecto para que siempre se vean
+                a_gis_layer.setMaximumScale(max_esc)
+            if min_esc:
+                a_gis_layer.setMinimumScale(min_esc)
+
+        self.legend_i.setLayerVisible(a_gis_layer, layer_vis)
+
+        tip_lay = a_gis_layer.geometryType()
 
         # Se guarda layer ordenada
         prior = config_layer.PRIORITAT
@@ -481,7 +491,11 @@ class gestor_layers_oracle:
             if config_layer.geom_layer:
                 geom_lay = self.get_layer_for(config_layer.nom_tab_gis, config_layer.CAMP_GEOM)
                 if geom_lay:
-                    self.legend_i.setLayerVisible(geom_lay, (config_layer.VISIBILITAT == 1))
+                    self.set_visibility_layer(geom_lay, config_layer)
+
+        self.ordena_layers()
+
+        self.iface.mapCanvas().refreshAllLayers()
 
     def set_filter_fecha_for_layer(self, a_gis_layer):
         str_fecha = QgsExpressionContextUtils.projectScope().variable(self.nom_var_fecha_trabajo)
@@ -550,9 +564,7 @@ class gestor_layers_oracle:
                                       nom_sld + ".sld"))
         if slds:
             file_sld = slds.pop()
-            print("Cargando SLD ", file_sld)
             a_gis_layer.loadSldStyle(file_sld)
-            print("Estilos SLD '", file_sld, "' cargados para capa ", nom_sld)
 
     def iter_config_layers(self):
         sql_taules = "select * from taula_entitat_gis where exclosa != 'S' order by taula_entitat asc"
@@ -563,7 +575,7 @@ class gestor_layers_oracle:
         camps_reg_config = ["nom_tab_gis", "nom_tab_real", "desc_tab", "geom_layer"]
         dd_v_adm_vis = self.gest_urn.get_dd_table(self.gest_urn.con_repo, "v_adm_visibilitat_geoms")._asdict()
         camps_reg_config.extend(dd_v_adm_vis.keys())
-        def_vals_v_adm = dd_v_adm_vis.values()
+        def_vals_v_adm = [None for k in dd_v_adm_vis]
 
         def_reg_config = namedtuple('def_reg_config', list(camps_reg_config))
         camp_nom_tab_real = "TAULA_ENTITAT"
@@ -610,13 +622,6 @@ class gestor_layers_oracle:
             if a_gis_layer:
                 self.set_config_layer(a_gis_layer, config_layer)
                 self.set_estil_sld_layer(a_gis_layer)
-
-            if not config_layer.geom_layer:
-                a_gis_layer_alfa = self.registrar_layer_gis(nom_tab_real,
-                                                            nom_tab_gis=nom_tab_gis)
-                if a_gis_layer_alfa:
-                    a_gis_layer_alfa.setName()
-                    self.set_grup_layer(a_gis_layer_alfa, config_layer.desc_taula)
 
         self.ordena_layers()
 
