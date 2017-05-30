@@ -28,13 +28,15 @@ import resources
 # Import the code for the DockWidget
 from qgis_gestor_layers_oracle_dockwidget import gestor_layers_oracleDockWidget
 from qgis.core import QgsDataSourceURI, QgsVectorLayer, \
-    QgsMapLayerRegistry, QgsProject, QgsPalLayerSettings, QgsNullSymbolRenderer
-import os.path
-import apb_gestor_repo_urn.apb_gestor_urn as gestor_urn
+    QgsMapLayerRegistry, QgsProject, QgsPalLayerSettings, QgsNullSymbolRenderer, QgsExpressionContextUtils
+import os, glob, datetime
+from apb_gestor_repo_urn.apb_gestor_urn import apb_gestor_urn
+from collections import namedtuple, OrderedDict
 
 
 class gestor_layers_oracle:
     """QGIS Plugin Implementation."""
+    nom_var_fecha_trabajo = "fecha_trabajo"
 
     def __init__(self, iface):
         """Constructor.
@@ -66,17 +68,15 @@ class gestor_layers_oracle:
 
         # Declare instance attributes
         self.actions = []
-        self.menu = self.tr(u'&Layers Oracle')
+        self.menu = self.tr(u'&Layers Oracle GIS')
         # TODO: We are going to let the user set this up in a future iteration
-        self.toolbar = self.iface.addToolBar(u'gestor_layers_oracle')
-        self.toolbar.setObjectName(u'gestor_layers_oracle')
+        # self.toolbar = self.iface.addToolBar(u'gestor_layers_oracle')
+        # self.toolbar.setObjectName(u'gestor_layers_oracle')
 
         #print "** INITIALIZING gestor_layers_oracle"
 
         self.pluginIsActive = False
         self.dockwidget = None
-
-        self.inicializa_apb()
 
     # noinspection PyMethodMayBeStatic
     def tr(self, message):
@@ -101,7 +101,7 @@ class gestor_layers_oracle:
         callback,
         enabled_flag=True,
         add_to_menu=True,
-        add_to_toolbar=True,
+        add_to_toolbar=False,
         status_tip=None,
         whats_this=None,
         parent=None):
@@ -174,7 +174,7 @@ class gestor_layers_oracle:
         icon_path = ':/plugins/gestor_layers_oracle/icon.png'
         self.add_action(
             icon_path,
-            text=self.tr(u'Layers Oracle Spatial'),
+            text=self.tr(u'Layers Oracle GIS'),
             callback=self.run,
             parent=self.iface.mainWindow())
 
@@ -238,67 +238,204 @@ class gestor_layers_oracle:
             # EAM - Se inicializa los elementos del widget
             self.dockwidget.b_cargar_capes.clicked.connect(self.carga_layers)
 
+            self.dockwidget.radio_entorn_Pre.clicked.connect(self.init_DDBB)
+            self.dockwidget.radio_entorn_Prod.clicked.connect(self.init_DDBB)
+            self.dockwidget.radio_versions.clicked.connect(self.init_DDBB)
+            self.dockwidget.radio_vigents.clicked.connect(self.init_DDBB)
+
+            self.dockwidget.combo_estils.activated.connect(self.set_estils_to_layers)
+            self.dockwidget.b_visibs_def.clicked.connect(self.set_default_visibility)
+            self.dockwidget.cal_data_vigencia.clicked.connect(self.set_filter_fecha)
+
+            self.init_DDBB()
+
+            self.init_vars()
+
     #--------------------------------------------------------------------------
     # Funciones APB - EAM
     #--------------------------------------------------------------------------
-    def inicializa_apb(self):
-        # Inicializa la conexión a Oracle (GISHISREP) y el gestor de URNs
-        self.uri = QgsDataSourceURI()
-        self.uri.setUseEstimatedMetadata(False)
-        self.uri.setConnection(self.datasource_ora, self.datasource_ora, "GISDADES", "GISDADESPRE") # Datos conexion
+    def init_vars(self):
+        # EAM - Añade lista layers ordenadas
+        self.layers_ordenadas = {}
+        self.layer_ids = {}
+        for ml in self.maplayer_registry.mapLayers().values():
+            tab_gis = ml.customProperty("taula_gis")
+            # Si es una layer de Oracle gestionada por SELF debería tener esa Property
+            if tab_gis:
+                self.set_cache_layer_for(ml, tab_gis, ml.customProperty("geom_gis"))
 
         self.bridge = self.iface.layerTreeCanvasBridge()
         self.legend_i = self.iface.legendInterface()
-
-        # EAM - Añade lista layers ordenadas
-        self.layers_ordenadas = {}
-
-        self.gest_urn = gestor_urn.apb_gestor_urn()
-
         self.layer_root = QgsProject.instance().layerTreeRoot()
+
+    def init_DDBB(self):
+        # Inicializa la conexión a Oracle (GISHISREP) y el gestor de URNs
+        self.uri = QgsDataSourceURI()
+        self.uri.setUseEstimatedMetadata(False)
+        self.uri.setConnection(self.datasource_ora, self.datasource_ora,
+                               self.esquema_ora, self.psw_ora) # Datos conexion
+
+        self.gest_urn = apb_gestor_urn(data_source=self.datasource_ora)
+
+        self.set_items_ctxt()
+        self.set_items_grup_estils()
+
+    @property
+    def maplayer_registry(self):
+        return QgsMapLayerRegistry.instance()
 
     @property
     def datasource_ora(self):
-        return "GISDATAPRE"
+        if self.dockwidget.radio_entorn_Pre.isChecked():
+            return "GISDATAPRE"
+        else:
+            return "GISDATA"
+
+    @property
+    def versions(self):
+        return self.dockwidget.radio_versions.isChecked()
 
     @property
     def esquema_ora(self):
+        if self.versions:
+            return "GISREAD"
+        else:
+            return "GISDADES"
+
+    @property
+    def esquema_repo(self):
         return "GISHISREP"
 
-    def registrar_layer_gis(self, nom_tab, nom_geom=None, addLayer=False):
+    @property
+    def psw_ora(self):
+        if self.versions:
+            if self.datasource_ora == "GISDATAPRE":
+                return "readgis"
+            else:
+                return "readgispro"
+        else:
+            if self.datasource_ora == "GISDATAPRE":
+                return "GISDADESPRE"
+            else:
+                return "GISDADESPRO"
+
+    @property
+    def nom_ctxt(self):
+        return self.dockwidget.combo_ctxt.currentText()
+
+    @property
+    def grup_estils(self):
+        return self.dockwidget.combo_estils.currentText()
+
+    def set_items_ctxt(self):
+        val_prev = self.dockwidget.combo_ctxt.currentText()
+
+        self.dockwidget.combo_ctxt.clear()
+        for reg_ctxt in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo,
+                                                    "select * from adm_contextes"):
+            self.dockwidget.combo_ctxt.addItem(reg_ctxt.NOM)
+
+        if not val_prev:
+            val_prev = "PLAPORT CONSULTA"
+
+        id = self.dockwidget.combo_ctxt.findText(val_prev)
+        if id:
+            self.dockwidget.combo_ctxt.setCurrentIndex(id)
+
+    def set_items_grup_estils(self):
+        val_prev = self.dockwidget.combo_estils.currentText()
+
+        self.dockwidget.combo_estils.clear()
+        for reg_estils in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo,
+                                                      "select * from adm_grups_estils estils"):
+            self.dockwidget.combo_estils.addItem(reg_estils.NOM)
+
+        if not val_prev:
+            val_prev = "plaport_co"
+
+        id = self.dockwidget.combo_estils.findText(val_prev)
+        if id:
+            self.dockwidget.combo_estils.setCurrentIndex(id)
+
+    def set_estils_to_layers(self, index):
+        for id, lay in self.maplayer_registry.mapLayers().items():
+            self.set_estil_sld_layer(lay)
+
+        self.iface.mapCanvas().refreshAllLayers()
+
+    def setPathEstilsSLD(self, a_path=None):
+        if a_path is None:
+            a_path = os.getenv("PATH_ESTILS_SLD")
+
+        self.path_estils_sld = a_path
+
+    def registrar_layer_gis(self, nom_tab, nom_geom=None, nom_tab_gis=None, addLayer=False):
+        if not nom_tab_gis:
+            nom_tab_gis = nom_tab
+
         nom_geom_str = None
         if nom_geom:
             nom_geom_str = nom_geom.upper()
-        self.uri.setDataSource(self.esquema_ora, nom_tab.upper(), nom_geom_str)
+        self.uri.setDataSource(self.esquema_repo, nom_tab.upper(), nom_geom_str)
 
-        nom_layer = nom_tab
-        if nom_geom:
-            nom_layer += nom_layer + "-" + nom_geom
-        nom_layer = nom_layer.replace(" ", "_")
+        nom_layer = self.nom_layer_for(nom_tab_gis, nom_geom)
 
         a_gis_layer = QgsVectorLayer(self.uri.uri(), nom_layer, "oracle")
         if a_gis_layer.isValid():
-            a_gis_layer.setCustomProperty("taula_gis", nom_tab)
-            a_gis_layer.setCustomProperty("geom_gis", nom_geom)
+            self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)
 
-            QgsMapLayerRegistry.instance().addMapLayer(a_gis_layer, addLayer)
+            self.set_cache_layer_for(nom_tab_gis, nom_geom)
 
             return a_gis_layer
 
-    def set_config_layer(self, a_gis_layer, reg_vis_config):
-        sql_reg_taula = "select * from taula_entitat_gis where seqtaula = :1"
+    def set_cache_layer_for(self, a_gis_layer, nom_tab, nom_geom=None):
+        nom_layer = self.nom_layer_for(nom_tab, nom_geom)
+
+        a_gis_layer.setCustomProperty("taula_gis", nom_tab)
+        a_gis_layer.setCustomProperty("geom_gis", nom_geom)
+        a_gis_layer.setShortName(nom_layer)
+
+        self.set_filter_fecha_for_layer(a_gis_layer)
+
+        self.layer_ids[nom_layer] = a_gis_layer.id()
+
+    def nom_layer_for(self, nom_tab, nom_geom=None):
+        nom_layer = nom_tab
+        if nom_geom:
+            nom_layer += "-" + nom_geom
+        nom_layer = nom_layer.replace(" ", "_")
+
+        return nom_layer
+
+    def get_layer_for(self, nom_tab, nom_geom=None):
+        lay = None
+        id = self.layer_ids.get(self.nom_layer_for(nom_tab, nom_geom))
+        if id:
+            lay = self.maplayer_registry.mapLayers().get(id)
+
+        if lay is None:
+            for ml in self.maplayer_registry.mapLayers().values():
+                tab_gis = ml.customProperty("taula_gis")
+                if tab_gis == nom_tab and ml.customProperty("geom_gis") == nom_geom:
+                    lay = ml
+                    self.set_cache_layer_for(lay, nom_tab, nom_geom)
+
+                    break
+
+        return lay
+
+    def set_config_layer(self, a_gis_layer, config_layer):
         sql_reg_camp = "select * from adm_camps_taules_gis where seqtaula = :1"
         tip_lay = a_gis_layer.geometryType()
 
-        reg_tab = self.gest_urn.get_reg_sql(self.gest_urn.con_repo, sql_reg_taula, reg_vis_config.SEQTAULA)
-        nom_tab_ext = reg_tab.DESC_TAULA
+        nom_tab_ext = config_layer.desc_tab
         if not nom_tab_ext:
-            nom_tab_ext = reg_vis_config.TAULA
+            nom_tab_ext = config_layer.nom_taula_gis
 
         # Se añaden Alias de campos a partir de nombres externos guardados en BD ADM
         nom_geom_ext = None
-        for reg_camp in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo, sql_reg_camp, reg_vis_config.SEQTAULA):
-            if reg_vis_config.SEQCAMP == reg_camp.SEQCAMP:
+        for reg_camp in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo, sql_reg_camp, config_layer.SEQTAULA):
+            if config_layer.SEQCAMP == reg_camp.SEQCAMP:
                 nom_geom_ext = reg_camp.NOM
             else:
                 nom_camp = reg_camp.CAMP.upper()
@@ -309,36 +446,65 @@ class gestor_layers_oracle:
         # Si campo layer del tipo PUNTO entonces se verifica si campo con mismo nombre y sufijo _TEXT
         if tip_lay == 0:
             sufix_camp_label = "_TEXT"
-            camp_label = reg_vis_config.CAMP_GEOM.upper() + sufix_camp_label
+            camp_label = config_layer.CAMP_GEOM.upper() + sufix_camp_label
             qf_idx = a_gis_layer.fieldNameIndex(camp_label)
             if qf_idx >= 0:
-                print("set_label_layer = " + camp_label)
                 self.set_label_layer(a_gis_layer, camp_label)
 
         if not nom_geom_ext:
-            nom_geom_ext = reg_vis_config.CAMP_GEOM
+            nom_geom_ext = config_layer.CAMP_GEOM
 
-        layer_vis = (reg_vis_config.VISIBILITAT == 1)
+        layer_vis = (config_layer.VISIBILITAT == 1)
         if layer_vis:
             a_gis_layer.setScaleBasedVisibility(True)
-            if reg_vis_config.MAX_ESCALA < 40000:  # Para escalas maximas de 40000 se deja el defecto para que siempre se vean
-                a_gis_layer.setMaximumScale(reg_vis_config.MAX_ESCALA)
-            a_gis_layer.setMinimumScale(reg_vis_config.MIN_ESCALA)
+            if config_layer.MAX_ESCALA < 40000:  # Para escalas maximas de 40000 se deja el defecto para que siempre se vean
+                a_gis_layer.setMaximumScale(config_layer.MAX_ESCALA)
+            a_gis_layer.setMinimumScale(config_layer.MIN_ESCALA)
 
         a_gis_layer.setName(nom_tab_ext + " - " + nom_geom_ext)
 
-        self.set_grup_layer(a_gis_layer, nom_tab_ext, reg_vis_config.NOM_GRUP)
+        self.set_grup_layer(a_gis_layer, nom_tab_ext, config_layer.NOM_GRUP)
 
         if not layer_vis:
             self.legend_i.setLayerVisible(a_gis_layer, False)
 
         # Se guarda layer ordenada
-        prior = reg_vis_config.PRIORITAT
+        prior = config_layer.PRIORITAT
         if not self.layers_ordenadas.has_key(prior):
             self.layers_ordenadas[prior] = {}
         if not self.layers_ordenadas[prior].has_key(tip_lay):
             self.layers_ordenadas[prior][tip_lay] = []
         self.layers_ordenadas[prior][tip_lay].append(a_gis_layer.id())
+
+    def set_default_visibility(self):
+        for config_layer in self.iter_config_layers():
+            if config_layer.geom_layer:
+                geom_lay = self.get_layer_for(config_layer.nom_tab_gis, config_layer.CAMP_GEOM)
+                if geom_lay:
+                    self.legend_i.setLayerVisible(geom_lay, (config_layer.VISIBILITAT == 1))
+
+    def set_filter_fecha_for_layer(self, a_gis_layer):
+        str_fecha = QgsExpressionContextUtils.projectScope().variable(self.nom_var_fecha_trabajo)
+        if not str_fecha:
+            str_fecha = datetime.datetime.today().strftime("%Y%m%d")
+        val_filter_fecha_tmpl = "TO_DATE(\'{fecha}\', \'YYYYMMDD\')"
+        filter_tmpl = "\"FECHA_VALIDEZ\" <=  {val_filter_fecha} AND NVL(\"FECHA_INVALIDEZ\", {val_filter_fecha}) >= {val_filter_fecha}"
+        filter_sql = filter_tmpl.format(val_filter_fecha=val_filter_fecha_tmpl.format(fecha=str_fecha))
+
+        if a_gis_layer.dataProvider().name() == "oracle" and \
+                        a_gis_layer.fields().fieldNameIndex("FECHA_VALIDEZ") > 0:
+            a_gis_layer.setSubsetString(filter_sql)
+            a_gis_layer.setCustomProperty("filter_fecha", filter_sql)
+
+    def set_filter_fecha(self, a_qt_date):
+        a_str_date = a_qt_date.toString("yyyyMMdd")
+        print(a_str_date)
+        QgsExpressionContextUtils.setProjectVariable(self.nom_var_fecha_trabajo, a_str_date)
+        for config_layer in self.iter_config_layers():
+            if config_layer.geom_layer:
+                geom_lay = self.get_layer_for(config_layer.nom_tab_gis, config_layer.CAMP_GEOM)
+                if geom_lay:
+                    self.set_filter_fecha_for_layer(geom_lay)
 
     def set_grup_layer(self, a_gis_layer, nom_tab_ext, nom_grup=None):
         layer_gr_base = self.layer_root
@@ -372,34 +538,94 @@ class gestor_layers_oracle:
         if not mostrar_geom:
             a_gis_layer.setRendererV2(QgsNullSymbolRenderer())
 
-    @property
-    def nom_ctxt(self):
-        nom_ctxt = "PLAPORT CONSULTA"
+    def set_estil_sld_layer(self, a_gis_layer):
+        def_path = os.path.join(os.getenv("SOURCE_APB"), "SLD_GIS")
+        nom_sld = a_gis_layer.customProperty("geom_gis")
+        if nom_sld:
+            nom_sld = a_gis_layer.customProperty("taula_gis") + "-" + nom_sld
+        else:
+            return
 
-        return nom_ctxt
+        slds = glob.glob(os.path.join(os.path.join(os.getenv("PATH_ESTILS_SLD", def_path), self.grup_estils),
+                                      nom_sld + ".sld"))
+        if slds:
+            file_sld = slds.pop()
+            print("Cargando SLD ", file_sld)
+            a_gis_layer.loadSldStyle(file_sld)
+            print("Estilos SLD '", file_sld, "' cargados para capa ", nom_sld)
 
-    def carga_layers(self):
-        sql_taules = "select * from taula_entitat_gis where exclosa != 'S' order by taula_entitat desc"
+    def iter_config_layers(self):
+        sql_taules = "select * from taula_entitat_gis where exclosa != 'S' order by taula_entitat asc"
         sql_config_taules = "select * from v_adm_visibilitat_geoms " \
                             "where ace = :1 and seqtaula = :2 " \
-                            "order by camp_geom desc"
+                            "order by camp_geom asc"
+
+        camps_reg_config = ["nom_tab_gis", "nom_tab_real", "desc_tab", "geom_layer"]
+        dd_v_adm_vis = self.gest_urn.get_dd_table(self.gest_urn.con_repo, "v_adm_visibilitat_geoms")._asdict()
+        camps_reg_config.extend(dd_v_adm_vis.keys())
+        def_vals_v_adm = dd_v_adm_vis.values()
+
+        def_reg_config = namedtuple('def_reg_config', list(camps_reg_config))
+        camp_nom_tab_real = "TAULA_ENTITAT"
+        if self.versions:
+            camp_nom_tab_real = "NOM_TAULA_VERS"
+
         for reg_tab in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo, sql_taules):
             geom_layer = False
+
             for reg_vis_config in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo,
                                                               sql_config_taules,
                                                               self.nom_ctxt, reg_tab.SEQTAULA):
                 geom_layer = True
-                a_gis_layer = self.registrar_layer_gis(reg_vis_config.TAULA, reg_vis_config.CAMP_GEOM)
+                vals_reg_config = [reg_tab.TAULA_ENTITAT,
+                                   reg_tab._asdict()[camp_nom_tab_real],
+                                   reg_tab.DESC_TAULA,
+                                   geom_layer]
 
-                if a_gis_layer:
-                    self.set_config_layer(a_gis_layer, reg_vis_config)
+                vals_reg_config.extend(reg_vis_config._asdict().values())
+
+                yield def_reg_config(*vals_reg_config)
 
             if not geom_layer:
-                a_gis_layer_alfa = self.registrar_layer_gis(reg_tab.TAULA_ENTITAT)
-                a_gis_layer_alfa.setName(reg_tab.DESC_TAULA)
-                self.set_grup_layer(a_gis_layer_alfa, reg_tab.DESC_TAULA)
+                vals_reg_config = [reg_tab.TAULA_ENTITAT,
+                                   reg_tab._asdict()[camp_nom_tab_real],
+                                   reg_tab.DESC_TAULA,
+                                   geom_layer]
+
+                vals_reg_config.extend(def_vals_v_adm)
+
+                yield def_reg_config(*vals_reg_config)
+
+    def carga_layers(self):
+        self.init_vars()
+
+        for config_layer in self.iter_config_layers():
+            nom_tab_real = config_layer.nom_tab_real
+            nom_tab_gis  = config_layer.nom_tab_gis
+
+            a_gis_layer = self.registrar_layer_gis(nom_tab_real,
+                                                   config_layer.CAMP_GEOM,
+                                                   nom_tab_gis=nom_tab_gis)
+
+            if a_gis_layer:
+                self.set_config_layer(a_gis_layer, config_layer)
+                self.set_estil_sld_layer(a_gis_layer)
+
+            if not config_layer.geom_layer:
+                a_gis_layer_alfa = self.registrar_layer_gis(nom_tab_real,
+                                                            nom_tab_gis=nom_tab_gis)
+                if a_gis_layer_alfa:
+                    a_gis_layer_alfa.setName()
+                    self.set_grup_layer(a_gis_layer_alfa, config_layer.desc_taula)
 
         self.ordena_layers()
+
+        self.set_extend_apb()
+
+    def set_extend_apb(self):
+        lay = self.get_layer_for("sector_port", "perimetre_base")
+        if lay:
+            self.iface.mapCanvas().zoomToFeatureExtent(lay.extent())
 
     def get_grup_for_tab(self, nom_tab_ext):
         sql_grup_tab = "select t_grups.NOM NOM_GRUP from adm_contextes t_ctxts, " \

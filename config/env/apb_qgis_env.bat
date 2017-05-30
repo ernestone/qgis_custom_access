@@ -46,6 +46,12 @@ rem APB_EAM - Asigna modulos Python APB
 rem =======================================================================
 set PYTHONPATH=%PYTHONPATH%;\\APBPROGS\WINS\scripts\APB_python_modules\python27
 
+rem =======================================================================
+rem APB_EAM - Asigna path donde se encontraran los estilos SLD agrupados por
+rem           aplicacion de estilos (plaport_co, plaport_bn, plaport_fav,...)
+rem =======================================================================
+set PATH_ESTILS_SLD=%SOURCE_APB%\SLD_GIS
+
 rem ***********************************************************************
 
 rem =======================================================================

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>330</width>
-    <height>239</height>
+    <width>468</width>
+    <height>617</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,6 +15,19 @@
   </property>
   <widget class="QWidget" name="dockWidgetContents">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>10</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
     <item row="6" column="0">
      <widget class="QPushButton" name="b_cargar_capes">
       <property name="toolTip">
@@ -86,7 +99,43 @@
       </layout>
      </widget>
     </item>
-    <item row="5" column="0">
+    <item row="10" column="0">
+     <widget class="QGroupBox" name="group_estils">
+      <property name="title">
+       <string>Estils</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="margin">
+        <number>9</number>
+       </property>
+       <item>
+        <widget class="QComboBox" name="combo_estils">
+         <item>
+          <property name="text">
+           <string>plaport_co</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QGroupBox" name="group_data_vigencia">
+      <property name="title">
+       <string>Data vigéncia dades</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QCalendarWidget" name="cal_data_vigencia"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="8" column="0">
      <widget class="QGroupBox" name="group_contextes">
       <property name="title">
        <string>Contextes de configuració</string>
@@ -102,6 +151,25 @@
            <string>PLAPORT CONSULTA</string>
           </property>
          </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QGroupBox" name="group_visibilitat">
+      <property name="title">
+       <string>Visibilitats</string>
+      </property>
+      <layout class="QHBoxLayout" name="group_visibilitats">
+       <item>
+        <widget class="QPushButton" name="b_visibs_def">
+         <property name="text">
+          <string>Aplicar visibilitats per defecte</string>
+         </property>
+         <property name="autoDefault">
+          <bool>false</bool>
+         </property>
         </widget>
        </item>
       </layout>

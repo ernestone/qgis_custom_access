@@ -1,6 +1,6 @@
 @echo off
 
-SET PYCHARM="C:\Program Files\JetBrains\PyCharm Community Edition 2017.1.1\bin\pycharm.bat"
+SET PYCHARM="C:\Program Files\JetBrains\PyCharm\bin\pycharm64.exe"
 
 call "%~dp0\..\env\apb_qgis_env.bat"
 
