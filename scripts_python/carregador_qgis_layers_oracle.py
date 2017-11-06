@@ -9,7 +9,8 @@ class carregador_qgis_layers_oracle(object):
                                         self.esquema_ora, psw_ora)
                                         
     def registrar_layer_gis(self, nom_tab, nom_geom=None, addLayer=True, 
-                                           esquema_alt=None, filter_sql=None, key_alt=None):
+                                           esquema_alt=None, filter_sql=None, key_alt=None,
+                                           srid=None, wkbtype=None):
         nom_geom_str = None
         if nom_geom:
             nom_geom_str = nom_geom.upper()
@@ -17,6 +18,12 @@ class carregador_qgis_layers_oracle(object):
         esquema_tab = self.esquema_ora
         if esquema_alt:
             esquema_tab = esquema_alt
+            
+        if srid:
+            self.uri.setSrid(srid)
+            
+        if wkbtype:
+            self.uri.setWkbType(wkbtype)
             
         self.uri.setDataSource(esquema_tab, nom_tab.upper(), nom_geom_str, filter_sql, key_alt)
 
@@ -28,7 +35,10 @@ class carregador_qgis_layers_oracle(object):
         if a_gis_layer.isValid():
             self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)
 
-            return a_gis_layer
+        return a_gis_layer
+
+    def convertir_layer(self):
+        print("")
 
     @property
     def maplayer_registry(self):

@@ -37,11 +37,6 @@ rem =======================================================================
 call "%~dp0\set_extra_libs.bat" "%~2"
 
 rem =======================================================================
-rem APB_EAM - Asigna directorio donde el QGIS ira a buscar plugins
-rem =======================================================================
-set QGIS_PLUGINPATH=%SOURCE_APB%\plugins_python
-
-rem =======================================================================
 rem APB_EAM - Asigna modulos Python APB
 rem =======================================================================
 set PYTHONPATH=%PYTHONPATH%;\\APBPROGS\WINS\scripts\APB_python_modules\python27
@@ -49,8 +44,10 @@ set PYTHONPATH=%PYTHONPATH%;\\APBPROGS\WINS\scripts\APB_python_modules\python27
 rem =======================================================================
 rem APB_EAM - Asigna path donde se encontraran los estilos SLD agrupados por
 rem           aplicacion de estilos (plaport_co, plaport_bn, plaport_fav,...)
+rem           y sus SVG asociados
 rem =======================================================================
 set PATH_ESTILS_SLD=%SOURCE_APB%\SLD_GIS
+set PATH_SVG_APB=%PATH_ESTILS_SLD%\simbols
 
 rem ***********************************************************************
 
@@ -59,3 +56,14 @@ rem APB_EAM - Se asginan las variables de QGIS originales pasando el nombre
 rem           de la app (qgis, qgis-ltr, qgis-dev)
 rem =======================================================================
 call "%~dp0\..\qgis\set_vars_qgis.bat" %~3
+
+rem =======================================================================
+rem APB_EAM - Asigna directorio donde el QGIS ira a buscar plugins
+rem =======================================================================
+set QGIS_PLUGINPATH=%QGIS_PREFIX_PATH%\python\plugins;%SOURCE_APB%\plugins_python
+
+rem =======================================================================
+rem APB_EAM - Se inicializa variable PYQGIS_STARTUP con script python APB 
+rem           que se ejecutará al inicializar el QGIS
+rem =======================================================================
+set PYQGIS_STARTUP=%SOURCE_APB%\config\python\startup_apb.py

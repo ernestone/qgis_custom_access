@@ -1,4 +1,4 @@
-@echo on
+@echo off
 rem EAM - Asigna directorio instalacion QGIS relativo a fichero
 
 :: Fetch param1 (QGIS_PATH)

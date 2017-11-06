@@ -27,7 +27,7 @@ import resources
 
 # Import the code for the DockWidget
 from qgis_gestor_layers_oracle_dockwidget import gestor_layers_oracleDockWidget
-from qgis.core import QgsDataSourceURI, QgsVectorLayer, \
+from qgis.core import QgsDataSourceURI, QgsVectorLayer, QgsMapLayer, \
     QgsMapLayerRegistry, QgsProject, QgsPalLayerSettings, QgsNullSymbolRenderer, QgsExpressionContextUtils
 import os, glob, datetime
 from apb_gestor_repo_urn.apb_gestor_urn import apb_gestor_urn
@@ -36,8 +36,14 @@ from collections import namedtuple, OrderedDict
 
 class gestor_layers_oracle:
     """QGIS Plugin Implementation."""
-    nom_var_fecha_trabajo = "fecha_trabajo"
+    prefix_apb = "APB_"
+    nom_var_proj_fecha_trabajo = prefix_apb + "fecha_trabajo"
+    nom_var_proj_provider = prefix_apb + "provider_carga"
+    nom_var_proj_db_ora = prefix_apb + "datasource_ora"
+    nom_var_proj_versions = prefix_apb + "taules_versionades"
     nom_plugin = u'Layers Oracle GIS'
+    ogr_driver_name = "gpkg"
+    ogr_provider = "ogr"
 
     def __init__(self, iface):
         """Constructor.
@@ -239,11 +245,6 @@ class gestor_layers_oracle:
             # EAM - Se inicializa los elementos del widget
             self.dockwidget.b_cargar_capes.clicked.connect(self.carga_layers)
 
-            self.dockwidget.radio_entorn_Pre.clicked.connect(self.init_DDBB)
-            self.dockwidget.radio_entorn_Prod.clicked.connect(self.init_DDBB)
-            self.dockwidget.radio_versions.clicked.connect(self.init_DDBB)
-            self.dockwidget.radio_vigents.clicked.connect(self.init_DDBB)
-
             self.dockwidget.combo_estils.activated.connect(self.set_estils_to_layers)
             self.dockwidget.b_visibs_def.clicked.connect(self.set_default_visibility)
             self.dockwidget.cal_data_vigencia.clicked.connect(self.set_filter_fecha)
@@ -255,6 +256,13 @@ class gestor_layers_oracle:
     #--------------------------------------------------------------------------
     # Funciones APB - EAM
     #--------------------------------------------------------------------------
+    mapeo_Gtype_ORA = {1:1, # POINT
+                       2:2, # LINE
+                       3:3, # POLYGON
+                       5:4, # MULTIPOINT
+                       6:5, # MULTILINE
+                       7:6} # MULTIPOLYGON
+
     def init_vars(self):
         # EAM - Añade lista layers ordenadas
         self.layers_ordenadas = {}
@@ -269,17 +277,40 @@ class gestor_layers_oracle:
         self.legend_i = self.iface.legendInterface()
         self.layer_root = QgsProject.instance().layerTreeRoot()
 
+        # Inicializa variables del proyecto
+        QgsExpressionContextUtils.setProjectVariable(
+            self.nom_var_proj_fecha_trabajo,
+            self.get_var_project_qgis(self.nom_var_proj_fecha_trabajo,
+                                      datetime.datetime.today().strftime("%Y%m%d")))
+        QgsExpressionContextUtils.setProjectVariable(
+            self.nom_var_proj_provider,
+            self.get_var_project_qgis(self.nom_var_proj_provider,
+                                      "oracle"))
+        QgsExpressionContextUtils.setProjectVariable(
+            self.nom_var_proj_db_ora,
+            self.get_var_project_qgis(self.nom_var_proj_db_ora,
+                                      "GISDATAPRE"))
+        QgsExpressionContextUtils.setProjectVariable(
+            self.nom_var_proj_versions,
+            self.get_var_project_qgis(self.nom_var_proj_versions, "N"))
+
     def init_DDBB(self):
         # Inicializa la conexión a Oracle (GISHISREP) y el gestor de URNs
-        self.uri = QgsDataSourceURI()
-        self.uri.setUseEstimatedMetadata(False)
-        self.uri.setConnection(self.datasource_ora, self.datasource_ora,
-                               self.esquema_ora, self.psw_ora) # Datos conexion
-
         self.gest_urn = apb_gestor_urn(data_source=self.datasource_ora)
 
         self.set_items_ctxt()
         self.set_items_grup_estils()
+
+    def get_var_project_qgis(self, nom_var, def_val=None):
+        val = QgsExpressionContextUtils.projectScope().variable(nom_var)
+        if val is None:
+            val = def_val
+
+        return val
+
+    @property
+    def provider(self):
+        return self.get_var_project_qgis(self.nom_var_proj_provider, "oracle")
 
     @property
     def maplayer_registry(self):
@@ -287,14 +318,13 @@ class gestor_layers_oracle:
 
     @property
     def datasource_ora(self):
-        if self.dockwidget.radio_entorn_Pre.isChecked():
-            return "GISDATAPRE"
-        else:
-            return "GISDATA"
+        return self.get_var_project_qgis(self.nom_var_proj_db_ora, "GISDATAPRE")
 
     @property
     def versions(self):
-        return self.dockwidget.radio_versions.isChecked()
+        val = self.get_var_project_qgis(self.nom_var_proj_versions)
+
+        return (val == 'S' or val == 's')
 
     @property
     def esquema_ora(self):
@@ -374,20 +404,18 @@ class gestor_layers_oracle:
         if not nom_tab_gis:
             nom_tab_gis = nom_tab
 
-        nom_geom_str = None
-        if nom_geom:
-            nom_geom_str = nom_geom.upper()
-        self.uri.setDataSource(self.esquema_repo, nom_tab.upper(), nom_geom_str)
-
         nom_layer = self.nom_layer_for(nom_tab_gis, nom_geom)
 
-        a_gis_layer = QgsVectorLayer(self.uri.uri(), nom_layer, "oracle")
-        if a_gis_layer.isValid():
-            self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)
+        uri = self.get_uri(nom_tab, nom_geom, nom_tab_gis)
+        if uri:
+            print("Layer: " + nom_layer + " / uri: " + uri + " / provider: " + self.provider)
+            a_gis_layer = QgsVectorLayer(uri, nom_layer, self.provider)
+            if a_gis_layer.isValid():
+                self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)
 
-            self.set_cache_layer_for(a_gis_layer, nom_tab_gis, nom_geom)
-
-            return a_gis_layer
+                return a_gis_layer
+            else:
+                print("Layer " + str(nom_layer) + " erronea!!")
 
     def set_cache_layer_for(self, a_gis_layer, nom_tab, nom_geom=None):
         nom_layer = self.nom_layer_for(nom_tab, nom_geom)
@@ -431,7 +459,7 @@ class gestor_layers_oracle:
 
         nom_tab_ext = config_layer.desc_tab
         if not nom_tab_ext:
-            nom_tab_ext = config_layer.nom_taula_gis
+            nom_tab_ext = config_layer.nom_tab_gis
 
         # Se añaden Alias de campos a partir de nombres externos guardados en BD ADM
         nom_geom_ext = config_layer.CAMP_GEOM
@@ -444,22 +472,28 @@ class gestor_layers_oracle:
                 if qf_idx >= 0:
                     a_gis_layer.addAttributeAlias(qf_idx, reg_camp.NOM.capitalize())
 
-        # Si campo layer del tipo PUNTO entonces se verifica si campo con mismo nombre y sufijo _TEXT
-        if tip_lay == 0:
-            sufix_camp_label = "_TEXT"
-            camp_label = config_layer.CAMP_GEOM.upper() + sufix_camp_label
-            qf_idx = a_gis_layer.fieldNameIndex(camp_label)
-            if qf_idx >= 0:
-                self.set_label_layer(a_gis_layer, camp_label)
-
         nom_layer_ext = nom_tab_ext
+
         if nom_geom_ext:
             nom_layer_ext += (" - " + nom_geom_ext)
+
+            # Si campo layer del tipo PUNTO entonces se verifica si campo con mismo nombre y sufijo _TEXT
+            if tip_lay == 0:
+                sufix_camp_label = "_TEXT"
+                camp_label = config_layer.CAMP_GEOM.upper() + sufix_camp_label
+                qf_idx = a_gis_layer.fieldNameIndex(camp_label)
+                if qf_idx >= 0:
+                    self.set_label_layer(a_gis_layer, camp_label)
+
         a_gis_layer.setName(nom_layer_ext)
+
+        self.set_cache_layer_for(a_gis_layer, config_layer.nom_tab_gis, config_layer.CAMP_GEOM)
 
         self.set_grup_layer(a_gis_layer, nom_tab_ext, config_layer.NOM_GRUP)
 
         self.set_visibility_layer(a_gis_layer, config_layer)
+
+        self.set_estil_sld_layer(a_gis_layer)
 
     def set_visibility_layer(self, a_gis_layer, config_layer):
         layer_vis = (config_layer.VISIBILITAT == 1)
@@ -498,22 +532,31 @@ class gestor_layers_oracle:
         self.iface.mapCanvas().refreshAllLayers()
 
     def set_filter_fecha_for_layer(self, a_gis_layer):
-        str_fecha = QgsExpressionContextUtils.projectScope().variable(self.nom_var_fecha_trabajo)
-        if not str_fecha:
-            str_fecha = datetime.datetime.today().strftime("%Y%m%d")
-        val_filter_fecha_tmpl = "TO_DATE(\'{fecha}\', \'YYYYMMDD\')"
-        filter_tmpl = "\"FECHA_VALIDEZ\" <=  {val_filter_fecha} AND NVL(\"FECHA_INVALIDEZ\", {val_filter_fecha}) >= {val_filter_fecha}"
-        filter_sql = filter_tmpl.format(val_filter_fecha=val_filter_fecha_tmpl.format(fecha=str_fecha))
+        if a_gis_layer.fields().fieldNameIndex("FECHA_VALIDEZ") <= 0:
+            return
 
-        if a_gis_layer.dataProvider().name() == "oracle" and \
-                        a_gis_layer.fields().fieldNameIndex("FECHA_VALIDEZ") > 0:
-            a_gis_layer.setSubsetString(filter_sql)
-            a_gis_layer.setCustomProperty("filter_fecha", filter_sql)
+        str_fecha = self.get_var_project_qgis(
+            self.nom_var_proj_fecha_trabajo,
+            datetime.datetime.today().strftime("%Y%m%d"))
+
+        val_filter_fecha_tmpl = "TO_DATE(\'{fecha}\', \'YYYYMMDD\')"
+        val_filter_fecha_tmpl_ogr = "\'{fecha}\'"
+        filter_tmpl = "\"FECHA_VALIDEZ\" <=  {val_filter_fecha} AND " \
+                      "(\"FECHA_INVALIDEZ\" IS NULL OR \"FECHA_INVALIDEZ\" >= {val_filter_fecha})"
+
+        if a_gis_layer.dataProvider().name() == "oracle":
+            filter_sql = filter_tmpl.format(val_filter_fecha=val_filter_fecha_tmpl.format(fecha=str_fecha))
+        else:
+            a_fecha = datetime.datetime.strptime(str_fecha, "%Y%m%d").strftime("%Y-%m-%d")
+            filter_sql = filter_tmpl.format(val_filter_fecha=val_filter_fecha_tmpl_ogr.format(fecha=a_fecha))
+
+        a_gis_layer.setSubsetString(filter_sql)
+        a_gis_layer.setCustomProperty("filter_fecha", filter_sql)
 
     def set_filter_fecha(self, a_qt_date):
         a_str_date = a_qt_date.toString("yyyyMMdd")
         print(a_str_date)
-        QgsExpressionContextUtils.setProjectVariable(self.nom_var_fecha_trabajo, a_str_date)
+        QgsExpressionContextUtils.setProjectVariable(self.nom_var_proj_fecha_trabajo, a_str_date)
         for config_layer in self.iter_config_layers():
             if config_layer.geom_layer:
                 geom_lay = self.get_layer_for(config_layer.nom_tab_gis, config_layer.CAMP_GEOM)
@@ -539,7 +582,9 @@ class gestor_layers_oracle:
             if not layer_gr_tab:
                 layer_gr_tab = layer_gr_base.addGroup(nom_tab_ext)
 
-        layer_gr_tab.addLayer(a_gis_layer)
+        if not layer_gr_tab.findLayer(a_gis_layer.id()):
+            layer_gr_tab.addLayer(a_gis_layer)
+            self.layer_root.removeLayer(a_gis_layer)
 
     def set_label_layer(self, a_gis_layer, camp_label, mostrar_geom=False):
         palyr = QgsPalLayerSettings()
@@ -566,21 +611,41 @@ class gestor_layers_oracle:
             file_sld = slds.pop()
             a_gis_layer.loadSldStyle(file_sld)
 
+    def get_config_layer(self, reg_tab, reg_vis_config=None):
+        # Retorna diccionario con la configuracion de una layer para:
+        #    reg_tab = registro de la tabla oracle GISHISREP.TAULA_ENTITAT_GIS
+        #    reg_vis_config = registro de la vista oracle GISHISREP.V_ADM_VISIBILITAT_GEOMS
+
+        camps_reg_config = ["nom_tab_gis", "nom_tab_real", "desc_tab", "geom_layer"]
+        dd_v_adm_vis = self.gest_urn.get_dd_table(self.gest_urn.con_repo, "v_adm_visibilitat_geoms")._asdict()
+        camps_reg_config.extend(dd_v_adm_vis.keys())
+
+        is_layer_geom = False
+        if not reg_vis_config:
+            vals_reg_vis_config = [None for k in dd_v_adm_vis]
+        else:
+            is_layer_geom = True
+            vals_reg_vis_config = reg_vis_config._asdict().values()
+
+        camp_nom_tab_real = "TAULA_ENTITAT"
+        if self.versions:
+            camp_nom_tab_real = "NOM_TAULA_VERS"
+
+        vals_config = [reg_tab.TAULA_ENTITAT,
+                       reg_tab._asdict()[camp_nom_tab_real],
+                       reg_tab.DESC_TAULA,
+                       is_layer_geom]
+        vals_config.extend(vals_reg_vis_config)
+
+        def_config_layer = namedtuple('def_reg_config', list(camps_reg_config))
+
+        return def_config_layer(*vals_config)
+
     def iter_config_layers(self):
         sql_taules = "select * from taula_entitat_gis where exclosa != 'S' order by taula_entitat asc"
         sql_config_taules = "select * from v_adm_visibilitat_geoms " \
                             "where ace = :1 and seqtaula = :2 " \
                             "order by camp_geom asc"
-
-        camps_reg_config = ["nom_tab_gis", "nom_tab_real", "desc_tab", "geom_layer"]
-        dd_v_adm_vis = self.gest_urn.get_dd_table(self.gest_urn.con_repo, "v_adm_visibilitat_geoms")._asdict()
-        camps_reg_config.extend(dd_v_adm_vis.keys())
-        def_vals_v_adm = [None for k in dd_v_adm_vis]
-
-        def_reg_config = namedtuple('def_reg_config', list(camps_reg_config))
-        camp_nom_tab_real = "TAULA_ENTITAT"
-        if self.versions:
-            camp_nom_tab_real = "NOM_TAULA_VERS"
 
         for reg_tab in self.gest_urn.iter_regs_sql(self.gest_urn.con_repo, sql_taules):
             geom_layer = False
@@ -589,24 +654,62 @@ class gestor_layers_oracle:
                                                               sql_config_taules,
                                                               self.nom_ctxt, reg_tab.SEQTAULA):
                 geom_layer = True
-                vals_reg_config = [reg_tab.TAULA_ENTITAT,
-                                   reg_tab._asdict()[camp_nom_tab_real],
-                                   reg_tab.DESC_TAULA,
-                                   geom_layer]
-
-                vals_reg_config.extend(reg_vis_config._asdict().values())
-
-                yield def_reg_config(*vals_reg_config)
+                yield self.get_config_layer(reg_tab, reg_vis_config)
 
             if not geom_layer:
-                vals_reg_config = [reg_tab.TAULA_ENTITAT,
-                                   reg_tab._asdict()[camp_nom_tab_real],
-                                   reg_tab.DESC_TAULA,
-                                   geom_layer]
+                yield self.get_config_layer(reg_tab)
 
-                vals_reg_config.extend(def_vals_v_adm)
+    def get_uri(self, nom_tab, nom_geom=None, nom_tab_gis=None):
+        uri_str = None
+        if self.provider == "oracle":
+            uri = QgsDataSourceURI()
+            uri.setUseEstimatedMetadata(False)
+            uri.setConnection(self.datasource_ora, self.datasource_ora,
+                              self.esquema_ora, self.psw_ora)  # Datos conexion
+            uri.setSrid("4326")
 
-                yield def_reg_config(*vals_reg_config)
+            nom_geom_str = None
+            if nom_geom:
+                nom_geom_str = nom_geom.upper()
+                uri.setWkbType(self.get_wkbType_for_geom(nom_tab, nom_geom_str))
+
+            uri.setDataSource(self.esquema_repo, nom_tab.upper(), nom_geom_str)
+            uri_str = uri.uri()
+
+        elif self.provider == self.ogr_provider:
+            uri_str = self.get_path_layer_ogr(nom_tab_gis, nom_geom)
+
+        return uri_str
+
+    def get_wkbType_for_geom(self, nom_tab, nom_geom):
+        nom_geom_str = nom_geom.upper()
+        wkb_tip_geom = 0
+        for GType_ora in self.gest_urn.iter_tip_geoms_camp_tab(self.gest_urn.con_repo, nom_tab, nom_geom_str):
+            map_tip = self.mapeo_Gtype_ORA.get(GType_ora)
+            if map_tip > wkb_tip_geom:
+                wkb_tip_geom = map_tip
+
+        return wkb_tip_geom
+
+    def get_path_layer_ogr(self, nom_tab, nom_geom=None, tipo=ogr_driver_name):
+        path_dades = os.getenv("PATH_DADES_OGR",
+                               os.path.join(
+                                   os.path.split(os.getenv("SOURCE_APB"))[0],
+                                   "dades"))
+
+        nom_file = nom_tab
+        if nom_geom:
+            nom_file += "-" + nom_geom
+
+        path_file = os.path.join(path_dades,
+                                 tipo,
+                                 nom_file + "." + tipo)
+
+        paths = glob.glob(path_file)
+        if paths:
+            return paths.pop()
+        else:
+            print("File layer '" + path_file + "' no trobat!!")
 
     def carga_layers(self):
         self.init_vars()
@@ -615,13 +718,14 @@ class gestor_layers_oracle:
             nom_tab_real = config_layer.nom_tab_real
             nom_tab_gis  = config_layer.nom_tab_gis
 
-            a_gis_layer = self.registrar_layer_gis(nom_tab_real,
-                                                   config_layer.CAMP_GEOM,
-                                                   nom_tab_gis=nom_tab_gis)
+            a_gis_layer = self.get_layer_for(nom_tab_gis, config_layer.CAMP_GEOM)
+            if not a_gis_layer:
+                a_gis_layer = self.registrar_layer_gis(nom_tab_real,
+                                                       config_layer.CAMP_GEOM,
+                                                       nom_tab_gis=nom_tab_gis)
 
             if a_gis_layer:
                 self.set_config_layer(a_gis_layer, config_layer)
-                self.set_estil_sld_layer(a_gis_layer)
 
         self.ordena_layers()
 
@@ -644,13 +748,65 @@ class gestor_layers_oracle:
         if a_reg:
             return a_reg.NOM_GRUP
 
-    def get_vis_reg_tab_geom(self, tab, geom):
+    def get_config_layer_for(self, tab, geom=None):
+        ok = True
+        sql_taula = "select * from taula_entitat_gis where taula_entitat = :1"
         sql_config_tab_geom = "select * from v_adm_visibilitat_geoms " \
-                              "where ace = :1 and taula = :2 and camp_geom = :3 " \
-                              "order by taula, camp_geom desc"
+                              "where ace = :1 and seqtaula = :2 and camp_geom = :3 "
 
-        return self.gest_urn.get_reg_sql(self.gest_urn.con_repo, sql_config_tab_geom,
-                                         self.nom_ctxt, tab, geom)
+        reg_taula = self.gest_urn.get_reg_sql(self.gest_urn.con_repo,
+                                              sql_taula, tab.lower())
+        if not reg_taula:
+            ok = False
+
+        reg_vis = None
+        if ok and geom:
+            reg_vis = self.gest_urn.get_reg_sql(self.gest_urn.con_repo, sql_config_tab_geom,
+                                                self.nom_ctxt, reg_taula.SEQTAULA, geom.lower())
+            if not reg_vis:
+                ok = False
+
+        if ok:
+            return self.get_config_layer(reg_taula, reg_vis)
+
+    def set_config_gis_to_layers(self):
+        # Revisa que por nombre de Layer no sean capas del GIS y por tanto pueda aplicar configuración propia
+        # Recorre las layers activas para a partir del nombre asignar nombre interno y atributos
+
+        pares_probados = set()
+        for id, layer in self.maplayer_registry.mapLayers().items():
+            layerType = layer.type()
+            tab_gis = layer.customProperty("taula_gis")
+
+            if not tab_gis and layerType == QgsMapLayer.VectorLayer:
+                print('Tratando layer "' + layer.name() + '"')
+                parts = []
+                for part_a in layer.name().split("-"):
+                    for part_b in part_a.split(" "):
+                        parts.append(part_b)
+
+                print(parts)
+                config_layer = None
+                for i, el1 in enumerate(parts):
+                    for el2 in [a_part for y, a_part in enumerate(parts) if y != i]:
+                        par = el1 + " - " + el2
+                        if par not in pares_probados:
+                            print("  Par ==> " + par)
+                            pares_probados.add(par)
+                            config_layer = self.get_config_layer_for(el1, el2)
+                            if config_layer:
+                                break
+
+                    if config_layer:
+                        break
+
+                    if el1 not in pares_probados:
+                        print("  Par ==> " + el1)
+                        pares_probados.add(el1)
+                        config_layer = self.get_config_layer_for(el1)
+
+                if config_layer:
+                    self.set_config_layer(layer, config_layer)
 
     def ordena_layers(self):
         # Activa Layer Order para pintar segun prioridad

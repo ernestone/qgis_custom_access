@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // "python.pythonPath": "D:/QGis/source_qgis/bin/python-qgis.bat",
+    "python.pythonPath": "D:/QGis/qgis_apb/config/python/python_qgis_apb.bat",
+    "python.linting.pylintEnabled": true
+}

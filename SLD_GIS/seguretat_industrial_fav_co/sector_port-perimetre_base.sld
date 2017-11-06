@@ -33,7 +33,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -49,7 +49,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -65,7 +65,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -81,7 +81,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -97,7 +97,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -113,7 +113,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -129,7 +129,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -145,7 +145,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -161,7 +161,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -177,7 +177,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -193,7 +193,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -209,7 +209,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -243,7 +243,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -260,7 +260,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -277,7 +277,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -294,7 +294,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -311,7 +311,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -328,7 +328,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -345,7 +345,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -362,7 +362,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -379,7 +379,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -396,7 +396,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -413,7 +413,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -430,7 +430,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -464,7 +464,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -481,7 +481,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -498,7 +498,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -515,7 +515,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -532,7 +532,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -549,7 +549,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -566,7 +566,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -583,7 +583,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -600,7 +600,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -617,7 +617,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -634,7 +634,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -651,7 +651,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -685,7 +685,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -702,7 +702,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -719,7 +719,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -736,7 +736,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -753,7 +753,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -770,7 +770,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -787,7 +787,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -804,7 +804,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -821,7 +821,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -838,7 +838,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -855,7 +855,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -872,7 +872,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -906,7 +906,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -923,7 +923,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -940,7 +940,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -957,7 +957,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -974,7 +974,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -991,7 +991,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1008,7 +1008,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1025,7 +1025,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1042,7 +1042,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1059,7 +1059,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1076,7 +1076,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1093,7 +1093,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1127,7 +1127,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1144,7 +1144,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1161,7 +1161,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1178,7 +1178,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1195,7 +1195,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1212,7 +1212,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1229,7 +1229,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1246,7 +1246,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1263,7 +1263,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1280,7 +1280,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1297,7 +1297,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1314,7 +1314,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.88</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1348,7 +1348,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1365,7 +1365,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1382,7 +1382,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1399,7 +1399,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1416,7 +1416,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1433,7 +1433,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1450,7 +1450,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1467,7 +1467,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1484,7 +1484,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1501,7 +1501,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1518,7 +1518,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1535,7 +1535,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1567,7 +1567,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1583,7 +1583,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1599,7 +1599,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1615,7 +1615,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1631,7 +1631,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1647,7 +1647,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1663,7 +1663,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1679,7 +1679,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1695,7 +1695,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1711,7 +1711,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1727,7 +1727,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
@@ -1743,7 +1743,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.25</CssParameter>
+							<CssParameter name="fill-opacity">0.15</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>

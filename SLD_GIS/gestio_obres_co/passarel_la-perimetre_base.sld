@@ -77,7 +77,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#66000F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#66000F</se:SvgParameter>
@@ -91,7 +91,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#66000F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#66000F</se:SvgParameter>
