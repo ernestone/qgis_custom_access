@@ -6,8 +6,9 @@
 			<Title>gestio_obres_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (zona=Canal)</Name>
+					<Name>300&lt;1 (zona=Canal)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -17,7 +18,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -27,8 +28,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=Dàrsena)</Name>
+					<Name>300&lt;1 (zona=Dàrsena)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -38,7 +40,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -48,8 +50,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=En Obres)</Name>
+					<Name>300&lt;1 (zona=En Obres)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -59,7 +62,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -69,8 +72,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=No Classificat)</Name>
+					<Name>300&lt;1 (zona=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -80,7 +84,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -90,8 +94,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=Pas)</Name>
+					<Name>300&lt;1 (zona=Pas)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -101,7 +106,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -123,7 +128,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -145,7 +150,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -167,7 +172,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -189,7 +194,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -211,7 +216,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -233,7 +238,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -255,7 +260,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -277,7 +282,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -299,7 +304,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -321,7 +326,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -343,7 +348,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -365,7 +370,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -387,7 +392,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -409,7 +414,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -431,7 +436,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -453,7 +458,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -475,7 +480,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -497,7 +502,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -519,7 +524,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -541,7 +546,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -563,7 +568,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -585,7 +590,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -607,7 +612,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -629,7 +634,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -651,7 +656,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -673,7 +678,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -695,7 +700,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -717,7 +722,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -739,7 +744,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -761,7 +766,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -771,7 +776,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Canal)</Name>
+					<Name>200000&lt;40000 (zona=Canal)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -782,7 +788,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669930</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -792,7 +798,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Dàrsena)</Name>
+					<Name>200000&lt;40000 (zona=Dàrsena)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -803,7 +810,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63CCCC</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -813,7 +820,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=En Obres)</Name>
+					<Name>200000&lt;40000 (zona=En Obres)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -824,7 +832,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F7F7F</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -834,7 +842,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=No Classificat)</Name>
+					<Name>200000&lt;40000 (zona=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -845,7 +854,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#000000</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>
@@ -855,7 +864,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Pas)</Name>
+					<Name>200000&lt;40000 (zona=Pas)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -866,7 +876,7 @@
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCCC63</CssParameter>
-							<CssParameter name="fill-opacity">0.75</CssParameter>
+							<CssParameter name="fill-opacity">0.45</CssParameter>
 						</Fill>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00663A</se:SvgParameter>

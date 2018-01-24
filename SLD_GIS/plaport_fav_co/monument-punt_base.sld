@@ -6,15 +6,16 @@
 			<Title>plaport_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>2.300000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -28,7 +29,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>4.600000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -42,7 +43,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>2.300000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -56,7 +57,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>1.150000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -70,7 +71,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.460000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -84,7 +85,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MONUMENT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.1</Size>
+							<Size>1.840000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -98,12 +99,13 @@
 								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MONUMENT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.2</Size>
+							<Size>1.840000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
@@ -111,7 +113,7 @@
 								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MONUMENT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>1.472000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

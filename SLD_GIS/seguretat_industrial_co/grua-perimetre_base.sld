@@ -6,8 +6,9 @@
 			<Title>seguretat_industrial_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC6375</CssParameter>
@@ -82,7 +83,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>

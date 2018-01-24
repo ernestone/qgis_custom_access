@@ -6,8 +6,9 @@
 			<Title>atracs_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_canonada=No classificat)</Name>
+					<Name>300&lt;1 (tipus_canonada=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_canonada</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_canonada=Diàmetre &lt; 15 cm.)</Name>
+					<Name>300&lt;1 (tipus_canonada=Diàmetre &lt; 15 cm.)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_canonada</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_canonada=Diàmetre &gt; 15 cm. i &lt; 50 cm.)</Name>
+					<Name>300&lt;1 (tipus_canonada=Diàmetre &gt; 15 cm. i &lt; 50 cm.)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_canonada</ogc:PropertyName>
@@ -54,8 +57,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_canonada=Diàmetre &gt; 50 cm.)</Name>
+					<Name>300&lt;1 (tipus_canonada=Diàmetre &gt; 50 cm.)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_canonada</ogc:PropertyName>
@@ -70,8 +74,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_canonada=Zona canonades (moltes canonades en una zona d&apos;ample 50 cm.))</Name>
+					<Name>300&lt;1 (tipus_canonada=Zona canonades (moltes canonades en una zona d&apos;ample 50 cm.))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_canonada</ogc:PropertyName>
@@ -596,7 +601,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_canonada=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus_canonada=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -612,7 +618,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_canonada=Diàmetre &lt; 15 cm.)</Name>
+					<Name>200000&lt;40000 (tipus_canonada=Diàmetre &lt; 15 cm.)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -628,7 +635,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_canonada=Diàmetre &gt; 15 cm. i &lt; 50 cm.)</Name>
+					<Name>200000&lt;40000 (tipus_canonada=Diàmetre &gt; 15 cm. i &lt; 50 cm.)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -644,7 +652,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_canonada=Diàmetre &gt; 50 cm.)</Name>
+					<Name>200000&lt;40000 (tipus_canonada=Diàmetre &gt; 50 cm.)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -660,7 +669,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_canonada=Zona canonades (moltes canonades en una zona d&apos;ample 50 cm.))</Name>
+					<Name>200000&lt;40000 (tipus_canonada=Zona canonades (moltes canonades en una zona d&apos;ample 50 cm.))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

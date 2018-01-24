@@ -6,8 +6,9 @@
 			<Title>concessions_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (style_selector()=Edificacio)</Name>
+					<Name>300&lt;1 (style_selector()=Edificacio)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -26,8 +27,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Edifici APB)</Name>
+					<Name>300&lt;1 (style_selector()=Edifici APB)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -46,8 +48,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Estacio Maritima)</Name>
+					<Name>300&lt;1 (style_selector()=Estacio Maritima)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -66,8 +69,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Creu Roja)</Name>
+					<Name>300&lt;1 (style_selector()=Creu Roja)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -86,8 +90,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Carpa)</Name>
+					<Name>300&lt;1 (style_selector()=Carpa)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -736,7 +741,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Edificacio)</Name>
+					<Name>200000&lt;40000 (style_selector()=Edificacio)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -756,7 +762,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Edifici APB)</Name>
+					<Name>200000&lt;40000 (style_selector()=Edifici APB)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -776,7 +783,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Estacio Maritima)</Name>
+					<Name>200000&lt;40000 (style_selector()=Estacio Maritima)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -796,7 +804,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Creu Roja)</Name>
+					<Name>200000&lt;40000 (style_selector()=Creu Roja)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -816,7 +825,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Carpa)</Name>
+					<Name>200000&lt;40000 (style_selector()=Carpa)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

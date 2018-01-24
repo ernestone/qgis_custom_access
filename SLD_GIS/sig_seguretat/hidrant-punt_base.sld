@@ -6,54 +6,58 @@
 			<Title>sig_seguretat</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<PointSymbolizer>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<PointSymbolizer>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.0</Size>
+							<Size>0.014000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<PointSymbolizer>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.0</Size>
+							<Size>0.014000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<PointSymbolizer>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.0</Size>
+							<Size>0.014000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -61,13 +65,13 @@
 					<Name>750&lt;300</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.003433</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -75,13 +79,13 @@
 					<Name>750&lt;300</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.002800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -89,13 +93,13 @@
 					<Name>750&lt;300</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.002800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -103,13 +107,13 @@
 					<Name>750&lt;300</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.002800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -117,13 +121,13 @@
 					<Name>1800&lt;750</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -131,13 +135,13 @@
 					<Name>1800&lt;750</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.001400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -145,13 +149,13 @@
 					<Name>1800&lt;750</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.001400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -159,13 +163,13 @@
 					<Name>1800&lt;750</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.001400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -173,13 +177,13 @@
 					<Name>3500&lt;1800</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -187,13 +191,13 @@
 					<Name>3500&lt;1800</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.5</Size>
+							<Size>0.000700</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -201,13 +205,13 @@
 					<Name>3500&lt;1800</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.5</Size>
+							<Size>0.000700</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -215,13 +219,13 @@
 					<Name>3500&lt;1800</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.5</Size>
+							<Size>0.000700</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -229,13 +233,13 @@
 					<Name>8000&lt;3500</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.004040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -243,13 +247,13 @@
 					<Name>8000&lt;3500</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000280</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -257,13 +261,13 @@
 					<Name>8000&lt;3500</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000280</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -271,13 +275,13 @@
 					<Name>8000&lt;3500</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000280</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -285,13 +289,13 @@
 					<Name>18000&lt;8000</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.003030</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -299,13 +303,13 @@
 					<Name>18000&lt;8000</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000140</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -313,13 +317,13 @@
 					<Name>18000&lt;8000</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000140</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -327,13 +331,13 @@
 					<Name>18000&lt;8000</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000140</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -341,13 +345,13 @@
 					<Name>40000&lt;18000</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-0.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.9</Size>
+							<Size>0.001212</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -355,13 +359,13 @@
 					<Name>40000&lt;18000</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-10.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000056</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -369,13 +373,13 @@
 					<Name>40000&lt;18000</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-11.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000056</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -383,26 +387,27 @@
 					<Name>40000&lt;18000</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT-12.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000056</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\HIDRANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.000606</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

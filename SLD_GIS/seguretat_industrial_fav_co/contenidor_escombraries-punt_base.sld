@@ -6,97 +6,102 @@
 			<Title>seguretat_industrial_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_contenidor=No classificat)</Name>
+					<Name>300&lt;1 (tipus_contenidor=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_contenidor</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_contenidor=Paper-Cartro)</Name>
+					<Name>300&lt;1 (tipus_contenidor=Paper-Cartro)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_contenidor</ogc:PropertyName>
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_contenidor=Vidre)</Name>
+					<Name>300&lt;1 (tipus_contenidor=Vidre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_contenidor</ogc:PropertyName>
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.0</Size>
+							<Size>0.012160</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_contenidor=Domestic 1,1 m3)</Name>
+					<Name>300&lt;1 (tipus_contenidor=Domestic 1,1 m3)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_contenidor</ogc:PropertyName>
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_contenidor=Industrial 5 m3)</Name>
+					<Name>300&lt;1 (tipus_contenidor=Industrial 5 m3)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_contenidor</ogc:PropertyName>
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -110,13 +115,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.9</Size>
+							<Size>0.004904</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -130,13 +135,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.9</Size>
+							<Size>0.004904</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -150,13 +155,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.9</Size>
+							<Size>0.004920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -170,13 +175,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.9</Size>
+							<Size>0.004904</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -190,13 +195,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.9</Size>
+							<Size>0.004904</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -210,13 +215,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.6</Size>
+							<Size>0.003678</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -230,13 +235,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.6</Size>
+							<Size>0.003678</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -250,13 +255,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.6</Size>
+							<Size>0.003690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -270,13 +275,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.6</Size>
+							<Size>0.003678</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -290,13 +295,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.6</Size>
+							<Size>0.003678</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -310,13 +315,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001839</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -330,13 +335,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001839</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -350,13 +355,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001845</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -370,13 +375,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001839</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -390,13 +395,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001839</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -410,13 +415,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.9</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -430,13 +435,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.9</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -450,13 +455,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.9</Size>
+							<Size>0.002460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -470,13 +475,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.9</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -490,13 +495,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.9</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -510,13 +515,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -530,13 +535,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -550,13 +555,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -570,13 +575,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -590,13 +595,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002452</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -610,13 +615,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -630,13 +635,13 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -650,13 +655,13 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001968</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -670,13 +675,13 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -690,18 +695,19 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_contenidor=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus_contenidor=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -709,18 +715,19 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_contenidor=Paper-Cartro)</Name>
+					<Name>200000&lt;40000 (tipus_contenidor=Paper-Cartro)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -728,18 +735,19 @@
 							<ogc:Literal>Paper-Cartro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-paper-cartro.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_contenidor=Vidre)</Name>
+					<Name>200000&lt;40000 (tipus_contenidor=Vidre)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -747,18 +755,19 @@
 							<ogc:Literal>Vidre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-vidre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.001968</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_contenidor=Domestic 1,1 m3)</Name>
+					<Name>200000&lt;40000 (tipus_contenidor=Domestic 1,1 m3)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -766,18 +775,19 @@
 							<ogc:Literal>Domestic 1,1 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_contenidor=Industrial 5 m3)</Name>
+					<Name>200000&lt;40000 (tipus_contenidor=Industrial 5 m3)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -785,13 +795,13 @@
 							<ogc:Literal>Industrial 5 m3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.001962</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

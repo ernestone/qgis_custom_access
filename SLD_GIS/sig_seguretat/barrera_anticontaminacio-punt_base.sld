@@ -6,78 +6,82 @@
 			<Title>sig_seguretat</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus=Ancoratge)</Name>
+					<Name>300&lt;1 (tipus=Ancoratge)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>100.5</Size>
+							<Size>0.360460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Carretel)</Name>
+					<Name>300&lt;1 (tipus=Carretel)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>100.0</Size>
+							<Size>0.180000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=No Classificat)</Name>
+					<Name>300&lt;1 (tipus=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>100.5</Size>
+							<Size>0.360460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=No Definit)</Name>
+					<Name>300&lt;1 (tipus=No Definit)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>100.5</Size>
+							<Size>0.360460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -91,13 +95,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>32.2</Size>
+							<Size>0.072092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -111,13 +115,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>32.0</Size>
+							<Size>0.036000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -131,13 +135,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>32.2</Size>
+							<Size>0.072092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -151,13 +155,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>32.2</Size>
+							<Size>0.072092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -171,13 +175,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.4</Size>
+							<Size>0.036046</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -191,13 +195,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.3</Size>
+							<Size>0.018000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -211,13 +215,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.4</Size>
+							<Size>0.036046</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -231,13 +235,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.4</Size>
+							<Size>0.036046</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -251,13 +255,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.3</Size>
+							<Size>0.018023</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -271,13 +275,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.3</Size>
+							<Size>0.009000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -291,13 +295,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.3</Size>
+							<Size>0.018023</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -311,13 +315,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.3</Size>
+							<Size>0.018023</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -331,13 +335,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.007209</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -351,13 +355,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.003600</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -371,13 +375,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.007209</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -391,13 +395,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.007209</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -411,13 +415,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.003605</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -431,13 +435,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.001800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -451,13 +455,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.003605</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -471,13 +475,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.003605</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -491,13 +495,13 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.001442</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -511,13 +515,13 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.000720</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -531,13 +535,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.001442</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -551,18 +555,19 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.001442</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Ancoratge)</Name>
+					<Name>200000&lt;40000 (tipus=Ancoratge)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -570,18 +575,19 @@
 							<ogc:Literal>Ancoratge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-ancoratge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000721</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Carretel)</Name>
+					<Name>200000&lt;40000 (tipus=Carretel)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -589,18 +595,19 @@
 							<ogc:Literal>Carretel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-carretel.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000360</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=No Classificat)</Name>
+					<Name>200000&lt;40000 (tipus=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -608,18 +615,19 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000721</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=No Definit)</Name>
+					<Name>200000&lt;40000 (tipus=No Definit)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -627,13 +635,13 @@
 							<ogc:Literal>No Definit</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000721</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

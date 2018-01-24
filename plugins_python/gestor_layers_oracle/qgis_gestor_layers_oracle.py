@@ -408,7 +408,8 @@ class gestor_layers_oracle:
 
         uri = self.get_uri(nom_tab, nom_geom, nom_tab_gis)
         if uri:
-            print("Layer: " + nom_layer + " / uri: " + uri + " / provider: " + self.provider)
+            str_layer = "Layer: " + nom_layer + " / uri: " + uri + " / provider: " + self.provider
+            print(str_layer)
             a_gis_layer = QgsVectorLayer(uri, nom_layer, self.provider)
             if a_gis_layer.isValid():
                 self.maplayer_registry.addMapLayer(a_gis_layer, addLayer)

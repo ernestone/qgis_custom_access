@@ -6,78 +6,82 @@
 			<Title>gestio_parquings_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_arbre=No classificat)</Name>
+					<Name>300&lt;1 (tipus_arbre=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_arbre</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>19.5</Size>
+							<Size>0.039280</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_arbre=Palmeres)</Name>
+					<Name>300&lt;1 (tipus_arbre=Palmeres)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_arbre</ogc:PropertyName>
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>25.2</Size>
+							<Size>0.050400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_arbre=Arbre genéric)</Name>
+					<Name>300&lt;1 (tipus_arbre=Arbre genéric)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_arbre</ogc:PropertyName>
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>19.5</Size>
+							<Size>0.039280</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_arbre=Arbust)</Name>
+					<Name>300&lt;1 (tipus_arbre=Arbust)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_arbre</ogc:PropertyName>
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.009940</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -91,13 +95,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.8</Size>
+							<Size>0.009820</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -111,13 +115,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.1</Size>
+							<Size>0.010080</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -131,13 +135,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.8</Size>
+							<Size>0.009820</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -151,13 +155,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>0.003976</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -171,13 +175,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.2</Size>
+							<Size>0.005892</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -191,13 +195,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.006720</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -211,13 +215,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.2</Size>
+							<Size>0.005892</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -231,13 +235,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.001988</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -251,13 +255,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002946</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -271,13 +275,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.4</Size>
+							<Size>0.003360</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -291,13 +295,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002946</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -311,13 +315,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.9</Size>
+							<Size>0.001193</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -331,13 +335,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002156</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -351,13 +355,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002218</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -371,13 +375,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002156</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -391,13 +395,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.5</Size>
+							<Size>0.000596</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -411,13 +415,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.8</Size>
+							<Size>0.001078</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -431,13 +435,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.002016</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -451,13 +455,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.8</Size>
+							<Size>0.001078</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -471,13 +475,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000298</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -491,13 +495,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000431</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -511,13 +515,13 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.5</Size>
+							<Size>0.000672</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -531,13 +535,13 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000431</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -551,18 +555,19 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000119</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_arbre=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus_arbre=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -570,18 +575,19 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_arbre=Palmeres)</Name>
+					<Name>200000&lt;40000 (tipus_arbre=Palmeres)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -589,18 +595,19 @@
 							<ogc:Literal>Palmeres</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000336</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_arbre=Arbre genéric)</Name>
+					<Name>200000&lt;40000 (tipus_arbre=Arbre genéric)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -608,18 +615,19 @@
 							<ogc:Literal>Arbre genéric</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_arbre=Arbust)</Name>
+					<Name>200000&lt;40000 (tipus_arbre=Arbust)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -627,13 +635,13 @@
 							<ogc:Literal>Arbust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000060</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

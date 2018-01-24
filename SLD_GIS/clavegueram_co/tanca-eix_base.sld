@@ -6,8 +6,9 @@
 			<Title>clavegueram_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=No classificat)</Name>
+					<Name>300&lt;1 (tipus_tanca=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Mur, paret o tàpia amb gruix de 15 cm.)</Name>
+					<Name>300&lt;1 (tipus_tanca=Mur, paret o tàpia amb gruix de 15 cm.)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Mur, paret o tàpia amb gruix  &gt; 15 cm. &lt; 50 cm.)</Name>
+					<Name>300&lt;1 (tipus_tanca=Mur, paret o tàpia amb gruix  &gt; 15 cm. &lt; 50 cm.)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -54,8 +57,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Filferrada)</Name>
+					<Name>300&lt;1 (tipus_tanca=Filferrada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -70,8 +74,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Filferrada sobre mur)</Name>
+					<Name>300&lt;1 (tipus_tanca=Filferrada sobre mur)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -86,8 +91,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Metàl·lica fixa al terra)</Name>
+					<Name>300&lt;1 (tipus_tanca=Metàl·lica fixa al terra)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -102,8 +108,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Metàl·lica sobre mur)</Name>
+					<Name>300&lt;1 (tipus_tanca=Metàl·lica sobre mur)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -118,8 +125,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Metàl·lica sobre mur separada per columnes d&apos;obra)</Name>
+					<Name>300&lt;1 (tipus_tanca=Metàl·lica sobre mur separada per columnes d&apos;obra)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -134,8 +142,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Limitació de zona en obres)</Name>
+					<Name>300&lt;1 (tipus_tanca=Limitació de zona en obres)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -151,8 +160,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Barda)</Name>
+					<Name>300&lt;1 (tipus_tanca=Barda)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -168,8 +178,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_tanca=Metal.lica mobil (suportada per blocs de formigo sense fixar al terra))</Name>
+					<Name>300&lt;1 (tipus_tanca=Metal.lica mobil (suportada per blocs de formigo sense fixar al terra))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_tanca</ogc:PropertyName>
@@ -1120,7 +1131,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1130,7 +1142,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1140,7 +1153,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1150,7 +1164,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1160,7 +1175,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1170,7 +1186,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1180,7 +1197,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1190,7 +1208,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1200,7 +1219,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1211,7 +1231,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1222,7 +1243,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>

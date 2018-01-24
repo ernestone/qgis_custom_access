@@ -6,78 +6,82 @@
 			<Title>gestio_obres_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (ordre=No classificat)</Name>
+					<Name>300&lt;1 (ordre=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>ordre</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (ordre=1 ordre)</Name>
+					<Name>300&lt;1 (ordre=1 ordre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>ordre</ogc:PropertyName>
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.8</Size>
+							<Size>0.025000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (ordre=2 ordre)</Name>
+					<Name>300&lt;1 (ordre=2 ordre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>ordre</ogc:PropertyName>
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (ordre=3 ordre)</Name>
+					<Name>300&lt;1 (ordre=3 ordre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>ordre</ogc:PropertyName>
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -91,13 +95,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.003603</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -111,13 +115,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.2</Size>
+							<Size>0.006001</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -131,13 +135,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.003603</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -151,13 +155,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.003603</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -171,13 +175,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000012</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -191,13 +195,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000021</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -211,13 +215,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000012</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -231,13 +235,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000012</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -251,13 +255,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -271,13 +275,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000009</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -291,13 +295,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000005</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -311,13 +315,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000005</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -331,13 +335,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000001</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -351,13 +355,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000002</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -371,13 +375,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000001</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -391,13 +395,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000001</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -411,13 +415,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -431,13 +435,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000001</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -451,13 +455,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -471,13 +475,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -491,13 +495,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -511,13 +515,13 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -531,13 +535,13 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -551,18 +555,19 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (ordre=No classificat)</Name>
+					<Name>200000&lt;40000 (ordre=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -570,18 +575,19 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (ordre=1 ordre)</Name>
+					<Name>200000&lt;40000 (ordre=1 ordre)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -589,18 +595,19 @@
 							<ogc:Literal>1 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (ordre=2 ordre)</Name>
+					<Name>200000&lt;40000 (ordre=2 ordre)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -608,18 +615,19 @@
 							<ogc:Literal>2 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (ordre=3 ordre)</Name>
+					<Name>200000&lt;40000 (ordre=3 ordre)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -627,13 +635,13 @@
 							<ogc:Literal>3 ordre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

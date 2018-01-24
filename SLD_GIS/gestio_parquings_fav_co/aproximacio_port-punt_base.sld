@@ -6,300 +6,322 @@
 			<Title>gestio_parquings_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus=2 milles reporting line)</Name>
+					<Name>300&lt;1 (tipus=2 milles reporting line)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<PointSymbolizer>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Boarding place)</Name>
+					<Name>300&lt;1 (tipus=Boarding place)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>35.0</Size>
+							<Size>0.112000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Boya entrada)</Name>
+					<Name>300&lt;1 (tipus=Boya entrada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.005000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<Name>300&lt;1 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<Name>300&lt;1 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal entrada)</Name>
+					<Name>300&lt;1 (tipus=Canal entrada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal sortida)</Name>
+					<Name>300&lt;1 (tipus=Canal sortida)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=No classificat)</Name>
+					<Name>300&lt;1 (tipus=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Pilote)</Name>
+					<Name>300&lt;1 (tipus=Pilote)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.005000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Punts zona fondeig)</Name>
+					<Name>300&lt;1 (tipus=Punts zona fondeig)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.003000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Radio reporting)</Name>
+					<Name>300&lt;1 (tipus=Radio reporting)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.004500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Radio reporting calling-in or way)</Name>
+					<Name>300&lt;1 (tipus=Radio reporting calling-in or way)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.004640</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Torre control)</Name>
+					<Name>300&lt;1 (tipus=Torre control)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Veril)</Name>
+					<Name>300&lt;1 (tipus=Veril)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Zona fondeig)</Name>
+					<Name>300&lt;1 (tipus=Zona fondeig)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.020920</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -313,27 +335,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300</Name>
+					<Name>750&lt;300 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -347,13 +375,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.2</Size>
+							<Size>0.022400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -367,13 +395,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.0</Size>
+							<Size>0.005000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -387,13 +415,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -407,13 +435,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -427,13 +455,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -447,13 +475,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -467,13 +495,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -487,13 +515,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>0.004000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -507,13 +535,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.001800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -527,13 +555,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.0</Size>
+							<Size>0.004500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -547,13 +575,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.7</Size>
+							<Size>0.004640</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -567,13 +595,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -587,13 +615,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -607,13 +635,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -627,27 +655,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750</Name>
+					<Name>1800&lt;750 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -661,13 +695,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.3</Size>
+							<Size>0.032000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -681,13 +715,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.009000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -701,13 +735,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -721,13 +755,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -741,13 +775,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -761,13 +795,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -781,13 +815,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -801,13 +835,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.6</Size>
+							<Size>0.005000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -821,13 +855,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -841,13 +875,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>12.9</Size>
+							<Size>0.008100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -861,13 +895,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>9.1</Size>
+							<Size>0.008352</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -881,13 +915,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -901,13 +935,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -921,13 +955,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.4</Size>
+							<Size>0.014644</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -941,27 +975,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800</Name>
+					<Name>3500&lt;1800 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -975,13 +1015,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.5</Size>
+							<Size>0.032000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -995,13 +1035,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.5</Size>
+							<Size>0.007500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1015,13 +1055,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1035,13 +1075,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1055,13 +1095,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1075,13 +1115,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1095,13 +1135,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1115,13 +1155,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.5</Size>
+							<Size>0.003500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1135,13 +1175,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.1</Size>
+							<Size>0.001500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1155,13 +1195,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.9</Size>
+							<Size>0.006750</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1175,13 +1215,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.7</Size>
+							<Size>0.006960</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1195,13 +1235,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1215,13 +1255,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1235,13 +1275,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>11.4</Size>
+							<Size>0.015690</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1255,27 +1295,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500</Name>
+					<Name>8000&lt;3500 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1289,13 +1335,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>15.4</Size>
+							<Size>0.032000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1309,13 +1355,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.2</Size>
+							<Size>0.008000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1329,13 +1375,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1349,13 +1395,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1369,13 +1415,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1389,13 +1435,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1409,13 +1455,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1429,13 +1475,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.2</Size>
+							<Size>0.001600</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1449,13 +1495,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.000840</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1469,13 +1515,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>12.3</Size>
+							<Size>0.007200</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1489,13 +1535,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.7</Size>
+							<Size>0.007424</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1509,13 +1555,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1529,13 +1575,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1549,13 +1595,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.008368</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1569,27 +1615,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000</Name>
+					<Name>18000&lt;8000 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1603,13 +1655,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.3</Size>
+							<Size>0.032000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1623,13 +1675,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.4</Size>
+							<Size>0.009000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1643,13 +1695,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1663,13 +1715,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1683,13 +1735,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1703,13 +1755,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1723,13 +1775,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1743,13 +1795,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.2</Size>
+							<Size>0.001700</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1763,13 +1815,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.000900</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1783,13 +1835,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>12.9</Size>
+							<Size>0.008100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1803,13 +1855,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>9.1</Size>
+							<Size>0.008352</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1823,13 +1875,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1843,13 +1895,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1863,13 +1915,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.0</Size>
+							<Size>0.004184</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1883,27 +1935,33 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000</Name>
+					<Name>40000&lt;18000 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1917,13 +1975,13 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>15.4</Size>
+							<Size>0.032000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1937,13 +1995,13 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.003600</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1957,13 +2015,13 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1977,13 +2035,13 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1997,13 +2055,13 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2017,13 +2075,13 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2037,13 +2095,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2057,13 +2115,13 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2077,13 +2135,13 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.6</Size>
+							<Size>0.000720</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2097,13 +2155,13 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>9.2</Size>
+							<Size>0.005400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2117,13 +2175,13 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.5</Size>
+							<Size>0.005568</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2137,13 +2195,13 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2157,13 +2215,13 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2177,18 +2235,19 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.3</Size>
+							<Size>0.001674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=2 milles reporting line)</Name>
+					<Name>200000&lt;40000 (tipus=2 milles reporting line)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2196,31 +2255,39 @@
 							<ogc:Literal>2 milles reporting line</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000 (tipus=4 miles reporting line)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
-					<PointSymbolizer>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus</ogc:PropertyName>
+							<ogc:Literal>4 miles reporting line</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Boarding place)</Name>
+					<Name>200000&lt;40000 (tipus=Boarding place)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2228,18 +2295,19 @@
 							<ogc:Literal>Boarding place</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.0</Size>
+							<Size>0.011200</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Boya entrada)</Name>
+					<Name>200000&lt;40000 (tipus=Boya entrada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2247,18 +2315,19 @@
 							<ogc:Literal>Boya entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.002800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<Name>200000&lt;40000 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2266,18 +2335,19 @@
 							<ogc:Literal>Canal comunicacio barcelona pilots VHF 14/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<Name>200000&lt;40000 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2285,18 +2355,19 @@
 							<ogc:Literal>Canal comunicacio barcelona trafic VHF 10/16</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal entrada)</Name>
+					<Name>200000&lt;40000 (tipus=Canal entrada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2304,18 +2375,19 @@
 							<ogc:Literal>Canal entrada</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal sortida)</Name>
+					<Name>200000&lt;40000 (tipus=Canal sortida)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2323,18 +2395,19 @@
 							<ogc:Literal>Canal sortida</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2342,18 +2415,19 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Pilote)</Name>
+					<Name>200000&lt;40000 (tipus=Pilote)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2361,18 +2435,19 @@
 							<ogc:Literal>Pilote</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.002800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Punts zona fondeig)</Name>
+					<Name>200000&lt;40000 (tipus=Punts zona fondeig)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2380,18 +2455,19 @@
 							<ogc:Literal>Punts zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Radio reporting)</Name>
+					<Name>200000&lt;40000 (tipus=Radio reporting)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2399,18 +2475,19 @@
 							<ogc:Literal>Radio reporting</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.8</Size>
+							<Size>0.003960</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Radio reporting calling-in or way)</Name>
+					<Name>200000&lt;40000 (tipus=Radio reporting calling-in or way)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2418,18 +2495,19 @@
 							<ogc:Literal>Radio reporting calling-in or way</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.2</Size>
+							<Size>0.004083</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Torre control)</Name>
+					<Name>200000&lt;40000 (tipus=Torre control)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2437,18 +2515,19 @@
 							<ogc:Literal>Torre control</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Veril)</Name>
+					<Name>200000&lt;40000 (tipus=Veril)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2456,18 +2535,19 @@
 							<ogc:Literal>Veril</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.001046</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Zona fondeig)</Name>
+					<Name>200000&lt;40000 (tipus=Zona fondeig)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2475,13 +2555,13 @@
 							<ogc:Literal>Zona fondeig</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.002092</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

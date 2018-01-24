@@ -6,59 +6,62 @@
 			<Title>concessions_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_escala_gat=No classificat)</Name>
+					<Name>300&lt;1 (tipus_escala_gat=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_escala_gat</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.010180</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_escala_gat=Interior (està dins un entrant de vora-moll))</Name>
+					<Name>300&lt;1 (tipus_escala_gat=Interior (està dins un entrant de vora-moll))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_escala_gat</ogc:PropertyName>
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.010180</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_escala_gat=Exterior (està en la paret de vora-moll sense cap protecció))</Name>
+					<Name>300&lt;1 (tipus_escala_gat=Exterior (està en la paret de vora-moll sense cap protecció))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_escala_gat</ogc:PropertyName>
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.010180</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -72,13 +75,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.002036</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -92,13 +95,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.002036</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -112,13 +115,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.002036</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -132,13 +135,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001018</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -152,13 +155,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001018</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -172,13 +175,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001018</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -192,13 +195,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000509</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -212,13 +215,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000509</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -232,13 +235,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.3</Size>
+							<Size>0.000509</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -252,13 +255,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000204</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -272,13 +275,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000204</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -292,13 +295,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000204</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -312,13 +315,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000102</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -332,13 +335,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000102</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -352,13 +355,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000102</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -372,13 +375,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000041</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -392,13 +395,13 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000041</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -412,18 +415,19 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000041</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_escala_gat=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus_escala_gat=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -431,18 +435,19 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_escala_gat=Interior (està dins un entrant de vora-moll))</Name>
+					<Name>200000&lt;40000 (tipus_escala_gat=Interior (està dins un entrant de vora-moll))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -450,18 +455,19 @@
 							<ogc:Literal>Interior (està dins un entrant de vora-moll)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-interior(esta_dins_un_entrant_de_vora-moll).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_escala_gat=Exterior (està en la paret de vora-moll sense cap protecció))</Name>
+					<Name>200000&lt;40000 (tipus_escala_gat=Exterior (està en la paret de vora-moll sense cap protecció))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -469,13 +475,13 @@
 							<ogc:Literal>Exterior (està en la paret de vora-moll sense cap protecció)</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ESCALA_GAT_VORA_MOLL-exterior(esta_en_la_paret_de_vora-moll_sense_cap_proteccio).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

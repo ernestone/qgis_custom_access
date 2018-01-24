@@ -6,59 +6,62 @@
 			<Title>concessions_ibi_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus=Maritim)</Name>
+					<Name>300&lt;1 (tipus=Maritim)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=No classificat)</Name>
+					<Name>300&lt;1 (tipus=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Terrestre)</Name>
+					<Name>300&lt;1 (tipus=Terrestre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.5</Size>
+							<Size>0.015020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -72,13 +75,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.4</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -92,13 +95,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.4</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -112,13 +115,13 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.4</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -132,13 +135,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -152,13 +155,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -172,13 +175,13 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.1</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -192,13 +195,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -212,13 +215,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -232,13 +235,13 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.003004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -252,13 +255,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -272,13 +275,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -292,13 +295,13 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -312,13 +315,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -332,13 +335,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -352,13 +355,13 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.7</Size>
+							<Size>0.002403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -372,13 +375,13 @@
 							<ogc:Literal>Maritim</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-maritim.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001923</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -392,13 +395,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001923</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -412,26 +415,27 @@
 							<ogc:Literal>Terrestre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PUNT_REUNIO_EMERGENCIA-terrestre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001923</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

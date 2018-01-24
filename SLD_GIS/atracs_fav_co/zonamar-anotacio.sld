@@ -6,8 +6,9 @@
 			<Title>atracs_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (zona=Canal)</Name>
+					<Name>300&lt;1 (zona=Canal)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -54,8 +55,9 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=Dàrsena)</Name>
+					<Name>300&lt;1 (zona=Dàrsena)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -102,8 +104,9 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=En Obres)</Name>
+					<Name>300&lt;1 (zona=En Obres)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -150,8 +153,9 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=No Classificat)</Name>
+					<Name>300&lt;1 (zona=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -198,8 +202,9 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (zona=Pas)</Name>
+					<Name>300&lt;1 (zona=Pas)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>zona</ogc:PropertyName>
@@ -1716,7 +1721,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Canal)</Name>
+					<Name>200000&lt;40000 (zona=Canal)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1764,7 +1770,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Dàrsena)</Name>
+					<Name>200000&lt;40000 (zona=Dàrsena)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1812,7 +1819,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=En Obres)</Name>
+					<Name>200000&lt;40000 (zona=En Obres)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1860,7 +1868,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=No Classificat)</Name>
+					<Name>200000&lt;40000 (zona=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1908,7 +1917,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (zona=Pas)</Name>
+					<Name>200000&lt;40000 (zona=Pas)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

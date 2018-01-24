@@ -6,8 +6,9 @@
 			<Title>concessions_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=Caixoner)</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=Caixoner)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=Flotants (amarratge petites embarcacions))</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=Flotants (amarratge petites embarcacions))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=No classificat)</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -54,8 +57,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=Penjats de vora-moll (passarel·les d&apos;accés a embarcacions))</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=Penjats de vora-moll (passarel·les d&apos;accés a embarcacions))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -70,8 +74,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=Pivotats)</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=Pivotats)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -86,8 +91,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_moll_pivotat=Pivotats flotants)</Name>
+					<Name>300&lt;1 (tipus_moll_pivotat=Pivotats flotants)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_moll_pivotat</ogc:PropertyName>
@@ -714,7 +720,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=Caixoner)</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=Caixoner)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -730,7 +737,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=Flotants (amarratge petites embarcacions))</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=Flotants (amarratge petites embarcacions))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -746,7 +754,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -762,7 +771,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=Penjats de vora-moll (passarel·les d&apos;accés a embarcacions))</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=Penjats de vora-moll (passarel·les d&apos;accés a embarcacions))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -778,7 +788,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=Pivotats)</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=Pivotats)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -794,7 +805,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_moll_pivotat=Pivotats flotants)</Name>
+					<Name>200000&lt;40000 (tipus_moll_pivotat=Pivotats flotants)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

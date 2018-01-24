@@ -6,97 +6,102 @@
 			<Title>seguretat_industrial_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (forma_tapa=No classificat)</Name>
+					<Name>300&lt;1 (forma_tapa=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>forma_tapa</ogc:PropertyName>
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (forma_tapa=Circular)</Name>
+					<Name>300&lt;1 (forma_tapa=Circular)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>forma_tapa</ogc:PropertyName>
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (forma_tapa=Quadrat)</Name>
+					<Name>300&lt;1 (forma_tapa=Quadrat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>forma_tapa</ogc:PropertyName>
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (forma_tapa=Rectangular)</Name>
+					<Name>300&lt;1 (forma_tapa=Rectangular)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>forma_tapa</ogc:PropertyName>
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.012460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (forma_tapa=Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre)</Name>
+					<Name>300&lt;1 (forma_tapa=Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>forma_tapa</ogc:PropertyName>
 							<ogc:Literal>Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-diverses_tapes_rectangulars_disposades_l_una_al_costat_de_l_altre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.012460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -110,13 +115,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -130,13 +135,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -150,13 +155,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -170,13 +175,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002492</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -190,13 +195,13 @@
 							<ogc:Literal>Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-diverses_tapes_rectangulars_disposades_l_una_al_costat_de_l_altre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002492</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -210,13 +215,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001002</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -230,13 +235,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -250,13 +255,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001002</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -270,13 +275,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001246</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -290,13 +295,13 @@
 							<ogc:Literal>Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-diverses_tapes_rectangulars_disposades_l_una_al_costat_de_l_altre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.7</Size>
+							<Size>0.001246</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -310,13 +315,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000501</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -330,13 +335,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -350,13 +355,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000501</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -370,13 +375,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000623</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -390,13 +395,13 @@
 							<ogc:Literal>Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-diverses_tapes_rectangulars_disposades_l_una_al_costat_de_l_altre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.000623</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -410,13 +415,13 @@
 							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000200</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -430,13 +435,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000200</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -450,13 +455,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000200</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -470,13 +475,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000249</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -490,13 +495,13 @@
 							<ogc:Literal>Diverses tapes rectangulars disposades l&apos;una al costat de l&apos;altre</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REGISTRE-diverses_tapes_rectangulars_disposades_l_una_al_costat_de_l_altre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000249</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -510,13 +515,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -530,13 +535,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -550,13 +555,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000100</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -570,13 +575,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000125</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -590,13 +595,13 @@
 							<ogc:Literal>Diverses tapes</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-diverses_tapes.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000125</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -610,13 +615,13 @@
 							<ogc:Literal>Boca regatge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_regatge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000480</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -630,13 +635,13 @@
 							<ogc:Literal>Boca aspersio</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_aspersio.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000400</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -650,13 +655,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -670,13 +675,13 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -690,13 +695,13 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -710,13 +715,13 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000050</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -730,13 +735,13 @@
 							<ogc:Literal>Diverses tapes</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-diverses_tapes.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000050</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -750,13 +755,13 @@
 							<ogc:Literal>Boca regatge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_regatge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000192</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -770,18 +775,19 @@
 							<ogc:Literal>Boca aspersio</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_aspersio.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.1</Size>
+							<Size>0.000160</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=No Classificat)</Name>
+					<Name>200000&lt;40000 (style_selector()=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -789,18 +795,19 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Circular)</Name>
+					<Name>200000&lt;40000 (style_selector()=Circular)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -808,18 +815,19 @@
 							<ogc:Literal>Circular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Quadrat)</Name>
+					<Name>200000&lt;40000 (style_selector()=Quadrat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -827,18 +835,19 @@
 							<ogc:Literal>Quadrat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-quadrat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Rectangular)</Name>
+					<Name>200000&lt;40000 (style_selector()=Rectangular)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -846,18 +855,19 @@
 							<ogc:Literal>Rectangular</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-rectangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000025</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Diverses tapes)</Name>
+					<Name>200000&lt;40000 (style_selector()=Diverses tapes)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -865,18 +875,19 @@
 							<ogc:Literal>Diverses tapes</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-diverses_tapes.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000025</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Boca regatge)</Name>
+					<Name>200000&lt;40000 (style_selector()=Boca regatge)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -884,18 +895,19 @@
 							<ogc:Literal>Boca regatge</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_regatge.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000096</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Boca aspersio)</Name>
+					<Name>200000&lt;40000 (style_selector()=Boca aspersio)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -903,13 +915,13 @@
 							<ogc:Literal>Boca aspersio</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REGISTRE-boca_aspersio.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.0</Size>
+							<Size>0.000080</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

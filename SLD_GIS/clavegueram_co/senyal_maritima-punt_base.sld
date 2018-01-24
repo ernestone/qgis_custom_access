@@ -6,553 +6,582 @@
 			<Title>clavegueram_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 3D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 3D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 4D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 4D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 5D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 5D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 2D-1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 2D-1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Verd 1D-2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Verd 1D-2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 3D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 3D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 4D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 4D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 5D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 5D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 2D-1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 2D-1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Vermell 1D-2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Vermell 1D-2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 3D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 3D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 4D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 4D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 5D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 5D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 2D-1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 2D-1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Blanc 1D-2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Blanc 1D-2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Senyal-Morse)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Senyal-Morse)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 3D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 3D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 4D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 4D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 5D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 5D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 2D-1D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 2D-1D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (parse_aparenca()=Groc 1D-2D)</Name>
+					<Name>300&lt;1 (parse_aparenca()=Groc 1D-2D)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>parse_aparenca()</ogc:PropertyName>
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -566,13 +595,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -586,13 +615,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -606,13 +635,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -626,13 +655,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -646,13 +675,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -666,13 +695,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -686,13 +715,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -706,13 +735,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -726,13 +755,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -746,13 +775,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -766,13 +795,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -786,13 +815,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -806,13 +835,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -826,13 +855,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -846,13 +875,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -866,13 +895,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -886,13 +915,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -906,13 +935,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -926,13 +955,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -946,13 +975,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -966,13 +995,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -986,13 +1015,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1006,13 +1035,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1026,13 +1055,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1046,13 +1075,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1066,13 +1095,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1086,13 +1115,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1106,13 +1135,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1126,13 +1155,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.002000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1146,13 +1175,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1166,13 +1195,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1186,13 +1215,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011504</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1206,13 +1235,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1226,13 +1255,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.7</Size>
+							<Size>0.011660</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1246,13 +1275,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1266,13 +1295,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1286,13 +1315,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1306,13 +1335,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1326,13 +1355,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011504</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1346,13 +1375,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1366,13 +1395,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.7</Size>
+							<Size>0.011682</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1386,13 +1415,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1406,13 +1435,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1426,13 +1455,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1446,13 +1475,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1466,13 +1495,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011504</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1486,13 +1515,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1506,13 +1535,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.7</Size>
+							<Size>0.011660</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1526,13 +1555,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1546,13 +1575,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1566,13 +1595,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>0.004496</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1586,13 +1615,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1606,13 +1635,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1626,13 +1655,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011504</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1646,13 +1675,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1666,13 +1695,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>6.7</Size>
+							<Size>0.011660</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1686,13 +1715,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1706,13 +1735,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009458</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1726,13 +1755,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.6</Size>
+							<Size>0.012688</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1746,13 +1775,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1766,13 +1795,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.9</Size>
+							<Size>0.012654</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1786,13 +1815,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1806,13 +1835,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.0</Size>
+							<Size>0.013604</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1826,13 +1855,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1846,13 +1875,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1866,13 +1895,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.6</Size>
+							<Size>0.012688</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1886,13 +1915,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1906,13 +1935,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.9</Size>
+							<Size>0.012654</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1926,13 +1955,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1946,13 +1975,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.0</Size>
+							<Size>0.013629</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1966,13 +1995,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1986,13 +2015,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2006,13 +2035,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.6</Size>
+							<Size>0.012688</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2026,13 +2055,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2046,13 +2075,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.9</Size>
+							<Size>0.012654</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2066,13 +2095,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2086,13 +2115,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.0</Size>
+							<Size>0.013604</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2106,13 +2135,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2126,13 +2155,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2146,13 +2175,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.004945</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2166,13 +2195,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.6</Size>
+							<Size>0.012688</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2186,13 +2215,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2206,13 +2235,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.9</Size>
+							<Size>0.012654</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2226,13 +2255,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2246,13 +2275,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.0</Size>
+							<Size>0.013604</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2266,13 +2295,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2286,13 +2315,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.010403</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2306,13 +2335,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.0</Size>
+							<Size>0.010381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2326,13 +2355,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2346,13 +2375,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.1</Size>
+							<Size>0.010353</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2366,13 +2395,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2386,13 +2415,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.007774</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2406,13 +2435,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2426,13 +2455,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2446,13 +2475,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.0</Size>
+							<Size>0.010381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2466,13 +2495,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2486,13 +2515,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.1</Size>
+							<Size>0.010353</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2506,13 +2535,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2526,13 +2555,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.007788</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2546,13 +2575,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2566,13 +2595,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2586,13 +2615,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.0</Size>
+							<Size>0.010381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2606,13 +2635,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2626,13 +2655,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.1</Size>
+							<Size>0.010353</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2646,13 +2675,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2666,13 +2695,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.007774</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2686,13 +2715,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2706,13 +2735,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2726,13 +2755,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.1</Size>
+							<Size>0.004046</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2746,13 +2775,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.0</Size>
+							<Size>0.010381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2766,13 +2795,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2786,13 +2815,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.1</Size>
+							<Size>0.010353</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2806,13 +2835,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2826,13 +2855,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.8</Size>
+							<Size>0.007774</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2846,13 +2875,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2866,13 +2895,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.008512</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2886,13 +2915,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.009227</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2906,13 +2935,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2926,13 +2955,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011503</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2946,13 +2975,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2966,13 +2995,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.1</Size>
+							<Size>0.017491</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -2986,13 +3015,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3006,13 +3035,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3026,13 +3055,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3046,13 +3075,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3066,13 +3095,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011503</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3086,13 +3115,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3106,13 +3135,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.1</Size>
+							<Size>0.017523</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3126,13 +3155,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3146,13 +3175,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3166,13 +3195,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3186,13 +3215,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3206,13 +3235,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011503</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3226,13 +3255,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3246,13 +3275,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.1</Size>
+							<Size>0.017491</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3266,13 +3295,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3286,13 +3315,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3306,13 +3335,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.2</Size>
+							<Size>0.004496</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3326,13 +3355,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.011534</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3346,13 +3375,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3366,13 +3395,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.2</Size>
+							<Size>0.011503</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3386,13 +3415,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3406,13 +3435,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.1</Size>
+							<Size>0.017491</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3426,13 +3455,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3446,13 +3475,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.5</Size>
+							<Size>0.009457</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3466,13 +3495,13 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3486,13 +3515,13 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3506,13 +3535,13 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3526,13 +3555,13 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3546,13 +3575,13 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3566,13 +3595,13 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3586,13 +3615,13 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3606,13 +3635,13 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3626,13 +3655,13 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3646,13 +3675,13 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3666,13 +3695,13 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3686,13 +3715,13 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004673</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3706,13 +3735,13 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3726,13 +3755,13 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3746,13 +3775,13 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3766,13 +3795,13 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3786,13 +3815,13 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3806,13 +3835,13 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3826,13 +3855,13 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3846,13 +3875,13 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3866,13 +3895,13 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3886,13 +3915,13 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.0</Size>
+							<Size>0.002697</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3906,13 +3935,13 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3926,13 +3955,13 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3946,13 +3975,13 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3966,13 +3995,13 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -3986,13 +4015,13 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -4006,13 +4035,13 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -4026,18 +4055,19 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.9</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4045,18 +4075,19 @@
 							<ogc:Literal>Verd 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4064,18 +4095,19 @@
 							<ogc:Literal>Verd 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 3D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 3D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4083,18 +4115,19 @@
 							<ogc:Literal>Verd 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 4D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 4D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4102,18 +4135,19 @@
 							<ogc:Literal>Verd 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 5D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 5D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4121,18 +4155,19 @@
 							<ogc:Literal>Verd 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 2D-1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 2D-1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4140,18 +4175,19 @@
 							<ogc:Literal>Verd 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Verd 1D-2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Verd 1D-2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4159,18 +4195,19 @@
 							<ogc:Literal>Verd 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-verd_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4178,18 +4215,19 @@
 							<ogc:Literal>Vermell 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4197,18 +4235,19 @@
 							<ogc:Literal>Vermell 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 3D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 3D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4216,18 +4255,19 @@
 							<ogc:Literal>Vermell 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 4D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 4D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4235,18 +4275,19 @@
 							<ogc:Literal>Vermell 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 5D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 5D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4254,18 +4295,19 @@
 							<ogc:Literal>Vermell 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.004673</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 2D-1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 2D-1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4273,18 +4315,19 @@
 							<ogc:Literal>Vermell 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Vermell 1D-2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Vermell 1D-2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4292,18 +4335,19 @@
 							<ogc:Literal>Vermell 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-vermell_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4311,18 +4355,19 @@
 							<ogc:Literal>Blanc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4330,18 +4375,19 @@
 							<ogc:Literal>Blanc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 3D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 3D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4349,18 +4395,19 @@
 							<ogc:Literal>Blanc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 4D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 4D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4368,18 +4415,19 @@
 							<ogc:Literal>Blanc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 5D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 5D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4387,18 +4435,19 @@
 							<ogc:Literal>Blanc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 2D-1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 2D-1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4406,18 +4455,19 @@
 							<ogc:Literal>Blanc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Blanc 1D-2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Blanc 1D-2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4425,18 +4475,19 @@
 							<ogc:Literal>Blanc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-blanc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Senyal-Morse)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Senyal-Morse)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4444,18 +4495,19 @@
 							<ogc:Literal>Senyal-Morse</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-senyal-morse.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.7</Size>
+							<Size>0.002697</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4463,18 +4515,19 @@
 							<ogc:Literal>Groc 1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.5</Size>
+							<Size>0.006921</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4482,18 +4535,19 @@
 							<ogc:Literal>Groc 2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 3D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 3D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4501,18 +4555,19 @@
 							<ogc:Literal>Groc 3D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_3d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.4</Size>
+							<Size>0.006902</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 4D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 4D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4520,18 +4575,19 @@
 							<ogc:Literal>Groc 4D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_4d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 5D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 5D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4539,18 +4595,19 @@
 							<ogc:Literal>Groc 5D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_5d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.004664</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 2D-1D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 2D-1D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4558,18 +4615,19 @@
 							<ogc:Literal>Groc 2D-1D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_2d-1d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (parse_aparenca()=Groc 1D-2D)</Name>
+					<Name>200000&lt;40000 (parse_aparenca()=Groc 1D-2D)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -4577,13 +4635,13 @@
 							<ogc:Literal>Groc 1D-2D</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_MARITIMA-groc_1d-2d.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.8</Size>
+							<Size>0.005674</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

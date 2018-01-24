@@ -6,8 +6,9 @@
 			<Title>plaport_bn</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
 							<Mark>
@@ -241,7 +242,7 @@
 						</Label>
 						<Font>
 							<CssParameter name="font-family">Verdana</CssParameter>
-							<CssParameter name="font-size">0</CssParameter>
+							<CssParameter name="font-size">2</CssParameter>
 							<CssParameter name="font-style">normal</CssParameter>
 						</Font>
 						<Halo>
@@ -284,7 +285,7 @@
 						</Label>
 						<Font>
 							<CssParameter name="font-family">Verdana</CssParameter>
-							<CssParameter name="font-size">0</CssParameter>
+							<CssParameter name="font-size">6</CssParameter>
 							<CssParameter name="font-style">normal</CssParameter>
 						</Font>
 						<Halo>
@@ -306,7 +307,8 @@
 					</TextSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PointSymbolizer>
 						<Graphic>
@@ -326,7 +328,7 @@
 						</Label>
 						<Font>
 							<CssParameter name="font-family">Verdana</CssParameter>
-							<CssParameter name="font-size">0</CssParameter>
+							<CssParameter name="font-size">12</CssParameter>
 							<CssParameter name="font-style">normal</CssParameter>
 						</Font>
 						<Halo>

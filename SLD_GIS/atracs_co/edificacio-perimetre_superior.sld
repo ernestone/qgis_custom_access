@@ -6,8 +6,9 @@
 			<Title>atracs_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
@@ -200,7 +201,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Edificacio)</Name>
+					<Name>200000&lt;40000 (style_selector()=Edificacio)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -220,7 +222,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Edifici APB)</Name>
+					<Name>200000&lt;40000 (style_selector()=Edifici APB)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -240,7 +243,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Estacio Maritima)</Name>
+					<Name>200000&lt;40000 (style_selector()=Estacio Maritima)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -260,7 +264,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Creu Roja)</Name>
+					<Name>200000&lt;40000 (style_selector()=Creu Roja)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -280,7 +285,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Carpa)</Name>
+					<Name>200000&lt;40000 (style_selector()=Carpa)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

@@ -6,8 +6,9 @@
 			<Title>plaport_bn</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (composicio_barana=No classificat)</Name>
+					<Name>300&lt;1 (composicio_barana=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>composicio_barana</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (composicio_barana=Metàl·lica)</Name>
+					<Name>300&lt;1 (composicio_barana=Metàl·lica)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>composicio_barana</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (composicio_barana=Columnes obra)</Name>
+					<Name>300&lt;1 (composicio_barana=Columnes obra)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>composicio_barana</ogc:PropertyName>
@@ -54,8 +57,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (composicio_barana=Mur d&apos;obra)</Name>
+					<Name>300&lt;1 (composicio_barana=Mur d&apos;obra)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>composicio_barana</ogc:PropertyName>
@@ -478,7 +482,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (composicio_barana=No classificat)</Name>
+					<Name>200000&lt;40000 (composicio_barana=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -494,7 +499,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (composicio_barana=Metàl·lica)</Name>
+					<Name>200000&lt;40000 (composicio_barana=Metàl·lica)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -510,7 +516,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (composicio_barana=Columnes obra)</Name>
+					<Name>200000&lt;40000 (composicio_barana=Columnes obra)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -526,7 +533,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (composicio_barana=Mur d&apos;obra)</Name>
+					<Name>200000&lt;40000 (composicio_barana=Mur d&apos;obra)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

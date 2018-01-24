@@ -6,8 +6,9 @@
 			<Title>plaport_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (style_selector()=No Classificat)</Name>
+					<Name>300&lt;1 (style_selector()=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Aigua Potable)</Name>
+					<Name>300&lt;1 (style_selector()=Aigua Potable)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Electrica)</Name>
+					<Name>300&lt;1 (style_selector()=Electrica)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -54,8 +57,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Sanejament)</Name>
+					<Name>300&lt;1 (style_selector()=Sanejament)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -70,24 +74,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Contraincendis)</Name>
+					<Name>300&lt;1 (style_selector()=Comunicacions)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt; (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -102,8 +91,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Prod. Industrials)</Name>
+					<Name>300&lt;1 (style_selector()=Prod. Industrials)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -118,8 +108,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Gas)</Name>
+					<Name>300&lt;1 (style_selector()=Gas)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -134,8 +125,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Liquids Inflamables)</Name>
+					<Name>300&lt;1 (style_selector()=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -150,8 +142,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Galeria Serveis)</Name>
+					<Name>300&lt;1 (style_selector()=Galeria Serveis)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -166,8 +159,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>300&lt;1 (style_selector()=Infrastructura Subterranea)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -182,8 +176,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>300&lt;1 (style_selector()=Xarxa Fora Servei)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -198,8 +193,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -208,8 +204,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -218,8 +215,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=CLABSA Tots)</Name>
+					<Name>300&lt;1 (style_selector()=CLABSA Tots)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -234,8 +232,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=CLABSA Nous)</Name>
+					<Name>300&lt;1 (style_selector()=CLABSA Nous)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -250,8 +249,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=CLABSA Camp fisic modificat)</Name>
+					<Name>300&lt;1 (style_selector()=CLABSA Camp fisic modificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -266,8 +266,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=CLABSA Geometria modificada)</Name>
+					<Name>300&lt;1 (style_selector()=CLABSA Geometria modificada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -282,8 +283,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=CLABSA Esborrats)</Name>
+					<Name>300&lt;1 (style_selector()=CLABSA Esborrats)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -361,23 +363,6 @@
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</PolygonSymbolizer>
@@ -677,23 +662,6 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
 					<Name>1800&lt;750 (style_selector()=Comunicacions)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
@@ -983,23 +951,6 @@
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</PolygonSymbolizer>
@@ -1299,23 +1250,6 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
 					<Name>8000&lt;3500 (style_selector()=Comunicacions)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
@@ -1605,23 +1539,6 @@
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</PolygonSymbolizer>
@@ -1921,23 +1838,6 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Contraincendis)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
 					<Name>40000&lt;18000 (style_selector()=Comunicacions)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
@@ -2164,7 +2064,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=No Classificat)</Name>
+					<Name>200000&lt;40000 (style_selector()=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2180,7 +2081,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Aigua Potable)</Name>
+					<Name>200000&lt;40000 (style_selector()=Aigua Potable)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2196,7 +2098,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Electrica)</Name>
+					<Name>200000&lt;40000 (style_selector()=Electrica)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2212,7 +2115,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Sanejament)</Name>
+					<Name>200000&lt;40000 (style_selector()=Sanejament)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2228,23 +2132,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Contraincendis)</Name>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Contraincendis</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PolygonSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#666D99</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</PolygonSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>&lt;40000 (style_selector()=Comunicacions)</Name>
+					<Name>200000&lt;40000 (style_selector()=Comunicacions)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2260,7 +2149,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Prod. Industrials)</Name>
+					<Name>200000&lt;40000 (style_selector()=Prod. Industrials)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2276,7 +2166,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Gas)</Name>
+					<Name>200000&lt;40000 (style_selector()=Gas)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2292,7 +2183,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Liquids Inflamables)</Name>
+					<Name>200000&lt;40000 (style_selector()=Liquids Inflamables)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2308,7 +2200,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Galeria Serveis)</Name>
+					<Name>200000&lt;40000 (style_selector()=Galeria Serveis)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2324,7 +2217,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>200000&lt;40000 (style_selector()=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2340,7 +2234,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>200000&lt;40000 (style_selector()=Xarxa Fora Servei)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2356,7 +2251,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
@@ -2366,7 +2262,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
@@ -2376,7 +2273,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=CLABSA Tots)</Name>
+					<Name>200000&lt;40000 (style_selector()=CLABSA Tots)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2392,7 +2290,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=CLABSA Nous)</Name>
+					<Name>200000&lt;40000 (style_selector()=CLABSA Nous)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2408,7 +2307,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=CLABSA Camp fisic modificat)</Name>
+					<Name>200000&lt;40000 (style_selector()=CLABSA Camp fisic modificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2424,7 +2324,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=CLABSA Geometria modificada)</Name>
+					<Name>200000&lt;40000 (style_selector()=CLABSA Geometria modificada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2440,7 +2341,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=CLABSA Esborrats)</Name>
+					<Name>200000&lt;40000 (style_selector()=CLABSA Esborrats)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

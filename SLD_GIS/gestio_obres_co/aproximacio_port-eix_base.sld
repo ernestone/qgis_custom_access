@@ -6,8 +6,9 @@
 			<Title>gestio_obres_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus=2 milles reporting line)</Name>
+					<Name>300&lt;1 (tipus=2 milles reporting line)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -23,8 +24,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=4 miles reporting line)</Name>
+					<Name>300&lt;1 (tipus=4 miles reporting line)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -40,8 +42,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
@@ -50,8 +53,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Boya entrada)</Name>
+					<Name>300&lt;1 (tipus=Boya entrada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -66,8 +70,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<Name>300&lt;1 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -82,8 +87,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<Name>300&lt;1 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -98,8 +104,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal entrada)</Name>
+					<Name>300&lt;1 (tipus=Canal entrada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -114,8 +121,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Canal sortida)</Name>
+					<Name>300&lt;1 (tipus=Canal sortida)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -130,8 +138,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=No classificat)</Name>
+					<Name>300&lt;1 (tipus=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -146,8 +155,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Pilote)</Name>
+					<Name>300&lt;1 (tipus=Pilote)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -162,8 +172,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Punts zona fondeig)</Name>
+					<Name>300&lt;1 (tipus=Punts zona fondeig)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -178,8 +189,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
@@ -188,8 +200,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
@@ -198,8 +211,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Torre control)</Name>
+					<Name>300&lt;1 (tipus=Torre control)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -214,8 +228,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Veril)</Name>
+					<Name>300&lt;1 (tipus=Veril)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -230,8 +245,9 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus=Zona fondeig)</Name>
+					<Name>300&lt;1 (tipus=Zona fondeig)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus</ogc:PropertyName>
@@ -1782,7 +1798,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=2 milles reporting line)</Name>
+					<Name>200000&lt;40000 (tipus=2 milles reporting line)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1799,7 +1816,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=4 miles reporting line)</Name>
+					<Name>200000&lt;40000 (tipus=4 miles reporting line)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1816,7 +1834,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1826,7 +1845,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Boya entrada)</Name>
+					<Name>200000&lt;40000 (tipus=Boya entrada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1842,7 +1862,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<Name>200000&lt;40000 (tipus=Canal comunicacio barcelona pilots VHF 14/16)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1858,7 +1879,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<Name>200000&lt;40000 (tipus=Canal comunicacio barcelona trafic VHF 10/16)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1874,7 +1896,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal entrada)</Name>
+					<Name>200000&lt;40000 (tipus=Canal entrada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1890,7 +1913,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Canal sortida)</Name>
+					<Name>200000&lt;40000 (tipus=Canal sortida)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1906,7 +1930,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=No classificat)</Name>
+					<Name>200000&lt;40000 (tipus=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1922,7 +1947,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Pilote)</Name>
+					<Name>200000&lt;40000 (tipus=Pilote)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1938,7 +1964,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Punts zona fondeig)</Name>
+					<Name>200000&lt;40000 (tipus=Punts zona fondeig)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1954,7 +1981,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1964,7 +1992,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<se:LineSymbolizer>
 						<se:Stroke>
@@ -1974,7 +2003,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Torre control)</Name>
+					<Name>200000&lt;40000 (tipus=Torre control)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1990,7 +2020,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Veril)</Name>
+					<Name>200000&lt;40000 (tipus=Veril)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -2006,7 +2037,8 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus=Zona fondeig)</Name>
+					<Name>200000&lt;40000 (tipus=Zona fondeig)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

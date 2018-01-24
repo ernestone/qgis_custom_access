@@ -6,8 +6,9 @@
 			<Title>seguretat_industrial_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (tipus_zona_verda=No Classificada)</Name>
+					<Name>300&lt;1 (tipus_zona_verda=No Classificada)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_zona_verda</ogc:PropertyName>
@@ -23,8 +24,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_zona_verda=Zona Arbreda)</Name>
+					<Name>300&lt;1 (tipus_zona_verda=Zona Arbreda)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_zona_verda</ogc:PropertyName>
@@ -39,8 +41,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (tipus_zona_verda=Zona Jardí)</Name>
+					<Name>300&lt;1 (tipus_zona_verda=Zona Jardí)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>tipus_zona_verda</ogc:PropertyName>
@@ -368,7 +371,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_zona_verda=No Classificada)</Name>
+					<Name>200000&lt;40000 (tipus_zona_verda=No Classificada)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -385,7 +389,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
@@ -395,7 +400,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (tipus_zona_verda=Zona Jardí)</Name>
+					<Name>200000&lt;40000 (tipus_zona_verda=Zona Jardí)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

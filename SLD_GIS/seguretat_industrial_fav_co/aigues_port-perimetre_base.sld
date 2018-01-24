@@ -6,8 +6,9 @@
 			<Title>seguretat_industrial_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (style_selector()=ZONA I)</Name>
+					<Name>300&lt;1 (style_selector()=ZONA I)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=ZONA II)</Name>
+					<Name>300&lt;1 (style_selector()=ZONA II)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
@@ -242,7 +244,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=ZONA I)</Name>
+					<Name>200000&lt;40000 (style_selector()=ZONA I)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -258,7 +261,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=ZONA II)</Name>
+					<Name>200000&lt;40000 (style_selector()=ZONA II)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

@@ -6,8 +6,9 @@
 			<Title>plaport_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;</Name>
+					<Name>300&lt;1</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#660054</se:SvgParameter>
@@ -89,7 +90,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000</Name>
+					<Name>200000&lt;40000</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<PolygonSymbolizer>
 						<se:Stroke>

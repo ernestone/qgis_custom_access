@@ -6,8 +6,9 @@
 			<Title>concessions_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (categoria_tram=No classificat)</Name>
+					<Name>300&lt;1 (categoria_tram=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>categoria_tram</ogc:PropertyName>
@@ -22,8 +23,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (categoria_tram=Principal)</Name>
+					<Name>300&lt;1 (categoria_tram=Principal)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>categoria_tram</ogc:PropertyName>
@@ -38,8 +40,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (categoria_tram=Secundari)</Name>
+					<Name>300&lt;1 (categoria_tram=Secundari)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>categoria_tram</ogc:PropertyName>
@@ -58,8 +61,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (categoria_tram=Maniobra (canvi de sentit, etc))</Name>
+					<Name>300&lt;1 (categoria_tram=Maniobra (canvi de sentit, etc))</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>categoria_tram</ogc:PropertyName>
@@ -74,8 +78,9 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (categoria_tram=Cami)</Name>
+					<Name>300&lt;1 (categoria_tram=Cami)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>categoria_tram</ogc:PropertyName>
@@ -636,7 +641,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (categoria_tram=No classificat)</Name>
+					<Name>200000&lt;40000 (categoria_tram=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -652,7 +658,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (categoria_tram=Principal)</Name>
+					<Name>200000&lt;40000 (categoria_tram=Principal)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -668,7 +675,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (categoria_tram=Secundari)</Name>
+					<Name>200000&lt;40000 (categoria_tram=Secundari)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -684,7 +692,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (categoria_tram=Maniobra (canvi de sentit, etc))</Name>
+					<Name>200000&lt;40000 (categoria_tram=Maniobra (canvi de sentit, etc))</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -700,7 +709,8 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (categoria_tram=Cami)</Name>
+					<Name>200000&lt;40000 (categoria_tram=Cami)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>

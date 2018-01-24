@@ -6,230 +6,242 @@
 			<Title>atracs_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt; (style_selector()=No Classificat)</Name>
+					<Name>300&lt;1 (style_selector()=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.0</Size>
+							<Size>0.037040</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Pont grua 15.50 - 16.40)</Name>
+					<Name>300&lt;1 (style_selector()=Pont grua 15.50 - 16.40)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>460.0</Size>
+							<Size>0.190020</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Pont grua 30-35)</Name>
+					<Name>300&lt;1 (style_selector()=Pont grua 30-35)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>460.0</Size>
+							<Size>0.190000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 3.2)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 3.2)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>62.7</Size>
+							<Size>0.066460</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 4.4)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 4.4)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>57.6</Size>
+							<Size>0.061120</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 7)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 7)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>86.5</Size>
+							<Size>0.100620</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 7.2)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 7.2)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>86.5</Size>
+							<Size>0.100620</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 8.0)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 8.0)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>95.5</Size>
+							<Size>0.111080</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 8.6)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 8.6)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>95.5</Size>
+							<Size>0.111080</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 10.40)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 10.40)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>124.1</Size>
+							<Size>0.145800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua Mobil 15.50)</Name>
+					<Name>300&lt;1 (style_selector()=Grua Mobil 15.50)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>184.9</Size>
+							<Size>0.215180</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt; (style_selector()=Grua fixa)</Name>
+					<Name>300&lt;1 (style_selector()=Grua fixa)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>style_selector()</ogc:PropertyName>
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>10.0</Size>
+							<Size>0.060000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -243,13 +255,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.007408</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -263,13 +275,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>147.2</Size>
+							<Size>0.038004</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -283,13 +295,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>147.2</Size>
+							<Size>0.038000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -303,13 +315,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>20.1</Size>
+							<Size>0.013292</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -323,13 +335,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>18.4</Size>
+							<Size>0.012224</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -343,13 +355,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>27.7</Size>
+							<Size>0.020124</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -363,13 +375,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>27.7</Size>
+							<Size>0.020124</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -383,13 +395,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>30.5</Size>
+							<Size>0.022216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -403,13 +415,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>30.5</Size>
+							<Size>0.022216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -423,13 +435,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>39.7</Size>
+							<Size>0.029160</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -443,13 +455,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>59.2</Size>
+							<Size>0.043036</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -463,13 +475,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>25.5</Size>
+							<Size>0.142574</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -483,13 +495,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.007408</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -503,13 +515,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>65.7</Size>
+							<Size>0.019002</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -523,13 +535,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>65.7</Size>
+							<Size>0.019000</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -543,13 +555,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>18.0</Size>
+							<Size>0.013381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -563,13 +575,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>16.5</Size>
+							<Size>0.012224</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -583,13 +595,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>24.7</Size>
+							<Size>0.020124</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -603,13 +615,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>24.7</Size>
+							<Size>0.020124</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -623,13 +635,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>27.3</Size>
+							<Size>0.022216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -643,13 +655,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>27.3</Size>
+							<Size>0.022216</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -663,13 +675,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>35.5</Size>
+							<Size>0.029160</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -683,13 +695,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>52.8</Size>
+							<Size>0.043036</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -703,13 +715,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>17.1</Size>
+							<Size>0.106931</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -723,13 +735,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.1</Size>
+							<Size>0.005556</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -743,13 +755,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>33.5</Size>
+							<Size>0.009501</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -763,13 +775,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>33.5</Size>
+							<Size>0.009500</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -783,13 +795,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>18.4</Size>
+							<Size>0.013381</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -803,13 +815,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>16.8</Size>
+							<Size>0.012224</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -823,13 +835,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>37.7</Size>
+							<Size>0.030186</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -843,13 +855,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>37.7</Size>
+							<Size>0.030186</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -863,13 +875,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>20.8</Size>
+							<Size>0.016662</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -883,13 +895,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>41.7</Size>
+							<Size>0.033324</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -903,13 +915,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>54.1</Size>
+							<Size>0.043740</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -923,13 +935,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>80.7</Size>
+							<Size>0.064554</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -943,13 +955,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.5</Size>
+							<Size>0.089109</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -963,13 +975,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.9</Size>
+							<Size>0.004445</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -983,13 +995,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.2</Size>
+							<Size>0.003800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1003,13 +1015,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>14.2</Size>
+							<Size>0.003800</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1023,13 +1035,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.8</Size>
+							<Size>0.005352</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1043,13 +1055,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.1</Size>
+							<Size>0.004890</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1063,13 +1075,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>16.0</Size>
+							<Size>0.012074</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1083,13 +1095,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>16.0</Size>
+							<Size>0.012074</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1103,13 +1115,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>8.8</Size>
+							<Size>0.006665</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1123,13 +1135,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>17.6</Size>
+							<Size>0.013330</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1143,13 +1155,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>22.9</Size>
+							<Size>0.017496</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1163,13 +1175,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>34.1</Size>
+							<Size>0.025822</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1183,13 +1195,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.3</Size>
+							<Size>0.042772</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1203,13 +1215,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.9</Size>
+							<Size>0.004445</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1223,13 +1235,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>9.9</Size>
+							<Size>0.002850</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1243,13 +1255,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>9.9</Size>
+							<Size>0.002850</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1263,13 +1275,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.6</Size>
+							<Size>0.002658</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1283,13 +1295,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.3</Size>
+							<Size>0.002445</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1303,13 +1315,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.7</Size>
+							<Size>0.003019</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1323,13 +1335,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.7</Size>
+							<Size>0.003019</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1343,13 +1355,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.003332</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1363,13 +1375,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.1</Size>
+							<Size>0.003332</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1383,13 +1395,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>5.3</Size>
+							<Size>0.004374</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1403,13 +1415,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>7.9</Size>
+							<Size>0.006455</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1423,13 +1435,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.021386</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1443,13 +1455,13 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.4</Size>
+							<Size>0.001778</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1463,13 +1475,13 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.2</Size>
+							<Size>0.001140</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1483,13 +1495,13 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>4.2</Size>
+							<Size>0.001140</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1503,13 +1515,13 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.001063</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1523,13 +1535,13 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.4</Size>
+							<Size>0.000978</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1543,13 +1555,13 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.001207</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1563,13 +1575,13 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.6</Size>
+							<Size>0.001207</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1583,13 +1595,13 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.001333</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1603,13 +1615,13 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.8</Size>
+							<Size>0.001333</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1623,13 +1635,13 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.3</Size>
+							<Size>0.001750</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1643,13 +1655,13 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>3.4</Size>
+							<Size>0.002582</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
@@ -1663,18 +1675,19 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.008554</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=No Classificat)</Name>
+					<Name>200000&lt;40000 (style_selector()=No Classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1682,18 +1695,19 @@
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-no_classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.2</Size>
+							<Size>0.000889</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Pont grua 15.50 - 16.40)</Name>
+					<Name>200000&lt;40000 (style_selector()=Pont grua 15.50 - 16.40)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1701,18 +1715,19 @@
 							<ogc:Literal>Pont grua 15.50 - 16.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_1550_-_1640.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.000570</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Pont grua 30-35)</Name>
+					<Name>200000&lt;40000 (style_selector()=Pont grua 30-35)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1720,18 +1735,19 @@
 							<ogc:Literal>Pont grua 30-35</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-pont_grua_30-35.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.8</Size>
+							<Size>0.000570</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 3.2)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 3.2)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1739,18 +1755,19 @@
 							<ogc:Literal>Grua Mobil 3.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_32.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.000532</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 4.4)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 4.4)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1758,18 +1775,19 @@
 							<ogc:Literal>Grua Mobil 4.4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.9</Size>
+							<Size>0.000489</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 7)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 7)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1777,18 +1795,19 @@
 							<ogc:Literal>Grua Mobil 7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_7.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.000604</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 7.2)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 7.2)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1796,18 +1815,19 @@
 							<ogc:Literal>Grua Mobil 7.2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_72.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.000604</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 8.0)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 8.0)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1815,18 +1835,19 @@
 							<ogc:Literal>Grua Mobil 8.0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_80.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.1</Size>
+							<Size>0.000666</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 8.6)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 8.6)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1834,18 +1855,19 @@
 							<ogc:Literal>Grua Mobil 8.6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_86.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.1</Size>
+							<Size>0.000666</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 10.40)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 10.40)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1853,18 +1875,19 @@
 							<ogc:Literal>Grua Mobil 10.40</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1040.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.5</Size>
+							<Size>0.000875</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua Mobil 15.50)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua Mobil 15.50)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1872,18 +1895,19 @@
 							<ogc:Literal>Grua Mobil 15.50</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_mobil_1550.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>2.2</Size>
+							<Size>0.001291</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>&lt;40000 (style_selector()=Grua fixa)</Name>
+					<Name>200000&lt;40000 (style_selector()=Grua fixa)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
@@ -1891,13 +1915,13 @@
 							<ogc:Literal>Grua fixa</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
-					<PointSymbolizer>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
 								<OnlineResource xlink:type="simple" xlink:href="plaport_co\GRUA-grua_fixa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>1.0</Size>
+							<Size>0.004277</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

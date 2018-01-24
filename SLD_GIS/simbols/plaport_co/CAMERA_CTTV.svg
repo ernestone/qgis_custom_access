@@ -1,2 +1,62 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<svg baseProfile="full" height="48px" version="1.1" viewBox="0,0,48,48" width="48px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><image height="48" id="CAMERA_CTTV" width="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkAgMAAABEYtQBAAAACVBMVEWwxN7///9Pt//D8m82AAAAAXRSTlMAQObYZgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAAAEgAAABIAEbJaz4AAAB/SURBVCjPvdK9DYAgEAXgo2AEnIcRLHgUjOA8rmDhTSkiYu6IITa+ji+B3A9EHxOILO54IqfAxjUD1+zegCUgSUBkBUuF68m4J5aQj9tSYC4lTeWSBCgAjAKvYKY/AMEMKm29dN0+oCaW+G2EDdBBVHtxSKtcpYNe9gnddxjmAAhzo7/yL31SAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA3LTE5VDEyOjU4OjA5KzAyOjAwrwEaigAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wNy0xOVQxMjo1ODowOSswMjowMN5cojYAAAAASUVORK5CYII=" /></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="13000"
+   height="7000"
+   viewBox="0 0 13000 7000"
+   id="svg6"
+   sodipodi:docname="CAMERA_CTTV_prueba.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="732"
+     inkscape:window-height="480"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.021846154"
+     inkscape:cx="6500"
+     inkscape:cy="3522.8873"
+     inkscape:window-x="199"
+     inkscape:window-y="161"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <rect
+     width="5902.6"
+     height="4443.4"
+     x="2011.2"
+     y="1452.8"
+     style="fill:none;opacity:1;stroke-dasharray:none;stroke-miterlimit:4;stroke-opacity:1;stroke-width:264.6;stroke:#4fb7ff"
+     id="rect2" />
+  <path
+     d="M7932.6 2637.1 11543.4 1308.8V5724.1L7923.2 4620.2"
+     style="fill:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-width:264.6;stroke:#4fb7ff"
+     id="path4" />
+</svg>
