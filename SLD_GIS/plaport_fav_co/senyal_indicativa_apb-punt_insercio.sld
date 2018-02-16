@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010560</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004224</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003757</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004383</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003757</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003757</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003256</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003256</Size>

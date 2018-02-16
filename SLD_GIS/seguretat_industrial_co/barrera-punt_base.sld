@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\BARRERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000500</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\BARRERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000250</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\BARRERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000100</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\BARRERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000050</Size>

@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015020</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.025000</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015020</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015020</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001502</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002500</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001502</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001502</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000751</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001250</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000751</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000751</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000058</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000096</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000058</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000058</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000029</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000048</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000029</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000029</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>

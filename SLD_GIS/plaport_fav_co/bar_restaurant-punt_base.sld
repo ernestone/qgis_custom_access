@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.027500</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005500</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006929</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004582</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006313</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002464</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002464</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BAR_RESTAURANT.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BAR_RESTAURANT.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001971</Size>

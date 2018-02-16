@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.018440</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.018440</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003688</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003688</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001844</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001844</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000922</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000922</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000369</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000369</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001104</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002016</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001104</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000298</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000441</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000672</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000441</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000119</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000221</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-palmeres.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-palmeres.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000336</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbre_generic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbre generic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000221</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\ARBRE-arbust.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\ARBRE-arbust.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000060</Size>

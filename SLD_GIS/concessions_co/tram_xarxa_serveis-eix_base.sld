@@ -6,29 +6,12 @@
 			<Title>concessions_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=No Classificat)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -40,46 +23,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=Electrica)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Comunicacions</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -91,63 +40,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=Prod. Industrials)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Electrica)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Prod. Industrials</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=Gas)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Galeria Serveis)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Liquids Inflamables)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Galeria Serveis)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -159,12 +74,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>300&lt;1 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -176,1043 +108,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>300&lt;1 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=CLH ENERGIA)</Name>
+					<Name>300&lt;1 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1224,80 +142,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
+					<Name>300&lt;1 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1309,46 +159,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
+					<Name>300&lt;1 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Liquids Inflamables)</Name>
+					<Name>750&lt;300 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Galeria Serveis)</Name>
+					<Name>750&lt;300 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1360,12 +244,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>750&lt;300 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1377,1043 +278,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>750&lt;300 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=CLH ENERGIA)</Name>
+					<Name>750&lt;300 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -2425,80 +312,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
+					<Name>750&lt;300 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -2510,46 +329,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
+					<Name>750&lt;300 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Liquids Inflamables)</Name>
+					<Name>1800&lt;750 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Galeria Serveis)</Name>
+					<Name>1800&lt;750 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -2561,12 +414,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>1800&lt;750 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -2578,1043 +448,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>1800&lt;750 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLH ENERGIA)</Name>
+					<Name>1800&lt;750 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -3626,80 +482,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
+					<Name>1800&lt;750 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -3711,46 +499,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
+					<Name>1800&lt;750 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Liquids Inflamables)</Name>
+					<Name>3500&lt;1800 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Galeria Serveis)</Name>
+					<Name>3500&lt;1800 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>3500&lt;1800 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>3500&lt;1800 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -3762,12 +584,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>3500&lt;1800 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>3500&lt;1800 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -3779,1043 +618,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>3500&lt;1800 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLH ENERGIA)</Name>
+					<Name>3500&lt;1800 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -4827,80 +652,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
+					<Name>3500&lt;1800 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -4912,46 +669,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
+					<Name>3500&lt;1800 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Liquids Inflamables)</Name>
+					<Name>8000&lt;3500 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Galeria Serveis)</Name>
+					<Name>8000&lt;3500 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -4963,12 +754,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>8000&lt;3500 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -4980,1043 +788,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>8000&lt;3500 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLH ENERGIA)</Name>
+					<Name>8000&lt;3500 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -6028,80 +822,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
+					<Name>8000&lt;3500 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -6113,46 +839,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
+					<Name>8000&lt;3500 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Liquids Inflamables)</Name>
+					<Name>18000&lt;8000 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Galeria Serveis)</Name>
+					<Name>18000&lt;8000 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -6164,12 +924,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>18000&lt;8000 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -6181,1043 +958,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>18000&lt;8000 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLH ENERGIA)</Name>
+					<Name>18000&lt;8000 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -7229,80 +992,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
+					<Name>18000&lt;8000 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -7314,46 +1009,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
+					<Name>18000&lt;8000 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Liquids Inflamables)</Name>
+					<Name>40000&lt;18000 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Galeria Serveis)</Name>
+					<Name>40000&lt;18000 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -7365,12 +1094,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>40000&lt;18000 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -7382,1043 +1128,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>40000&lt;18000 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLH ENERGIA)</Name>
+					<Name>40000&lt;18000 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AGBAR APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=TELEFONICA APB)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=No Classificat)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -8430,80 +1162,12 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Aigua Potable)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
+					<Name>40000&lt;18000 (tipus_xarxa=Prod. Industrials)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Aigua Potable</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Electrica)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Electrica</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Sanejament)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Sanejament</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Comunicacions)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Comunicacions</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Prod. Industrials)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -8515,46 +1179,80 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Gas)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
+					<Name>40000&lt;18000 (tipus_xarxa=Sanejament)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Gas</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Liquids Inflamables)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Aigua Potable)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Liquids Inflamables</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Aigua Potable</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
+							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Galeria Serveis)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Comunicacions)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Comunicacions</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_xarxa=Electrica)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Electrica</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_xarxa=Galeria Serveis)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Galeria Serveis</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -8566,12 +1264,29 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Infrastructura Subterranea)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Gas)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Gas</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<se:LineSymbolizer>
+						<se:Stroke>
+							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
+							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
+						</se:Stroke>
+					</se:LineSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_xarxa=Infrastructura Subterranea)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
 							<ogc:Literal>Infrastructura Subterranea</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -8583,1032 +1298,69 @@
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Xarxa Fora Servei)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Liquids Inflamables)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Fora Servei</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Xarxa Planificada)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Planificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=Xarxa Projectada)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>Xarxa Projectada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#BFBFBF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA Tots)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA Nous)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA Geometria modificada)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA Esborrats)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PROJECTADA Tots)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PROJECTADA Nous)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PROJECTADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PROJECTADA Geometria modificada)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PROJECTADA Esborrats)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PROJECTADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PLANIFICADA Tots)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Tots</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PLANIFICADA Nous)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Nous</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PLANIFICADA Camp fisic modificat)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Camp fisic modificat</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PLANIFICADA Geometria modificada)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Geometria modificada</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA PLANIFICADA Esborrats)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA PLANIFICADA Esborrats</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=REPSOL BUTANO)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REPSOL BUTANO</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLH AEROPORT)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH AEROPORT</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Liquids Inflamables</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLH ENERGIA)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=No Classificat)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ENERGIA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLH COSTA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH COSTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLH - TARR BCN GIR)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH - TARR BCN GIR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLH ALV CAMPA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLH ALV CAMPA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=GAS NATURAL ALTA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL ALTA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=GAS NATURAL BAIXA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GAS NATURAL BAIXA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=ENAGAS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ENAGAS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF0000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=FECSA BAJA APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA BAJA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AIGUA PORT 2000)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA PORT 2000</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AIGUES PRAT-APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES PRAT-APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=GALERIES SERVEIS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIES SERVEIS</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>No Classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AGBAR APB)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Prod. Industrials)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=COLECT AJBCN)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COLECT AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=SOBREEIXIDORS AJBCN)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SOBREEIXIDORS AJBCN</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=PLUVIALS APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>PLUVIALS APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AIGUES NEGRES APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUES NEGRES APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=FECSA APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=FECSA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>FECSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=TELEFONICA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=REDTRONC APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REDTRONC APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AIGUA APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00FFFF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=ELECTRICA APB)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=GALERIA PORT VELL)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>GALERIA PORT VELL</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AGBAR)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AGBAR</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=AIGUA ABONATS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>AIGUA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=INFRASTRUCTURA SUBT)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>INFRASTRUCTURA SUBT</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#000000</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=ELECTRICA ABONATS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRICA ABONATS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=SERVEIS CONCESIONS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>SERVEIS CONCESIONS</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Prod. Industrials</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#997530</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=TELEFONICA APB)</Name>
+					<Name>200000&lt;40000 (tipus_xarxa=Sanejament)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>TELEFONICA APB</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=COMUNICACIONS VARIS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>COMUNICACIONS VARIS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 8 1 8 1 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CTC CABLE TELEV. CATAL.)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CTC CABLE TELEV. CATAL.</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#0000FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=REE)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>REE</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 9 1 9</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=CLABSA CLAVEGUERAM)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>CLABSA CLAVEGUERAM</ogc:Literal>
+							<ogc:PropertyName>tipus_xarxa</ogc:PropertyName>
+							<ogc:Literal>Sanejament</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<se:LineSymbolizer>
 						<se:Stroke>
 							<se:SvgParameter name="stroke">#00FF00</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=UNION FENOSA-Ex.Abusejo)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>UNION FENOSA-Ex.Abusejo</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 1 4 4 4 1 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=ELECTRANS)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ELECTRANS</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FF00FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (style_selector()=ESTIRENO TOTAL-TERQUIMSA)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
-							<ogc:Literal>ESTIRENO TOTAL-TERQUIMSA</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#FFA800</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-							<se:SvgParameter name="stroke-dasharray">16 4 4 4 4 4</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
-							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
-						</se:Stroke>
-					</se:LineSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<se:LineSymbolizer>
-						<se:Stroke>
-							<se:SvgParameter name="stroke">#00C9FF</se:SvgParameter>
 							<se:SvgParameter name="stroke-width">0</se:SvgParameter>
 						</se:Stroke>
 					</se:LineSymbolizer>

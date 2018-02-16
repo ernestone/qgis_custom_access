@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020000</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020000</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006000</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006000</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004000</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004000</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003600</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003600</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-obert.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-obert.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003200</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCES-tancat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCES-tancat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003200</Size>

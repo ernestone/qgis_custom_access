@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005360</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005360</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005760</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003570</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003570</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003841</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003570</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003570</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003841</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002856</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002856</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003073</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002499</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002499</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002638</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001428</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001428</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001508</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001142</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001142</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001206</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001142</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001142</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001206</Size>

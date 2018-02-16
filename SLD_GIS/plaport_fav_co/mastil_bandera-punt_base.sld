@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003200</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003200</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002560</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002240</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\MASTIL_BANDERA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\MASTIL_BANDERA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001920</Size>

@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ACCESSORI_VIA_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ACCESSORI_VIA_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000600</Size>

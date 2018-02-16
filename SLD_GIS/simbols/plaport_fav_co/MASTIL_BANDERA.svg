@@ -1,2 +1,7 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<svg baseProfile="full" height="48px" version="1.1" viewBox="0,0,48,48" width="48px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs /><image height="48" id="MASTIL_BANDERA" width="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABVAgMAAACEHAplAAAADFBMVEWwxN4AAAD//wAA//+BKfDFAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAASAAAAEgARslrPgAAAK1JREFUOMvV0rsNwzAMBFACGUAeI0iVDbKaRmFJaAqNlAEC0EhkKdRdocaN2fHBPOsnclZtCHeEB4EiGELJCIpQCDKCIRQCRTCEQqAIhhCX0kARCkFGMIRCoAiGMGIH9JkN7+Uy4P6Z+pe7v0N/828FSD+oMcGnmTYRZgjSATX+dAo5+v/aEHrmSF1DGlAvD+vdro+QT52ALoquUiCzh4QnRC9IYKJ9InM95dTaATiThDghFeS4AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE3LTA3LTE5VDEyOjQ3OjU0KzAyOjAwtrPxYwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNy0wNy0xOVQxMjo0Nzo1NCswMjowMMfuSd8AAAAASUVORK5CYII=" /></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="800.00000000" height="1200.0000000" viewBox="0 0 600.00000000 800.00000000">
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAArAgMAAABk02KkAAAADFBMVEWwxN4AAAD//wAA//+BKfDFAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAASAAAAEgARslrPgAAAGBJREFUGNOtzrENgDAMBMBISZWGkVgto7i0PAUjMQCSCTj/TYAKNzm9rdgpPVQBKiGAAtYAAYxogAJGCKDAPV6m7R/wLd7FjxF4RLljj45Hj1g7/E/wZy4lrqE4LI/gvU4uD12LbTDX8gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wMi0xNVQxNToyMDozNCswMTowMFBBxloAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDItMTVUMTU6MjA6MzQrMDE6MDAhHH7mAAAAAElFTkSuQmCC" width="600.00000000" height="800.00000000" x="200.00000000" y="0.0000000000" />
+    </svg>
+    

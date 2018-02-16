@@ -6,19 +6,19 @@
 			<Title>plaport_fav_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=No Classificat)</Name>
+					<Name>300&lt;1 (tipus_bacul_fanal=No classificat)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.017520</Size>
@@ -26,59 +26,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>300&lt;1 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.035220</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.090000</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002000</Size>
@@ -86,79 +46,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>300&lt;1 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.073120</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.094820</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.020260</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>300</MaxScaleDenominator>
-					<MinScaleDenominator>1</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.017520</Size>
@@ -166,39 +66,119 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>300&lt;1 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.054700</Size>
+							<Size>0.035220</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=No Classificat)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
+					<Name>300&lt;1 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.090000</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>300&lt;1 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.073120</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>300&lt;1 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.094820</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>300&lt;1 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>300</MaxScaleDenominator>
+					<MinScaleDenominator>1</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.020260</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_bacul_fanal=No classificat)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005608</Size>
@@ -206,59 +186,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>750&lt;300 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.014088</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.016202</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000400</Size>
@@ -266,79 +206,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>750&lt;300 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.014624</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.022757</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.004460</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>750</MaxScaleDenominator>
-					<MinScaleDenominator>300</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005608</Size>
@@ -346,39 +226,119 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>750&lt;300 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.051338</Size>
+							<Size>0.014088</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=No Classificat)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
+					<Name>750&lt;300 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.016202</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.014624</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.022757</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>750&lt;300 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>750</MaxScaleDenominator>
+					<MinScaleDenominator>300</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.004460</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_bacul_fanal=No classificat)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004204</Size>
@@ -386,19 +346,59 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.004204</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Fanal)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.004204</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
+					<MaxScaleDenominator>1800</MaxScaleDenominator>
+					<MinScaleDenominator>750</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008627</Size>
@@ -406,19 +406,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Fanal Multiple)</Name>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Fanal multiple)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.012687</Size>
@@ -426,39 +426,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Bacul)</Name>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.004204</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006968</Size>
@@ -466,19 +446,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020405</Size>
@@ -486,19 +466,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Fanal Projectors)</Name>
+					<Name>1800&lt;750 (tipus_bacul_fanal=Fanal Projectors)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
 							<ogc:Literal>Fanal Projectors</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004054</Size>
@@ -506,59 +486,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.004204</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>1800&lt;750 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
-					<MaxScaleDenominator>1800</MaxScaleDenominator>
-					<MinScaleDenominator>750</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.102619</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=No Classificat)</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=No classificat)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002628</Size>
@@ -566,19 +506,59 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.002628</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Fanal)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.002628</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
+					<MaxScaleDenominator>3500</MaxScaleDenominator>
+					<MinScaleDenominator>1800</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010016</Size>
@@ -586,19 +566,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Fanal Multiple)</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Fanal multiple)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007463</Size>
@@ -606,39 +586,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Bacul)</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.002628</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006937</Size>
@@ -646,19 +606,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.018869</Size>
@@ -666,19 +626,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Fanal Projectors)</Name>
+					<Name>3500&lt;1800 (tipus_bacul_fanal=Fanal Projectors)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
 							<ogc:Literal>Fanal Projectors</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003446</Size>
@@ -686,59 +646,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.002628</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>3500&lt;1800 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
-					<MaxScaleDenominator>3500</MaxScaleDenominator>
-					<MinScaleDenominator>1800</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.012008</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=No Classificat)</Name>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=No classificat)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -746,59 +666,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.003522</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.003000</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>
@@ -806,79 +686,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.005996</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.005302</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.002027</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>8000</MaxScaleDenominator>
-					<MinScaleDenominator>3500</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -886,39 +706,119 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.025658</Size>
+							<Size>0.003522</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=No Classificat)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.003000</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.005996</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.005302</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>8000&lt;3500 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>8000</MaxScaleDenominator>
+					<MinScaleDenominator>3500</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.002027</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=No classificat)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000876</Size>
@@ -926,59 +826,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.001761</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.001500</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000020</Size>
@@ -986,79 +846,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.003656</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.001893</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.001013</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>18000</MaxScaleDenominator>
-					<MinScaleDenominator>8000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000876</Size>
@@ -1066,39 +866,119 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.012829</Size>
+							<Size>0.001761</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=No Classificat)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.001500</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.003656</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.001893</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>18000&lt;8000 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>18000</MaxScaleDenominator>
+					<MinScaleDenominator>8000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.001013</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=No classificat)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000350</Size>
@@ -1106,59 +986,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000704</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000600</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000008</Size>
@@ -1166,79 +1006,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.001462</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000757</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000405</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>40000</MaxScaleDenominator>
-					<MinScaleDenominator>18000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000350</Size>
@@ -1246,39 +1026,119 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.005132</Size>
+							<Size>0.000704</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=No Classificat)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>No Classificat</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000600</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.001462</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000757</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>40000&lt;18000 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>40000</MaxScaleDenominator>
+					<MinScaleDenominator>18000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000405</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=No classificat)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>No classificat</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000175</Size>
@@ -1286,59 +1146,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Bacul-paret)</Name>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Bàcul)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-paret</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-paret.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000352</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Fanal Multiple)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Multiple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_multiple.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000300</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Bacul)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000004</Size>
@@ -1346,79 +1166,19 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Bacul (M. Barcelona))</Name>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Fanal)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. Barcelona)</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_barcelona).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000731</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Bacul (M. San Bertran))</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul (M. San Bertran)</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul(m_san_bertran).svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000379</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Fanal Projectors)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Projectors</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_projectors.svg"/>
-								<Format>image/svg+xml</Format>
-							</ExternalGraphic>
-							<Size>0.000203</Size>
-						</Graphic>
-					</PointSymbolizer>
-				</Rule>
-				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Fanal Simple)</Name>
-					<MaxScaleDenominator>200000</MaxScaleDenominator>
-					<MinScaleDenominator>40000</MinScaleDenominator>
-					<ogc:Filter>
-						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Fanal Simple</ogc:Literal>
-						</ogc:PropertyIsEqualTo>
-					</ogc:Filter>
-					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
-						<Graphic>
-							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-fanal_simple.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000175</Size>
@@ -1426,22 +1186,102 @@
 					</PointSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (tipus_bacul_caract()=Bacul-Llegenda)</Name>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Bàcul-fanal paret)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>tipus_bacul_caract()</ogc:PropertyName>
-							<ogc:Literal>Bacul-Llegenda</ogc:Literal>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bàcul-fanal paret</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\BACUL_FANAL-bacul-llegenda.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul-fanal paret.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
-							<Size>0.002566</Size>
+							<Size>0.000352</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Fanal multiple)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal multiple</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal multiple.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000300</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Bacul M.Barcelona)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M.Barcelona</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m.barcelona.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000731</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Bacul M. San Bertran)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Bacul M. San Bertran</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-bacul m. san bertran.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000379</Size>
+						</Graphic>
+					</PointSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>200000&lt;40000 (tipus_bacul_fanal=Fanal Projectors)</Name>
+					<MaxScaleDenominator>200000</MaxScaleDenominator>
+					<MinScaleDenominator>40000</MinScaleDenominator>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>tipus_bacul_fanal</ogc:PropertyName>
+							<ogc:Literal>Fanal Projectors</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
+					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+						<Graphic>
+							<ExternalGraphic>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\BACUL_FANAL-fanal projectors.svg"/>
+								<Format>image/svg+xml</Format>
+							</ExternalGraphic>
+							<Size>0.000203</Size>
 						</Graphic>
 					</PointSymbolizer>
 				</Rule>

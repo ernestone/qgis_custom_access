@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_TAXI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_TAXI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002806</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_TAXI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_TAXI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002605</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_TAXI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_TAXI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002405</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_TAXI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_TAXI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002204</Size>

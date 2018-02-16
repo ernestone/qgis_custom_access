@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014000</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014000</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014000</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001400</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001120</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre(tapa_al_terra).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-registre (tapa al terra).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna(pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\HIDRANT-columna (pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000896</Size>

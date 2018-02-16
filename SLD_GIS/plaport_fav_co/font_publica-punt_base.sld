@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.030000</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.030000</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.021540</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009048</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009048</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006466</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009054</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009054</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006462</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009051</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009051</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006462</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006035</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006035</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004308</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005431</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005431</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003877</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006034</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006034</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004308</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004827</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-classica_damunt_base_d_obra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-classica damunt base d&apos;obra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004827</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\FONT_PUBLICA-columna_inclinada_assentada_directament_al_terra.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FONT_PUBLICA-columna inclinada assentada directament al terra.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003446</Size>

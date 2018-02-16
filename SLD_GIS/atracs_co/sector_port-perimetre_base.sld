@@ -6,12 +6,12 @@
 			<Title>atracs_co</Title>
 			<se:FeatureTypeStyle>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=0)</Name>
+					<Name>300&lt;1 (color_sector=0)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -23,12 +23,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=1)</Name>
+					<Name>300&lt;1 (color_sector=1)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -40,12 +40,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=10)</Name>
+					<Name>300&lt;1 (color_sector=10)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -57,12 +57,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=11)</Name>
+					<Name>300&lt;1 (color_sector=11)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -74,12 +74,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=12)</Name>
+					<Name>300&lt;1 (color_sector=12)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -91,12 +91,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=2)</Name>
+					<Name>300&lt;1 (color_sector=2)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -108,12 +108,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=3)</Name>
+					<Name>300&lt;1 (color_sector=3)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -125,12 +125,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=4)</Name>
+					<Name>300&lt;1 (color_sector=4)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -142,12 +142,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=5)</Name>
+					<Name>300&lt;1 (color_sector=5)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -159,12 +159,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=6)</Name>
+					<Name>300&lt;1 (color_sector=6)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -176,12 +176,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=7)</Name>
+					<Name>300&lt;1 (color_sector=7)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -193,12 +193,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=8)</Name>
+					<Name>300&lt;1 (color_sector=8)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -210,12 +210,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>300&lt;1 (style_selector()=9)</Name>
+					<Name>300&lt;1 (color_sector=9)</Name>
 					<MaxScaleDenominator>300</MaxScaleDenominator>
 					<MinScaleDenominator>1</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -227,12 +227,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=0)</Name>
+					<Name>750&lt;300 (color_sector=0)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -244,12 +244,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=1)</Name>
+					<Name>750&lt;300 (color_sector=1)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -261,12 +261,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=10)</Name>
+					<Name>750&lt;300 (color_sector=10)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -278,12 +278,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=11)</Name>
+					<Name>750&lt;300 (color_sector=11)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -295,12 +295,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=12)</Name>
+					<Name>750&lt;300 (color_sector=12)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -312,12 +312,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=2)</Name>
+					<Name>750&lt;300 (color_sector=2)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -329,12 +329,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=3)</Name>
+					<Name>750&lt;300 (color_sector=3)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -346,12 +346,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=4)</Name>
+					<Name>750&lt;300 (color_sector=4)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -363,12 +363,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=5)</Name>
+					<Name>750&lt;300 (color_sector=5)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -380,12 +380,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=6)</Name>
+					<Name>750&lt;300 (color_sector=6)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -397,12 +397,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=7)</Name>
+					<Name>750&lt;300 (color_sector=7)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -414,12 +414,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=8)</Name>
+					<Name>750&lt;300 (color_sector=8)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -431,12 +431,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>750&lt;300 (style_selector()=9)</Name>
+					<Name>750&lt;300 (color_sector=9)</Name>
 					<MaxScaleDenominator>750</MaxScaleDenominator>
 					<MinScaleDenominator>300</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -448,12 +448,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=0)</Name>
+					<Name>1800&lt;750 (color_sector=0)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -465,12 +465,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=1)</Name>
+					<Name>1800&lt;750 (color_sector=1)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -482,12 +482,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=10)</Name>
+					<Name>1800&lt;750 (color_sector=10)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -499,12 +499,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=11)</Name>
+					<Name>1800&lt;750 (color_sector=11)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -516,12 +516,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=12)</Name>
+					<Name>1800&lt;750 (color_sector=12)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -533,12 +533,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=2)</Name>
+					<Name>1800&lt;750 (color_sector=2)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -550,12 +550,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=3)</Name>
+					<Name>1800&lt;750 (color_sector=3)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -567,12 +567,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=4)</Name>
+					<Name>1800&lt;750 (color_sector=4)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -584,12 +584,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=5)</Name>
+					<Name>1800&lt;750 (color_sector=5)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -601,12 +601,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=6)</Name>
+					<Name>1800&lt;750 (color_sector=6)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -618,12 +618,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=7)</Name>
+					<Name>1800&lt;750 (color_sector=7)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -635,12 +635,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=8)</Name>
+					<Name>1800&lt;750 (color_sector=8)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -652,12 +652,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>1800&lt;750 (style_selector()=9)</Name>
+					<Name>1800&lt;750 (color_sector=9)</Name>
 					<MaxScaleDenominator>1800</MaxScaleDenominator>
 					<MinScaleDenominator>750</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -669,12 +669,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=0)</Name>
+					<Name>3500&lt;1800 (color_sector=0)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -686,12 +686,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=1)</Name>
+					<Name>3500&lt;1800 (color_sector=1)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -703,12 +703,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=10)</Name>
+					<Name>3500&lt;1800 (color_sector=10)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -720,12 +720,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=11)</Name>
+					<Name>3500&lt;1800 (color_sector=11)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -737,12 +737,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=12)</Name>
+					<Name>3500&lt;1800 (color_sector=12)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -754,12 +754,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=2)</Name>
+					<Name>3500&lt;1800 (color_sector=2)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -771,12 +771,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=3)</Name>
+					<Name>3500&lt;1800 (color_sector=3)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -788,12 +788,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=4)</Name>
+					<Name>3500&lt;1800 (color_sector=4)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -805,12 +805,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=5)</Name>
+					<Name>3500&lt;1800 (color_sector=5)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -822,12 +822,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=6)</Name>
+					<Name>3500&lt;1800 (color_sector=6)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -839,12 +839,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=7)</Name>
+					<Name>3500&lt;1800 (color_sector=7)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -856,12 +856,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=8)</Name>
+					<Name>3500&lt;1800 (color_sector=8)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -873,12 +873,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>3500&lt;1800 (style_selector()=9)</Name>
+					<Name>3500&lt;1800 (color_sector=9)</Name>
 					<MaxScaleDenominator>3500</MaxScaleDenominator>
 					<MinScaleDenominator>1800</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -890,12 +890,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=0)</Name>
+					<Name>8000&lt;3500 (color_sector=0)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -907,12 +907,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=1)</Name>
+					<Name>8000&lt;3500 (color_sector=1)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -924,12 +924,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=10)</Name>
+					<Name>8000&lt;3500 (color_sector=10)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -941,12 +941,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=11)</Name>
+					<Name>8000&lt;3500 (color_sector=11)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -958,12 +958,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=12)</Name>
+					<Name>8000&lt;3500 (color_sector=12)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -975,12 +975,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=2)</Name>
+					<Name>8000&lt;3500 (color_sector=2)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -992,12 +992,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=3)</Name>
+					<Name>8000&lt;3500 (color_sector=3)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1009,12 +1009,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=4)</Name>
+					<Name>8000&lt;3500 (color_sector=4)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1026,12 +1026,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=5)</Name>
+					<Name>8000&lt;3500 (color_sector=5)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1043,12 +1043,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=6)</Name>
+					<Name>8000&lt;3500 (color_sector=6)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1060,12 +1060,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=7)</Name>
+					<Name>8000&lt;3500 (color_sector=7)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1077,12 +1077,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=8)</Name>
+					<Name>8000&lt;3500 (color_sector=8)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1094,12 +1094,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>8000&lt;3500 (style_selector()=9)</Name>
+					<Name>8000&lt;3500 (color_sector=9)</Name>
 					<MaxScaleDenominator>8000</MaxScaleDenominator>
 					<MinScaleDenominator>3500</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1111,12 +1111,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=0)</Name>
+					<Name>18000&lt;8000 (color_sector=0)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1128,12 +1128,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=1)</Name>
+					<Name>18000&lt;8000 (color_sector=1)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1145,12 +1145,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=10)</Name>
+					<Name>18000&lt;8000 (color_sector=10)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1162,12 +1162,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=11)</Name>
+					<Name>18000&lt;8000 (color_sector=11)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1179,12 +1179,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=12)</Name>
+					<Name>18000&lt;8000 (color_sector=12)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1196,12 +1196,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=2)</Name>
+					<Name>18000&lt;8000 (color_sector=2)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1213,12 +1213,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=3)</Name>
+					<Name>18000&lt;8000 (color_sector=3)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1230,12 +1230,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=4)</Name>
+					<Name>18000&lt;8000 (color_sector=4)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1247,12 +1247,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=5)</Name>
+					<Name>18000&lt;8000 (color_sector=5)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1264,12 +1264,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=6)</Name>
+					<Name>18000&lt;8000 (color_sector=6)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1281,12 +1281,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=7)</Name>
+					<Name>18000&lt;8000 (color_sector=7)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1298,12 +1298,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=8)</Name>
+					<Name>18000&lt;8000 (color_sector=8)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1315,12 +1315,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>18000&lt;8000 (style_selector()=9)</Name>
+					<Name>18000&lt;8000 (color_sector=9)</Name>
 					<MaxScaleDenominator>18000</MaxScaleDenominator>
 					<MinScaleDenominator>8000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1332,12 +1332,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=0)</Name>
+					<Name>40000&lt;18000 (color_sector=0)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1349,216 +1349,216 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=1)</Name>
+					<Name>40000&lt;18000 (color_sector=1)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=10)</Name>
+					<Name>40000&lt;18000 (color_sector=10)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=11)</Name>
+					<Name>40000&lt;18000 (color_sector=11)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=12)</Name>
+					<Name>40000&lt;18000 (color_sector=12)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=2)</Name>
+					<Name>40000&lt;18000 (color_sector=2)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=3)</Name>
+					<Name>40000&lt;18000 (color_sector=3)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=4)</Name>
+					<Name>40000&lt;18000 (color_sector=4)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=5)</Name>
+					<Name>40000&lt;18000 (color_sector=5)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=6)</Name>
+					<Name>40000&lt;18000 (color_sector=6)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=7)</Name>
+					<Name>40000&lt;18000 (color_sector=7)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=8)</Name>
+					<Name>40000&lt;18000 (color_sector=8)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>40000&lt;18000 (style_selector()=9)</Name>
+					<Name>40000&lt;18000 (color_sector=9)</Name>
 					<MaxScaleDenominator>40000</MaxScaleDenominator>
 					<MinScaleDenominator>18000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=0)</Name>
+					<Name>200000&lt;40000 (color_sector=0)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>0</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
@@ -1570,206 +1570,206 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=1)</Name>
+					<Name>200000&lt;40000 (color_sector=1)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>1</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#669966</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=10)</Name>
+					<Name>200000&lt;40000 (color_sector=10)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>10</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#993066</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=11)</Name>
+					<Name>200000&lt;40000 (color_sector=11)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>11</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B27500</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=12)</Name>
+					<Name>200000&lt;40000 (color_sector=12)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>12</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#304299</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=2)</Name>
+					<Name>200000&lt;40000 (color_sector=2)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>2</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#63A0CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=3)</Name>
+					<Name>200000&lt;40000 (color_sector=3)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>3</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B2B200</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=4)</Name>
+					<Name>200000&lt;40000 (color_sector=4)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>4</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#6375CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=5)</Name>
+					<Name>200000&lt;40000 (color_sector=5)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>5</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CCA863</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=6)</Name>
+					<Name>200000&lt;40000 (color_sector=6)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>6</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#BA63CC</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=7)</Name>
+					<Name>200000&lt;40000 (color_sector=7)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>7</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#7F6699</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=8)</Name>
+					<Name>200000&lt;40000 (color_sector=8)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>8</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#CC7563</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>200000&lt;40000 (style_selector()=9)</Name>
+					<Name>200000&lt;40000 (color_sector=9)</Name>
 					<MaxScaleDenominator>200000</MaxScaleDenominator>
 					<MinScaleDenominator>40000</MinScaleDenominator>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
-							<ogc:PropertyName>style_selector()</ogc:PropertyName>
+							<ogc:PropertyName>color_sector</ogc:PropertyName>
 							<ogc:Literal>9</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
 							<CssParameter name="fill">#B24900</CssParameter>
-							<CssParameter name="fill-opacity">0.15</CssParameter>
+							<CssParameter name="fill-opacity">0.53</CssParameter>
 						</Fill>
 					</PolygonSymbolizer>
 				</Rule>

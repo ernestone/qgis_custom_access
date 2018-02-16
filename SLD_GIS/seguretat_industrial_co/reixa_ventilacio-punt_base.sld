@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REIXA_VENTILACIO.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REIXA_VENTILACIO.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000400</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\REIXA_VENTILACIO.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\REIXA_VENTILACIO.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000200</Size>

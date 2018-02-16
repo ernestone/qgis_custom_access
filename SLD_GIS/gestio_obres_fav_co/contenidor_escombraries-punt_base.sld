@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010000</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010000</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010000</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004904</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004904</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004904</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003678</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003678</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003678</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001839</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001839</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001839</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002452</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>
@@ -678,7 +678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>
@@ -698,7 +698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>
@@ -718,7 +718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>
@@ -778,7 +778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic_1,1_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-domestic 1_1 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>
@@ -798,7 +798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial_5_m3.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\CONTENIDOR_ESCOMBRARIES-industrial 5 m3.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001962</Size>

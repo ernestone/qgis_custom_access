@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.112000</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003000</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004500</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004640</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.020920</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.022400</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004000</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001800</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004500</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004640</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -658,7 +658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -678,7 +678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -698,7 +698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.032000</Size>
@@ -718,7 +718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009000</Size>
@@ -738,7 +738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -758,7 +758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -778,7 +778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -798,7 +798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -818,7 +818,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -838,7 +838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005000</Size>
@@ -858,7 +858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -878,7 +878,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008100</Size>
@@ -898,7 +898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008352</Size>
@@ -918,7 +918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -938,7 +938,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -958,7 +958,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014644</Size>
@@ -978,7 +978,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -998,7 +998,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1018,7 +1018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.032000</Size>
@@ -1038,7 +1038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007500</Size>
@@ -1058,7 +1058,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1078,7 +1078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1098,7 +1098,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1118,7 +1118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1138,7 +1138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1158,7 +1158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003500</Size>
@@ -1178,7 +1178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001500</Size>
@@ -1198,7 +1198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006750</Size>
@@ -1218,7 +1218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006960</Size>
@@ -1238,7 +1238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1258,7 +1258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1278,7 +1278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015690</Size>
@@ -1298,7 +1298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1318,7 +1318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1338,7 +1338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.032000</Size>
@@ -1358,7 +1358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008000</Size>
@@ -1378,7 +1378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1398,7 +1398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1418,7 +1418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1438,7 +1438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1458,7 +1458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1478,7 +1478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001600</Size>
@@ -1498,7 +1498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000840</Size>
@@ -1518,7 +1518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007200</Size>
@@ -1538,7 +1538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007424</Size>
@@ -1558,7 +1558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1578,7 +1578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1598,7 +1598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008368</Size>
@@ -1618,7 +1618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1638,7 +1638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1658,7 +1658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.032000</Size>
@@ -1678,7 +1678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009000</Size>
@@ -1698,7 +1698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1718,7 +1718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1738,7 +1738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1758,7 +1758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1778,7 +1778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1798,7 +1798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001700</Size>
@@ -1818,7 +1818,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000900</Size>
@@ -1838,7 +1838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008100</Size>
@@ -1858,7 +1858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008352</Size>
@@ -1878,7 +1878,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1898,7 +1898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1918,7 +1918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004184</Size>
@@ -1938,7 +1938,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -1958,7 +1958,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -1978,7 +1978,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.032000</Size>
@@ -1998,7 +1998,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003600</Size>
@@ -2018,7 +2018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2038,7 +2038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2058,7 +2058,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2078,7 +2078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2098,7 +2098,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2118,7 +2118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -2138,7 +2138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000720</Size>
@@ -2158,7 +2158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005400</Size>
@@ -2178,7 +2178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005568</Size>
@@ -2198,7 +2198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2218,7 +2218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2238,7 +2238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001674</Size>
@@ -2258,7 +2258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-2_milles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-2 milles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2278,7 +2278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-4_miles_reporting_line.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-4 miles reporting line.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2298,7 +2298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boarding_place.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boarding place.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011200</Size>
@@ -2318,7 +2318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-boya_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-boya entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -2338,7 +2338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_pilots_vhf_1416.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona pilots vhf 14_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2358,7 +2358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_comunicacio_barcelona_trafic_vhf_1016.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal comunicacio barcelona trafic vhf 10_16.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2378,7 +2378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_entrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal entrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2398,7 +2398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-canal_sortida.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-canal sortida.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2418,7 +2418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2438,7 +2438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-pilote.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-pilote.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002800</Size>
@@ -2458,7 +2458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-punts_zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-punts zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -2478,7 +2478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003960</Size>
@@ -2498,7 +2498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-radio_reporting_calling-in_or_way.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-radio reporting calling-in or way.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004083</Size>
@@ -2518,7 +2518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-torre_control.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-torre control.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>
@@ -2538,7 +2538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-veril.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-veril.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001046</Size>
@@ -2558,7 +2558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\APROXIMACIO_PORT-zona_fondeig.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="default\APROXIMACIO_PORT-zona fondeig.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002092</Size>

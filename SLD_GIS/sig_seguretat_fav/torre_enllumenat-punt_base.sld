@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.030020</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.030020</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.045000</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.022380</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006004</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006004</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009000</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008952</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004503</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004503</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007500</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006714</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004503</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004503</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005250</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006714</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003133</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003002</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003002</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001500</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002686</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001790</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_triangular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base triangular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002402</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_quadrada.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base quadrada.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001200</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base_circular.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\TORRE_ENLLUMENAT-base circular.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002238</Size>

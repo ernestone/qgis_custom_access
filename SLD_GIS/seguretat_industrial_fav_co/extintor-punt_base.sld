@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006200</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002480</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003100</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002790</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002065</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001860</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000025</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_fav_co\EXTINTOR.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\EXTINTOR.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000012</Size>

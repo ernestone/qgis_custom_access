@@ -1,4 +1,7 @@
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="3394" height="754" viewBox="0 0 3394 754">
-    <path d="m2035.2 32.4 514-0.3 41.1 41.1L2290.4 373.1 1994.4 75.7Z" style="fill-opacity:1;fill:#629cbd;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.3;stroke:#000"/>
-    <path d="m2036.1 35.8-85 85v513.7l84.2 84.2h516.1l81-81V119.2l-86-86" style="fill:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-width:10;stroke:#629cbd"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="3394.0000000" height="754.00000000" viewBox="0 0 2197.0000000 750.00000000">
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAALAQMAAAAk3x1CAAAABlBMVEWwxN5inb7G1l+ZAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAASAAAAEgARslrPgAAACZJREFUCNdjYJD/wMDAwP8ASKifABLKHUBCkQNIKGAjBICE/AMGALkHBZGpPYtcAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTAyLTE1VDE1OjA1OjA4KzAxOjAwpyvZSAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wMi0xNVQxNTowNTowOCswMTowMNZ2YfQAAAAASUVORK5CYII=" width="2197.0000000" height="750.00000000" x="1197.0000000" y="0.0000000000" />
+    </svg>
+    

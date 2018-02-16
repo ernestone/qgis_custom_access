@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\TESTIMONI_XARXA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\TESTIMONI_XARXA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000050</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\TESTIMONI_XARXA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\TESTIMONI_XARXA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000020</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\TESTIMONI_XARXA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\TESTIMONI_XARXA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000010</Size>

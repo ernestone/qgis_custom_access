@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\POSTE_ESTACIO_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\POSTE_ESTACIO_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007452</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\POSTE_ESTACIO_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\POSTE_ESTACIO_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003726</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\POSTE_ESTACIO_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\POSTE_ESTACIO_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001490</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\POSTE_ESTACIO_SERVEI.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\POSTE_ESTACIO_SERVEI.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000745</Size>

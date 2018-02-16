@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.019440</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.019440</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007776</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007776</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007773</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007773</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007773</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007773</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007349</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007349</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010734</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010734</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004294</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004294</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002147</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no_definit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\BARRERA_ANTICONTAMINACIO-no definit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002147</Size>

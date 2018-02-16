@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015980</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.025000</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015980</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015980</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004240</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006001</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004240</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.004240</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000006</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000016</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000006</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000006</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000002</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000009</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000002</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000002</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000001</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000002</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000001</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000001</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000001</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-1 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-2 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3_ordre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\VERTEX_GEODESIC-3 ordre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000000</Size>

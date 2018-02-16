@@ -290,7 +290,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PUNT_REUNIO_EMERGENCIA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PUNT_REUNIO_EMERGENCIA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001923</Size>
@@ -324,7 +324,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>

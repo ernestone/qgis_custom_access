@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015020</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.015020</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.012000</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003004</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000751</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000751</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000600</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000901</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000901</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000720</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000451</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000451</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000360</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000180</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000180</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000144</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-apb_150x44.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-apb 150x44.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000090</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000090</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\PROTECTOR_PUNTUAL-pvell_150x40.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\PROTECTOR_PUNTUAL-pvell 150x40.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000072</Size>

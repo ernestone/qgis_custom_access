@@ -12,7 +12,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007500</Size>
@@ -26,7 +26,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002997</Size>
@@ -40,7 +40,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002997</Size>
@@ -54,7 +54,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002997</Size>
@@ -68,7 +68,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002997</Size>
@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002997</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002397</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="sig_seguretat\VERTEX_XARXA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\VERTEX_XARXA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002397</Size>

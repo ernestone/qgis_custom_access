@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007520</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-vialitat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-vialitat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.007520</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-vialitat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-vialitat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-vialitat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-vialitat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-vialitat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-vialitat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001504</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001203</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\FITA_QUILOMETRICA-vialitat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\FITA_QUILOMETRICA-vialitat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001203</Size>
@@ -312,7 +312,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000200</Size>
@@ -326,7 +326,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000080</Size>
@@ -340,7 +340,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>

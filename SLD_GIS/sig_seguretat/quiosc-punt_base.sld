@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.012660</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.012580</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.012300</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011820</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002532</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002516</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002460</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002364</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001266</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001258</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001230</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001182</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000633</Size>
@@ -658,7 +658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000629</Size>
@@ -678,7 +678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000615</Size>
@@ -718,7 +718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000591</Size>
@@ -738,7 +738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000253</Size>
@@ -838,7 +838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000252</Size>
@@ -858,7 +858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000246</Size>
@@ -898,7 +898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000236</Size>
@@ -918,7 +918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000127</Size>
@@ -1018,7 +1018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_passeig_vaixell.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets passeig vaixell.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000126</Size>
@@ -1038,7 +1038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta_bitllets_teleferic.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-venta bitllets teleferic.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000123</Size>
@@ -1078,7 +1078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water_public.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\QUIOSC-water public.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000118</Size>
@@ -1092,7 +1092,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000080</Size>
@@ -1106,7 +1106,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="Default\SYSTEM.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\SYSTEM.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>

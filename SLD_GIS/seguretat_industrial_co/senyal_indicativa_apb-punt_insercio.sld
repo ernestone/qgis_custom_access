@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003168</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002746</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\SENYAL_INDICATIVA_APB.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\SENYAL_INDICATIVA_APB.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002746</Size>

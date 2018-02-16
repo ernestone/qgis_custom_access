@@ -82,7 +82,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_AUTOBUS.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_AUTOBUS.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002600</Size>
@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_AUTOBUS.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_AUTOBUS.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002400</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\PARADA_AUTOBUS.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\PARADA_AUTOBUS.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002200</Size>

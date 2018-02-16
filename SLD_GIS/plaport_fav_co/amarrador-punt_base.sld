@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -58,7 +58,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005840</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.014960</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.040020</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001880</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009880</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.009880</Size>
@@ -278,7 +278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008240</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.011680</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001750</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -498,7 +498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002992</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010403</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000376</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001976</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001976</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001648</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -658,7 +658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -678,7 +678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003505</Size>
@@ -698,7 +698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -718,7 +718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -738,7 +738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -758,7 +758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -778,7 +778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -798,7 +798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001751</Size>
@@ -818,7 +818,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -838,7 +838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -858,7 +858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001496</Size>
@@ -878,7 +878,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005403</Size>
@@ -898,7 +898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000188</Size>
@@ -918,7 +918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000988</Size>
@@ -938,7 +938,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000988</Size>
@@ -958,7 +958,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000824</Size>
@@ -978,7 +978,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -998,7 +998,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -1018,7 +1018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002336</Size>
@@ -1038,7 +1038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1058,7 +1058,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1078,7 +1078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1098,7 +1098,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1118,7 +1118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1138,7 +1138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001751</Size>
@@ -1158,7 +1158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1178,7 +1178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1198,7 +1198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000748</Size>
@@ -1218,7 +1218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002799</Size>
@@ -1238,7 +1238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000094</Size>
@@ -1258,7 +1258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000494</Size>
@@ -1278,7 +1278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000494</Size>
@@ -1298,7 +1298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000412</Size>
@@ -1318,7 +1318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1338,7 +1338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1358,7 +1358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001752</Size>
@@ -1378,7 +1378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1398,7 +1398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1418,7 +1418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1438,7 +1438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1458,7 +1458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1478,7 +1478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001167</Size>
@@ -1498,7 +1498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1518,7 +1518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1538,7 +1538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000299</Size>
@@ -1558,7 +1558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001201</Size>
@@ -1578,7 +1578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000038</Size>
@@ -1598,7 +1598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000198</Size>
@@ -1618,7 +1618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000198</Size>
@@ -1638,7 +1638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000165</Size>
@@ -1658,7 +1658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1678,7 +1678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1698,7 +1698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001168</Size>
@@ -1718,7 +1718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1738,7 +1738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1758,7 +1758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1778,7 +1778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1798,7 +1798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1818,7 +1818,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1838,7 +1838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1858,7 +1858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -1878,7 +1878,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000150</Size>
@@ -1898,7 +1898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000620</Size>
@@ -1918,7 +1918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000019</Size>
@@ -1938,7 +1938,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000099</Size>
@@ -1958,7 +1958,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000099</Size>
@@ -1978,7 +1978,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000082</Size>
@@ -1998,7 +1998,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2018,7 +2018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2038,7 +2038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2058,7 +2058,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2078,7 +2078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2098,7 +2098,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2118,7 +2118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2138,7 +2138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2158,7 +2158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2178,7 +2178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2198,7 +2198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2218,7 +2218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000060</Size>
@@ -2238,7 +2238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000480</Size>
@@ -2258,7 +2258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000008</Size>
@@ -2278,7 +2278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>
@@ -2298,7 +2298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>
@@ -2318,7 +2318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000033</Size>
@@ -2338,7 +2338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2358,7 +2358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2378,7 +2378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000584</Size>
@@ -2398,7 +2398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2418,7 +2418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_general(es_de_dimensions_grans).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray general (es de dimensions grans).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2438,7 +2438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_fincosit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray fincosit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2458,7 +2458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_deteinsa.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray deteinsa.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2478,7 +2478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_barcelona.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray barcelona.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2498,7 +2498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_petit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray petit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2518,7 +2518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_simple(1_pilo).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard simple (1 pilo).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2538,7 +2538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bollard_multiple(3_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bol·lard multiple (3 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2558,7 +2558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-anella.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-anella.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000030</Size>
@@ -2578,7 +2578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-ganxo_escapament_rapid.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-ganxo escapament rapid.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000240</Size>
@@ -2598,7 +2598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cabrestant.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cabrestant.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000005</Size>
@@ -2618,7 +2618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_normal.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza normal.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000025</Size>
@@ -2638,7 +2638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-cornamuza_per_a_petites_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-cornamuza per a petites embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000025</Size>
@@ -2658,7 +2658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-bita(amarratge_petit_com_la_cornamuza_i_semblant_al_bollard_multiple_pero_en_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-bita (amarratge petit com la cornamuza i semblant al bol·lard multiple pero en 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000021</Size>
@@ -2678,7 +2678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-biton(amarratge_semblant_al_bollard_multiple_pero_en_parelles_de_2_pilons).svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-biton (amarratge semblant al bol·lard multiple pero en parelles de 2 pilons).svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2698,7 +2698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-noray_trelleborg.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-noray trelleborg.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>
@@ -2718,7 +2718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\AMARRADOR-prosertek.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\AMARRADOR-prosertek.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000467</Size>

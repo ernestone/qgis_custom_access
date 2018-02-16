@@ -18,7 +18,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.008140</Size>
@@ -38,7 +38,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.033940</Size>
@@ -78,7 +78,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031700</Size>
@@ -98,7 +98,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.029060</Size>
@@ -118,7 +118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031620</Size>
@@ -138,7 +138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031520</Size>
@@ -158,7 +158,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031740</Size>
@@ -178,7 +178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031800</Size>
@@ -198,7 +198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.031820</Size>
@@ -218,7 +218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.010000</Size>
@@ -238,7 +238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001628</Size>
@@ -258,7 +258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006788</Size>
@@ -298,7 +298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006340</Size>
@@ -318,7 +318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.005812</Size>
@@ -338,7 +338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006324</Size>
@@ -358,7 +358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006304</Size>
@@ -378,7 +378,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006348</Size>
@@ -398,7 +398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006360</Size>
@@ -418,7 +418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.006364</Size>
@@ -438,7 +438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002000</Size>
@@ -458,7 +458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000814</Size>
@@ -478,7 +478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003394</Size>
@@ -518,7 +518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003170</Size>
@@ -538,7 +538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.002906</Size>
@@ -558,7 +558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003162</Size>
@@ -578,7 +578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003152</Size>
@@ -598,7 +598,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003174</Size>
@@ -618,7 +618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003180</Size>
@@ -638,7 +638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.003182</Size>
@@ -658,7 +658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001000</Size>
@@ -678,7 +678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000407</Size>
@@ -698,7 +698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001697</Size>
@@ -738,7 +738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001585</Size>
@@ -758,7 +758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001453</Size>
@@ -778,7 +778,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001581</Size>
@@ -798,7 +798,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001576</Size>
@@ -818,7 +818,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001587</Size>
@@ -838,7 +838,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001590</Size>
@@ -858,7 +858,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001591</Size>
@@ -878,7 +878,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000500</Size>
@@ -898,7 +898,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000163</Size>
@@ -918,7 +918,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000679</Size>
@@ -958,7 +958,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000634</Size>
@@ -978,7 +978,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000581</Size>
@@ -998,7 +998,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000632</Size>
@@ -1018,7 +1018,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000630</Size>
@@ -1038,7 +1038,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000635</Size>
@@ -1058,7 +1058,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000636</Size>
@@ -1078,7 +1078,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000636</Size>
@@ -1098,7 +1098,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000200</Size>
@@ -1118,7 +1118,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000081</Size>
@@ -1138,7 +1138,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000339</Size>
@@ -1178,7 +1178,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000317</Size>
@@ -1198,7 +1198,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000291</Size>
@@ -1218,7 +1218,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000316</Size>
@@ -1238,7 +1238,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000315</Size>
@@ -1258,7 +1258,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000317</Size>
@@ -1278,7 +1278,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000318</Size>
@@ -1298,7 +1298,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000318</Size>
@@ -1318,7 +1318,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000100</Size>
@@ -1338,7 +1338,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000033</Size>
@@ -1358,7 +1358,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000136</Size>
@@ -1398,7 +1398,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000127</Size>
@@ -1418,7 +1418,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000116</Size>
@@ -1438,7 +1438,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000126</Size>
@@ -1458,7 +1458,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000126</Size>
@@ -1478,7 +1478,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000127</Size>
@@ -1498,7 +1498,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000127</Size>
@@ -1518,7 +1518,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000127</Size>
@@ -1538,7 +1538,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000040</Size>
@@ -1558,7 +1558,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-comptador_aigua.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-comptador aigua.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000016</Size>
@@ -1578,7 +1578,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-correus.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-correus.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000068</Size>
@@ -1618,7 +1618,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-electric.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-electric.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000063</Size>
@@ -1638,7 +1638,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-no_classificat.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-no classificat.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000058</Size>
@@ -1658,7 +1658,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-piezometre.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-piezometre.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000063</Size>
@@ -1678,7 +1678,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-presa_de_corrent_aeria_grues.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-presa de corrent aeria grues.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000063</Size>
@@ -1698,7 +1698,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-punts_de_presa_d_aiguallum_embarcacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-punts de presa d&apos;aigua_llum embarcacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000063</Size>
@@ -1718,7 +1718,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-regulacio_senyals_de_transit.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-regulacio senyals de transit.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000064</Size>
@@ -1738,7 +1738,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-senyals_ferrocarrils.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-senyals ferrocarrils.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000064</Size>
@@ -1758,7 +1758,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_fav_co\ARMARI-telecomunicacions.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="plaport_co\ARMARI-telecomunicacions.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000020</Size>

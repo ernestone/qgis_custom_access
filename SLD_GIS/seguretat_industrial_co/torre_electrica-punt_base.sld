@@ -96,7 +96,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\TORRE_ELECTRICA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\TORRE_ELECTRICA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.001440</Size>
@@ -110,7 +110,7 @@
 					<PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
 						<Graphic>
 							<ExternalGraphic>
-								<OnlineResource xlink:type="simple" xlink:href="plaport_bn\TORRE_ELECTRICA.svg"/>
+								<OnlineResource xlink:type="simple" xlink:href="seguretat_industrial_co\TORRE_ELECTRICA.svg"/>
 								<Format>image/svg+xml</Format>
 							</ExternalGraphic>
 							<Size>0.000960</Size>
