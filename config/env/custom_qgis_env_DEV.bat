@@ -1,0 +1,1 @@
+call "%~dp0custom_qgis_env.bat" qgis-ltr "" "%~dp0..\..\..\source_qgis"
