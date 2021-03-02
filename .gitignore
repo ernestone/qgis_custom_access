@@ -6,5 +6,4 @@
 /.pydevproject
 /.metadata
 /.settings
-qgis_setting_files/gdalwmscache/
-SLD_GIS/simbols/plaport_co/CAMERA_CTTV_10%.svg
+profiles_dev/
