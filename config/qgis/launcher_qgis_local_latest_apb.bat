@@ -1,1 +1,0 @@
-call qgis_apb.bat "C:\Program Files\QGIS 2.18" "%~dp0\..\..\..\extra_libs_apb" qgis
