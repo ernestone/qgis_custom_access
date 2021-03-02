@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/gestor_layers_oracle" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>
