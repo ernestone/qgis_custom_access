@@ -34,7 +34,7 @@ setup(
         'spatial_utils @ '
         'git+https://github.com/ernestone/python_packages#egg=spatial_utils&subdirectory=spatial_utils_pckg',
         'cx_oracle_spatial @ '
-        'git+https://github.com/ernestone/python_packages#egg=cx_oracle_spatial&subdirectory=cx_ora_spatial_pckg',
+        'git+https://github.com/ernestone/python_packages#egg=cx_oracle_spatial&subdirectory=cx_oracle_spatial_pckg',
     ],
     python_requires='>=3.7',
     package_data={
