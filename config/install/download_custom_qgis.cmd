@@ -25,5 +25,9 @@ call "%~dp0download_osgeo4w_setup.bat"
 
 :install
 call "%~dp0set_packages_%QGISNAME%.bat"
-
+SETLOCAL
+set OSGEO_ROOT_PRE=%OSGEO4W_ROOT%
+ENDLOCAL
+set OSGEO4W_ROOT=
 call "%OSGEO_SETUP_EXE%" --download --upgrade-also --delete-orphans --local-package-dir "%OSGEO4W_DIR_PCKGS%"  --arch x86_64 --no-shortcuts --no-startmenu --no-desktop --autoaccept --safe --packages %CUSTOM_PACKAGES_QGIS% --quiet-mode --site http://download.osgeo.org/osgeo4w/v2
+set OSGEO4W_ROOT=%OSGEO_ROOT_PRE%
