@@ -14,5 +14,5 @@ call "%~dp0..\env\custom_qgis_env_DEV.bat"
 
 set "ARGS_QGIS_EXE=%ARGS_QGIS_EXE% --profiles-path "%QGIS_CUSTOM_DIR%\profiles_dev""
 
-call "%~dp0run_qgis.bat %~1"
+call "%~dp0run_qgis.bat" "%~1"
 @echo on

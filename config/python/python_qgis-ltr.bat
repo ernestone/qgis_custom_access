@@ -6,4 +6,4 @@
 
 set PYTHONPATH=%CUSTOM_PYTHONPATH%;%QGIS_PLUGINPATH%
 
-"%PYTHONHOME%\python" %*
+python %*

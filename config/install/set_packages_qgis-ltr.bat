@@ -1,1 +1,1 @@
-set CUSTOM_PACKAGES_QGIS=qgis-ltr,python3-pip,python3-shapely,python3-setuptools,gdal,gdal-python,gdal-oracle,gdal-filegdb,gdal204dll,python3-gdal,qgis-ltr-oracle-provider,qgis-ltr-grass-plugin-common,qgis-ltr-grass-plugin7,saga-ltr,python3-geopandas,python3-pyparsing,python3-lxml
+set CUSTOM_PACKAGES_QGIS=qgis-ltr,python3-pip,python3-shapely,python3-setuptools,gdal,gdal-oracle,gdal-filegdb,python3-gdal,qgis-ltr-oracle-provider,qgis-ltr-grass-plugin,saga,python3-geopandas,python3-pyparsing,python3-lxml

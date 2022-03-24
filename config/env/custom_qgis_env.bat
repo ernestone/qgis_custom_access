@@ -27,12 +27,6 @@ rem =======================================================================
 set "PATH_PRE=%PATH%"
 
 rem =======================================================================
-rem Si no est� instalado el QGIS se instala y se actualizan
-rem requerimientos para paquetes python
-rem =======================================================================
-IF NOT EXIST "%OSGEO4W_ROOT%\apps\%QGISNAME%\" (call "%CUSTOM_CONFIG_DIR%\install\install_custom_qgis.cmd" "%QGISNAME%")
-
-rem =======================================================================
 rem Call to environment.bat in QGIS_CUSTOM_DIR
 rem =======================================================================
 if not exist "%QGIS_CUSTOM_DIR%\environment.bat" (goto :set_osgeo_env)
@@ -49,8 +43,6 @@ rem =======================================================================
 if [%GRASSVERSION%]==[] (set GRASSVERSION=grass78)
 call "%OSGEO4W_ROOT%\bin\o4w_env.bat"
 call "%OSGEO4W_ROOT%\apps\grass\%GRASSVERSION%\etc\env.bat"
-call "%OSGEO4W_ROOT%\bin\py3_env.bat"
-call "%OSGEO4W_ROOT%\bin\qt5_env.bat"
 call "%CUSTOM_CONFIG_DIR%\env\set_vars_qgis.bat" %QGISNAME%
 
 rem =======================================================================

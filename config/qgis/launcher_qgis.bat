@@ -17,5 +17,5 @@ pushd "%~dp0..\env"
 call custom_qgis_env.bat "%~1" "" "%~2"
 popd
 
-call "%~dp0run_qgis.bat %~3"
+call "%~dp0run_qgis.bat" %~3
 @echo on
