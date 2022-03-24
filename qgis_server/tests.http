@@ -1,0 +1,5 @@
+### GETCAPABILITIES per projecte QGS
+GET http://localhost:8080/qgis-server/?MAP={{qgs_path}}&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities
+
+### GETCAPABILITIES per projecte QGS
+GET http://localhost:8080/qgis-server/?MAP={{qgs_path}}&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetProjectSettings

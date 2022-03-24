@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+    <title>QGIS Docker OSM Example</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+      var layers = [
+        new ol.layer.Tile({
+          source: new ol.source.TileWMS({
+            url: 'http://localhost:8080/qgis-server',
+            params: {
+              'MAP': '/data/osm.qgs',
+              'LAYERS': 'osm'},
+            serverType: 'qgis'
+          })
+        }),
+        // new ol.layer.Tile({
+        //   source: new ol.source.TileWMS({
+        //     url: 'http://localhost:8080/qgis-server',
+        //     params: {
+        //       'MAP': '/data/tests.qgs',
+        //       // 'LAYERS': 'edificacio-perimetre_base.geo,coverage,edificacio_clipped',
+        //       'LAYERS': 'ICGC OrtoFoto,Vector Layers'
+        //     },
+        //     serverType: 'qgis'
+        //   })
+        // }),
+        new ol.layer.Tile({
+          source: new ol.source.TileWMS({
+            url: 'http://localhost:8080/qgis-server',
+            params: {
+              'MAP': '/data/projects_ctxt/PLAPORT CONSULTA.qgs',
+              // 'LAYERS': 'edificacio-perimetre_base.geo,coverage,edificacio_clipped',
+              'LAYERS': 'Cartografia APB (gis)'
+            },
+            serverType: 'qgis'
+          })
+        })
+      ];
+      var map = new ol.Map({
+        layers: layers,
+        target: 'map',
+        view: new ol.View({
+          center: [2, 41],
+          zoom: 10
+        })
+      });
+    </script>
+  </body>
+</html>
