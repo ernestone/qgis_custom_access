@@ -7,3 +7,10 @@
 /.metadata
 /.settings
 profiles_dev/
+vscode_qgis.bat.lnk
+*.gpkg-shm
+*.gpkg-wal
+*/svgs/
+*/projects_ctxt/
+*/GPKG/
+source_python/qgis_custom_pckg/build/*
