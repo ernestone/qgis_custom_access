@@ -8,18 +8,18 @@
 import os
 from collections import defaultdict
 
-#from processing import Processing
 from qgis.PyQt.QtCore import QSettings, QVariant
 from qgis.core import QgsVectorLayer, QgsProject, QgsLayerTreeModel, QgsCoordinateReferenceSystem, \
-    QgsApplication, QgsSettings, QgsRasterLayer, QgsRuleBasedRenderer, QgsSingleSymbolRenderer, \
+    QgsSettings, QgsRasterLayer, QgsRuleBasedRenderer, QgsSingleSymbolRenderer, \
     QgsCategorizedSymbolRenderer, QgsRendererCategory, QgsLimitedRandomColorRamp, QgsSymbol, QgsUnitTypes, \
     QgsMapUnitScale, QgsLayerDefinition, QgsVectorLayerJoinInfo, QgsVectorFileWriter
 from qgis.gui import QgsMapCanvas
-from qgis.analysis import QgsNativeAlgorithms
 
 from extra_utils import misc as utils
 from osgeo_utils import driver_gdal
 
+import qgis_custom
+from qgis_custom import inicializar_qgis_app
 
 PROP_FILTER_SQL = "filter_sql"
 PROP_ORDER_DRAW = "prior_draw"
@@ -212,41 +212,6 @@ SOURCES_XYZ = {
             "zmin": "0"}
     }
 }
-
-
-######################### REMOTE DEBUG #########################
-def InitDebug():
-    """
-
-    Returns:
-
-    """
-    if os.getenv("APB_QGIS_DEBUG") == "debug":
-        import pydevd
-        pydevd.settrace('localhost', port=53100, stdoutToServer=True, stderrToServer=True, suspend=False)
-
-
-def inicializar_qgis_app():
-    """
-    Inicializa standalone app de QGIS
-    """
-    InitDebug()
-
-    prefix = os.path.normpath(os.environ.get("QGIS_PREFIX_PATH"))
-    QgsApplication.setPrefixPath(prefixPath=prefix, useDefaultPaths=True)
-    qgs_app = QgsApplication([], False)
-
-    # load providers
-    qgs_app.initQgis()
-
-    # Se incializa el plugin de processing con los scripts nativos y de la APB
-#    Processing.initialize()
-    qgs_app.processingRegistry().addProvider(QgsNativeAlgorithms())
-
-    return qgs_app
-
-
-QGIS_APP = inicializar_qgis_app()
 
 
 def active_qgs_project():
@@ -480,7 +445,7 @@ def groups_parent(a_qgs_layer):
     return l_gr_parents
 
 
-def create_groups_xyz_base_maps(default_layer_visible="CartoDb Positron"):
+def create_groups_xyz_base_maps(default_layer_visible="CartoDb Positron", group_title_xyz="Mapes Base (XYZ)"):
     """
     Crea grupo donde añadiran las layers base map xyz
 
@@ -488,7 +453,7 @@ def create_groups_xyz_base_maps(default_layer_visible="CartoDb Positron"):
         default_layer_visible (str="CartoDb Positrion"):
     """
     lay_tree = active_qgs_layer_tree()
-    mapes_base_xyz = "Mapes Base (XYZ)"
+    mapes_base_xyz = group_title_xyz
     gb = lay_tree.findGroup(mapes_base_xyz)
     if not gb:
         gb = lay_tree.addGroup(mapes_base_xyz)
@@ -589,11 +554,10 @@ def qgis_app_activa():
     Returns:
         QgsApplication.instance()
     """
-    global QGIS_APP
-    if not QGIS_APP:
-        QGIS_APP = inicializar_qgis_app()
+    if not qgis_custom.QGIS_APP:
+        qgis_custom.QGIS_APP = inicializar_qgis_app()
 
-    return QGIS_APP
+    return qgis_custom.QGIS_APP
 
 
 def add_path_to_favs_browser(a_path, nom_path=None):

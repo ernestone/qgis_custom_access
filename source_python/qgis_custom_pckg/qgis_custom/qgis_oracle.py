@@ -6,7 +6,7 @@
 #  Copyright (c) 2019
 
 from qgis.core import QgsDataSourceUri, QgsVectorLayer, QgsWkbTypes
-from qgis_utils import add_qgs_layer_to_act_qgs_proj
+from .qgis_utils import add_qgs_layer_to_act_qgs_proj
 
 MAPEO_GTYPE_ORA = {1: 1,  # POINT
                    2: 2,  # LINE
