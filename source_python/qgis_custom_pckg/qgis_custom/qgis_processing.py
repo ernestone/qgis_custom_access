@@ -3,6 +3,8 @@
 #  Author: Ernesto Arredondo Martinez (ernestone@gmail.com)
 #  Created: 
 #  Copyright (c)
+from . import init_processing
+
 from .qgis_utils import qgis_app_activa
 
 
@@ -29,5 +31,5 @@ def algorithm_help(alg_id):
     Returns:
         str
     """
-    import processing
-    return processing.algorithmHelp(alg_id)
+    m_processing = init_processing()
+    return m_processing.algorithmHelp(alg_id)

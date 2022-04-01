@@ -1,6 +1,5 @@
 import os
 import sys
-import importlib
 
 from qgis._core import QgsApplication
 
@@ -13,8 +12,12 @@ def InitDebug():
 
     """
     if os.getenv("APB_QGIS_DEBUG") == "debug":
-        import pydevd
-        pydevd.settrace('localhost', port=53100, stdoutToServer=True, stderrToServer=True, suspend=False)
+        try:
+            import pydevd
+            pydevd.settrace('localhost', port=53100, stdoutToServer=True, stderrToServer=True, suspend=False)
+        except Exception:
+            print("Impossible InitDebug() on 'localhost:53100'")
+            pass
 
 
 def init_processing():
@@ -38,8 +41,10 @@ def init_processing():
     if loaded:
         processing.core.Processing.Processing.initialize()
 
+    return processing
 
-def inicializar_qgis_app():
+
+def inicializar_qgis_app(standalone=True):
     """
     Inicializa standalone app de QGIS
     """
@@ -47,7 +52,7 @@ def inicializar_qgis_app():
 
     prefix = os.path.normpath(os.environ.get("QGIS_PREFIX_PATH"))
     QgsApplication.setPrefixPath(prefixPath=prefix, useDefaultPaths=True)
-    qgs_app = QgsApplication([], False)
+    qgs_app = QgsApplication([], False if standalone else True)
 
     # load providers
     qgs_app.initQgis()
@@ -56,6 +61,3 @@ def inicializar_qgis_app():
     init_processing()
 
     return qgs_app
-
-
-QGIS_APP = inicializar_qgis_app()

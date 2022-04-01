@@ -12,13 +12,12 @@ from qgis.PyQt.QtCore import QSettings, QVariant
 from qgis.core import QgsVectorLayer, QgsProject, QgsLayerTreeModel, QgsCoordinateReferenceSystem, \
     QgsSettings, QgsRasterLayer, QgsRuleBasedRenderer, QgsSingleSymbolRenderer, \
     QgsCategorizedSymbolRenderer, QgsRendererCategory, QgsLimitedRandomColorRamp, QgsSymbol, QgsUnitTypes, \
-    QgsMapUnitScale, QgsLayerDefinition, QgsVectorLayerJoinInfo, QgsVectorFileWriter
+    QgsMapUnitScale, QgsLayerDefinition, QgsVectorLayerJoinInfo, QgsVectorFileWriter, QgsApplication
 from qgis.gui import QgsMapCanvas
 
 from extra_utils import misc as utils
 from osgeo_utils import driver_gdal
 
-import qgis_custom
 from qgis_custom import inicializar_qgis_app
 
 PROP_FILTER_SQL = "filter_sql"
@@ -548,16 +547,19 @@ def qgs_settings_match(a_match_str):
             if k.lower().find(a_match_str.lower()) >= 0}
 
 
-def qgis_app_activa():
+def qgis_app_activa(initialize=False):
     """
+
+    Args:
+        initialize (bool):
 
     Returns:
         QgsApplication.instance()
     """
-    if not qgis_custom.QGIS_APP:
-        qgis_custom.QGIS_APP = inicializar_qgis_app()
-
-    return qgis_custom.QGIS_APP
+    qgis_app = QgsApplication.instance()
+    if not qgis_app and initialize:
+        qgis_app = inicializar_qgis_app()
+    return qgis_app
 
 
 def add_path_to_favs_browser(a_path, nom_path=None):
