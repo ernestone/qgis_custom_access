@@ -3,9 +3,7 @@
 #  Author: Ernesto Arredondo Martinez (ernestone@gmail.com)
 #  Created: 
 #  Copyright (c)
-from . import init_processing
-
-from .qgis_utils import qgis_app_activa
+from . import init_processing, qgis_app_activa
 
 
 def qgis_algorithms(filter_id=None):
