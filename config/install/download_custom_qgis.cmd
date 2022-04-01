@@ -1,4 +1,4 @@
-@echo off
+@echo on
 rem ***********************************************************************
 rem Batch file arguments:
 rem         1 - Name of the app QGIS (qgis, qgis-ltr o qgis-dev)
@@ -25,9 +25,6 @@ call "%~dp0download_osgeo4w_setup.bat"
 
 :install
 call "%~dp0set_packages_%QGISNAME%.bat"
-SETLOCAL
-set OSGEO_ROOT_PRE=%OSGEO4W_ROOT%
-ENDLOCAL
+rem SET NULL OSGEO_ROOT to not interfere on download to local dir
 set OSGEO4W_ROOT=
 call "%OSGEO_SETUP_EXE%" --download --upgrade-also --delete-orphans --local-package-dir "%OSGEO4W_DIR_PCKGS%"  --arch x86_64 --no-shortcuts --no-startmenu --no-desktop --autoaccept --safe --packages %CUSTOM_PACKAGES_QGIS% --quiet-mode --site http://download.osgeo.org/osgeo4w/v2
-set OSGEO4W_ROOT=%OSGEO_ROOT_PRE%

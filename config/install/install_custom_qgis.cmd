@@ -1,4 +1,4 @@
-@echo off
+@echo on
 rem ***********************************************************************
 rem Batch file arguments:
 rem         1 - Name of the app QGIS (qgis, qgis-ltr o qgis-dev)
@@ -12,15 +12,6 @@ set QGISNAME_PRE=%QGISNAME%
 ENDLOCAL
 set QGISNAME=%~1
 if [%QGISNAME%]==[] (set QGISNAME=qgis-ltr)
-
-SETLOCAL
-set "OSGEO4W_ROOT_PRE=%OSGEO4W_ROOT%"
-ENDLOCAL
-if ["%~2"] NEQ [""] (
-    set "OSGEO4W_ROOT=%~2"
-) else (
-    call "%~dp0..\env\set_qgis_path.bat
-)
 
 if ["%~3"] NEQ [""] (
     set "OSGEO4W_BASE_DIR=%~3"
@@ -43,6 +34,15 @@ set "OSGEO4W_DIR_PCKGS=%OSGEO4W_BASE_DIR%\%QGISNAME%"
 :donwload_pckgs
 if ["%SEL_DOWNLOAD%"]==["y"] (
     call "%~dp0download_custom_qgis" "%QGISNAME%" "%OSGEO4W_BASE_DIR%"
+)
+
+SETLOCAL
+set "OSGEO4W_ROOT_PRE=%OSGEO4W_ROOT%"
+ENDLOCAL
+if ["%~2"] NEQ [""] (
+    set "OSGEO4W_ROOT=%~2"
+) else (
+    call "%~dp0..\env\set_qgis_path.bat
 )
 
 :set_osgeo_setup
